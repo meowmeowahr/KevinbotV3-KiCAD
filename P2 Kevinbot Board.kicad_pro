@@ -506,6 +506,10 @@
     [
       "971de258-84b3-438c-84b6-ee44796701a6",
       "LED Driver"
+    ],
+    [
+      "d951f0df-5c9d-49c8-96c9-1d29a8915b41",
+      "I2C Outputs"
     ]
   ],
   "text_variables": {}
