@@ -6393,10 +6393,10 @@
       (net 23 "-BATT") (pintype "passive") (tstamp 64966b3f-e1fa-4e23-a02d-bf57ecc673eb))
     (pad "3" thru_hole roundrect locked (at -3 4.7) (size 3.5 3.5) (drill oval 3 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
       (net 38 "unconnected-(J1-Pad3)") (pintype "passive+no_connect") (tstamp 2923ae84-0a88-46a4-ac63-e65b81c7dbbf))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
+    (model "C:/Users/meowm/Documents/KiCad/7.0/3dmodels/Power Barrel Connector Jack 694106301002.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
