@@ -1410,7 +1410,7 @@
     (property "Value" "Screw_Terminal_01x02" (at 40.64 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (at 41.91 86.36 0)
+    (property "Footprint" "Phoenix_MSTBA:MSTBA-2,5-2-G-5,08" (at 41.91 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 86.36 0)
