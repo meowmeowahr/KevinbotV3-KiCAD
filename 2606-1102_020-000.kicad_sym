@@ -1,0 +1,41 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "2606-1102{slash}020-000" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "X" (id 0) (at -6.35 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "2606-1102{slash}020-000" (id 1) (at -6.35 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "P-2606-1102/020-000" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "2606-1102{slash}020-000_0_0"
+      (polyline
+        (pts (xy -6.35 0.0) (xy 6.35 0.0)) (stroke (width 0.254))
+      )
+      (text "1" (at 8.89 -2.54 900)
+        (effects (font (size 2.0 2.0)) (justify bottom left))
+      )
+      (rectangle (start -6.35 -5.08) (end 6.35 5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional inverted (at -1.27 -2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional inverted (at 3.81 2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
