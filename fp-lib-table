@@ -4,6 +4,5 @@
   (lib (name "MoreSymbols")(type "KiCad")(uri "${KIPRJMOD}/MoreSymbols.pretty")(options "")(descr ""))
   (lib (name "Keystone")(type "KiCad")(uri "${KIPRJMOD}/Keystone.pretty")(options "")(descr ""))
   (lib (name "MoreHeaders")(type "KiCad")(uri "${KIPRJMOD}/MoreHeaders.pretty")(options "")(descr ""))
-  (lib (name "WAGO_2606")(type "KiCad")(uri "${KIPRJMOD}/WAGO_2606.pretty")(options "")(descr ""))
   (lib (name "Phoenix_MSTBA")(type "KiCad")(uri "${KIPRJMOD}/Phoenix_MSTBA.pretty")(options "")(descr ""))
 )
