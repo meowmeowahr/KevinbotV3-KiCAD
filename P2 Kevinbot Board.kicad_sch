@@ -5115,7 +5115,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 81.28 53.34)
+			(xy 73.66 54.61) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2746d6a2-409b-4831-a973-7640aff19f92")
+	)
+	(wire
+		(pts
+			(xy 50.8 54.61) (xy 49.53 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5132,6 +5142,16 @@
 			(type default)
 		)
 		(uuid "2b983ef7-52cc-456f-b258-115eac0b6528")
+	)
+	(wire
+		(pts
+			(xy 81.28 54.61) (xy 85.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4060c96b-7af1-43dd-8749-a16e327a4c08")
 	)
 	(wire
 		(pts
@@ -5235,7 +5255,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 53.34) (xy 73.66 53.34)
+			(xy 38.1 54.61) (xy 41.91 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5255,13 +5275,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 53.34) (xy 58.42 53.34)
+			(xy 30.48 54.61) (xy 26.67 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ab3d4b6-d2b4-4aac-8ecb-dff9281a2f6f")
+	)
+	(wire
+		(pts
+			(xy 93.98 54.61) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f77b2af-9de5-4f4c-bbae-cd7adc883a21")
 	)
 	(wire
 		(pts
@@ -6440,6 +6470,28 @@
 		(uuid "53074835-64c0-43e5-bbc3-361f5d322703")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 175.9193 41.8306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_V24"
+		(shape input)
+		(at 93.98 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57620bbc-b17e-44f4-a854-9f97a7c6db14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9199 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,6 +8775,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "060625b6-e53d-4e3b-8617-2b45ef30fba6")
+		(property "Reference" "#PWR018"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c8620d-fb26-4afa-9d5f-5e818961db8c")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
 		(at 214.63 184.15 0)
 		(unit 1)
@@ -9481,7 +9600,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 82.55 53.34 270)
+		(at 50.8 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9490,7 +9609,7 @@
 		(fields_autoplaced yes)
 		(uuid "23d79387-5165-443d-b142-f7d78d3b4cb7")
 		(property "Reference" "#PWR011"
-			(at 78.74 53.34 0)
+			(at 46.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +9618,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 86.36 53.3399 90)
+			(at 54.61 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 53.34 0)
+			(at 50.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 53.34 0)
+			(at 50.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 53.34 0)
+			(at 50.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,6 +9798,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 88.9 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29fdb87c-8ea0-4f3d-98d0-bc392521a7b2")
+		(property "Reference" "R6"
+			(at 88.9 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180R"
+			(at 88.9 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d335da-cbd6-4e95-9f81-15d3d3682cab")
+		)
+		(pin "2"
+			(uuid "1411a0c9-8166-49d2-a97b-02c2f317add2")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 87.63 0)
 		(unit 1)
@@ -9739,6 +9926,83 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 77.47 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b6320f-6883-4ba2-afc9-940656541b12")
+		(property "Reference" "D2"
+			(at 75.8825 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 75.8825 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-14795755/LG%20R971_EN.pdf"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3v (V24) indicator"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "RED"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1f8e205-973c-451a-9bf6-1ee0c8068e34")
+		)
+		(pin "2"
+			(uuid "b60e4e7b-e162-4500-b805-bf7c30b2e5b8")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11713,7 +11977,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 53.34 270)
+		(at 26.67 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11722,7 +11986,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b60daf5-a70a-4343-b781-0e25b5bfd411")
 		(property "Reference" "#PWR010"
-			(at 52.07 53.34 0)
+			(at 20.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11731,7 +11995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 53.3399 90)
+			(at 22.86 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11740,7 +12004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 53.34 0)
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +12013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 53.34 0)
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +12022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 53.34 0)
+			(at 26.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11780,7 +12044,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 53.34 90)
+		(at 45.72 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11789,7 +12053,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e2e377e-aa13-4de1-81f0-207db56c3f7d")
 		(property "Reference" "R5"
-			(at 77.47 46.99 90)
+			(at 45.72 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +12061,7 @@
 			)
 		)
 		(property "Value" "360R"
-			(at 77.47 49.53 90)
+			(at 45.72 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11805,7 +12069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 55.118 90)
+			(at 45.72 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11814,7 +12078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 53.34 0)
+			(at 45.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11823,7 +12087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 53.34 0)
+			(at 45.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,16 +13177,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 66.04 53.34 0)
+		(at 34.29 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bd626893-b0f1-4693-862a-805d1c2d58ef")
 		(property "Reference" "D1"
-			(at 64.4525 46.99 0)
+			(at 32.7025 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12930,7 +13193,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 64.4525 49.53 0)
+			(at 32.7025 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12938,7 +13201,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 66.04 53.34 0)
+			(at 34.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,7 +13210,7 @@
 			)
 		)
 		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-14795755/LG%20R971_EN.pdf"
-			(at 66.04 53.34 0)
+			(at 34.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12955,8 +13218,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 53.34 0)
+		(property "Description" "5v input indicator"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "RED"
+			(at 33.528 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
