@@ -482,7 +482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052a287f-0e29-4d88-8e08-93754297bdab")
-		(property "Reference" "J36"
+		(property "Reference" "J24"
 			(at 161.29 100.965 0)
 			(effects
 				(font
@@ -546,7 +546,7 @@
 		(instances
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/d951f0df-5c9d-49c8-96c9-1d29a8915b41"
-					(reference "J36")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -562,7 +562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db21f13-3cea-456c-955a-aeca5c1e2a45")
-		(property "Reference" "J37"
+		(property "Reference" "J23"
 			(at 139.7 116.205 0)
 			(effects
 				(font
@@ -626,7 +626,7 @@
 		(instances
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/d951f0df-5c9d-49c8-96c9-1d29a8915b41"
-					(reference "J37")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -642,7 +642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3093824-df42-43b8-86ac-fb251a88e393")
-		(property "Reference" "J38"
+		(property "Reference" "J25"
 			(at 161.29 114.935 0)
 			(effects
 				(font
@@ -705,7 +705,7 @@
 		(instances
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/d951f0df-5c9d-49c8-96c9-1d29a8915b41"
-					(reference "J38")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -721,7 +721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f377c5d2-4cfc-4156-9bb3-b34ff09062bc")
-		(property "Reference" "J35"
+		(property "Reference" "J22"
 			(at 139.7 100.965 0)
 			(effects
 				(font
@@ -785,7 +785,7 @@
 		(instances
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/d951f0df-5c9d-49c8-96c9-1d29a8915b41"
-					(reference "J35")
+					(reference "J22")
 					(unit 1)
 				)
 			)

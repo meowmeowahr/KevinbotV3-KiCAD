@@ -619,6 +619,10 @@
     [
       "d951f0df-5c9d-49c8-96c9-1d29a8915b41",
       "I2C Outputs"
+    ],
+    [
+      "88f7417a-9bf4-49d1-b7be-eac854f49710",
+      "Servo Controller1"
     ]
   ],
   "text_variables": {}
