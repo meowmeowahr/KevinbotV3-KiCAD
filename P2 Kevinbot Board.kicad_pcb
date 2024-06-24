@@ -24501,7 +24501,7 @@
 		(uuid "7e48a72e-0393-437c-a492-e16abec04ad2")
 	)
 	(gr_rect
-		(start 231.914 87)
+		(start 231.279 87)
 		(end 245.884 137.8)
 		(stroke
 			(width 0.15)
@@ -24512,7 +24512,7 @@
 		(uuid "9229bc5e-8ba7-48c4-9bca-223f0a108687")
 	)
 	(gr_rect
-		(start 247.154 87)
+		(start 246.519 87)
 		(end 260.489 137.8)
 		(stroke
 			(width 0.15)
