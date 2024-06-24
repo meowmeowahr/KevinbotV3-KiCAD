@@ -14643,7 +14643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
 			(at 129.54 191.008 90)
 			(effects
 				(font
