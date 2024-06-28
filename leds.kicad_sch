@@ -354,9 +354,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -404,7 +404,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -430,8 +430,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -448,6 +448,14 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 179.07 91.44)
+		(uuid "0e3cc9a5-7ed7-44ec-aa40-cdb5f32fc91f")
+	)
+	(no_connect
+		(at 161.29 91.44)
+		(uuid "8639ee25-683c-4966-ace7-3e59821b4030")
 	)
 	(wire
 		(pts
@@ -551,7 +559,7 @@
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 162.56 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -593,7 +601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -621,7 +629,7 @@
 		(lib_id "Driver_FET2:TC4427")
 		(at 170.18 87.63 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -745,7 +753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -812,7 +820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 101.6 0)
 			(effects
 				(font
