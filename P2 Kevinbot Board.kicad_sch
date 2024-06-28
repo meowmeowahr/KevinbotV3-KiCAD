@@ -10970,7 +10970,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "270R"
 			(at 88.9 50.8 90)
 			(effects
 				(font
@@ -11187,7 +11187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-14795755/LG%20R971_EN.pdf"
+		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-5178068/LS%20R976_EN.pdf"
 			(at 77.47 54.61 0)
 			(effects
 				(font
@@ -11206,6 +11206,15 @@
 			)
 		)
 		(property "Color" "RED"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LS R976-NR-1-0-20-R18"
 			(at 77.47 54.61 0)
 			(effects
 				(font
@@ -12961,7 +12970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-14795755/LG%20R971_EN.pdf"
+		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-5178068/LS%20R976_EN.pdf"
 			(at 105.41 185.42 0)
 			(effects
 				(font
@@ -12981,6 +12990,16 @@
 		)
 		(property "Color" "RED"
 			(at 105.41 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LS R976-NR-1-0-20-R18"
+			(at 105.41 185.42 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13014,7 +13033,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d8d243f-ecbf-4863-ae80-268fef19633e")
 		(property "Reference" "R8"
-			(at 321.31 161.29 90)
+			(at 321.31 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,14 +13041,14 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 321.31 163.83 90)
+			(at 321.31 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 321.31 168.148 90)
 			(effects
 				(font
@@ -13423,7 +13442,7 @@
 				)
 			)
 		)
-		(property "Value" "360R"
+		(property "Value" "620R"
 			(at 45.72 50.8 90)
 			(effects
 				(font
@@ -13958,7 +13977,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "820R"
 			(at 116.84 181.61 90)
 			(effects
 				(font
@@ -14918,7 +14937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-14795755/LG%20R971_EN.pdf"
+		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-5178068/LS%20R976_EN.pdf"
 			(at 34.29 54.61 0)
 			(effects
 				(font
@@ -14938,6 +14957,15 @@
 		)
 		(property "Color" "RED"
 			(at 33.528 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LS R976-NR-1-0-20-R18"
+			(at 34.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

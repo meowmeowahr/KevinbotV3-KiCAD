@@ -5,6 +5,7 @@
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
@@ -16,6 +17,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+\#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -30,3 +32,6 @@ fp-info-cache
 
 # Place Footprints Plug-in
 place_footprints.log
+
+# Ibom
+bom/*
