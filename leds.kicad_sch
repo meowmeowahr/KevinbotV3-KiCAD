@@ -592,7 +592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -602,6 +602,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B2B-XH-A"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -658,15 +667,25 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 87.63 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf"
+			(at 169.672 70.866 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TC4427ACOA713"
 			(at 170.18 87.63 0)
 			(effects
 				(font
