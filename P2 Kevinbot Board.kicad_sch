@@ -17686,7 +17686,7 @@
 				)
 			)
 		)
-		(property "Value" "140R"
+		(property "Value" "33R"
 			(at 40.64 99.06 90)
 			(effects
 				(font
@@ -17721,7 +17721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07140RL"
+		(property "Part Number" "RC0603FR-0733RL"
 			(at 40.64 102.87 90)
 			(effects
 				(font

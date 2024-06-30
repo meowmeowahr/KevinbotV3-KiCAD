@@ -19961,7 +19961,7 @@
 				)
 			)
 		)
-		(property "Value" "140R"
+		(property "Value" "33R"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "1cf8dd14-40e1-4b66-b33d-7e0b97af4f2c")
@@ -20011,7 +20011,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0805FR-07140RL"
+		(property "Part Number" "RC0603FR-0733RL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
