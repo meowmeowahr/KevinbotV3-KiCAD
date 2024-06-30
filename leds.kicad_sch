@@ -144,6 +144,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Driver_FET2:TC4427"
 			(pin_names
 				(offset 1.016)
@@ -352,11 +473,306 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:IRLML6402"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRLML6402"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel HEXFET MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRLML6402_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "IRLML6402_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -404,7 +820,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -430,8 +846,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -448,6 +864,14 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 179.07 91.44)
+		(uuid "0e3cc9a5-7ed7-44ec-aa40-cdb5f32fc91f")
+	)
+	(no_connect
+		(at 161.29 91.44)
+		(uuid "8639ee25-683c-4966-ace7-3e59821b4030")
 	)
 	(wire
 		(pts
@@ -469,9 +893,29 @@
 		)
 		(uuid "b3e270c4-4b6d-4b00-89c2-380854fcec3b")
 	)
+	(wire
+		(pts
+			(xy 222.25 86.36) (xy 222.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8fa747-292a-413f-b753-667af092e04c")
+	)
+	(wire
+		(pts
+			(xy 238.76 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd77824-c1b5-4a15-b746-950354b40d78")
+	)
 	(global_label "BODY_LED"
 		(shape input)
-		(at 157.48 104.14 180)
+		(at 157.48 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -481,7 +925,29 @@
 		)
 		(uuid "011c69a4-670e-4fca-bb1b-030a427f9b33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.6931 104.2194 0)
+			(at 145.6931 101.6794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_PWR"
+		(shape input)
+		(at 238.76 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6347d3f6-0b31-4abf-a21b-189d9386b7eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.3687 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,11 +1013,23 @@
 		)
 		(uuid "1f92f31e-e443-4326-87ff-ce38b4ebcf73")
 	)
+	(hierarchical_label "IN_RSL"
+		(shape input)
+		(at 207.01 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a6bf5f4-f329-430b-a4fb-d7349072ca1a")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 162.56 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -584,7 +1062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -593,7 +1071,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B2B-XH-A"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -618,10 +1105,192 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 219.71 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e31bf17-9101-4fac-a335-09c873569f6c")
+		(property "Reference" "Q2"
+			(at 226.06 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402"
+			(at 226.06 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.79 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+			(at 224.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "model=\"template irlml6402 d g s\r\n#*************************************\r\n#      Model Generated by MODPEX     *\r\n#Copyright(c) Symmetry Design Systems*\r\n#         All Rights Reserved        *\r\n#    UNPUBLISHED LICENSED SOFTWARE   *\r\n#   Contains Proprietary Information *\r\n#      Which is The Property of      *\r\n#     SYMMETRY OR ITS LICENSORS      *\r\n#Commercial Use or Resale Restricted *\r\n#   by Symmetry License Agreement    *\r\n#*************************************\r\n# Model generated on Sep 25, 06\r\n# MODEL FORMAT: Saber\r\n# Symmetry POWER MOS Model (Version 1.0)\r\n# External Node Designations\r\n# Node d -> Drain\r\n# Node g -> Gate\r\n# Node s -> Source\r\nelectrical d,g,s\r\n{\r\n# BODY_BEGIN\r\nspm..model mm=(type=_p,\r\nlevel=1,is=1e-32,rd=1e-6,\r\nvto=-1,lambda=0.0111358,kp=12.788,rs=0.0246704,\r\ncgso=5.36099e-06,cgdo=5.54234e-08)\r\nspd..model md=(is=2.03395e-08,rs=0.0432758,n=1.5,bv=20,\r\nibv=0.00025,eg=1,xti=4,tt=1e-07,\r\ncjo=1.11974e-10,vj=0.5,m=0.3,FC=0.5)\r\n# Default values used in MD1:\r\n#   RS=0 EG=1.11 XTI=3.0 TT=0\r\n#   BV=infinite IBV=1mA\r\nspd..model md1=(is=1e-32,n=50,\r\ncjo=1.68841e-10,vj=1.50027,m=0.3,fc=1e-08)\r\n# Default values used in MD2:\r\n#   EG=1.11 XTI=3.0 TT=0 CJO=0\r\n#   BV=infinite IBV=1mA\r\nspd..model md2=(is=1e-10,n=0.4,rs=3e-06)\r\n# Default values used in MD3:\r\n#   EG=1.11 XTI=3.0 TT=0 CJO=0\r\n#   RS=0 BV=infinite IBV=1mA\r\nspd..model md3=(is=1e-10,n=0.4)\r\nspm.M1 n9 n7 s s =model=mm,l=100u,w=100u\r\nspd.d1 d s =model=md\r\nspr.rds s d =5e+07\r\nspr.rd n9 d =0.0001\r\nspr.rg g n7 =29.2227\r\nspd.d2 n5 n4 =model=md1\r\nspd.d3 n5 0 =model=md2\r\nspr.rl n5 n10 =1\r\nspf.fi2 n7 n9 i(spv.vfi2) =-1\r\nspv.vfi2 n4 0 =0\r\nspe.ev16 n10 0 n9 n7 =1\r\nspc.cap n11 n10 =9.68769e-10\r\nspf.fi1 n7 n9 i(spv.vfi1) =-1\r\nspv.vfi1 n11 n6 =0\r\nspr.rcap n6 n10 =1\r\nspd.d4 n6 0 =model=md3\r\n}\""
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "IRLML6402TRPBF"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "70467e96-4d5f-4228-9c21-1e13a0948eda")
+		)
+		(pin "1"
+			(uuid "444d3849-b2ce-4139-9ca0-6e37e5d01e1a")
+		)
+		(pin "2"
+			(uuid "c84a3cb3-fd1a-4c27-b7b9-49b4d4a12cd8")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/971de258-84b3-438c-84b6-ee44796701a6"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 243.84 83.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "761c9ce7-e53f-4dd7-b4d9-605c8ddcd3b5")
+		(property "Reference" "J32"
+			(at 246.38 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 246.38 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B2B-XH-A"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c623412-3dfe-4e3b-badd-02df4ea210eb")
+		)
+		(pin "2"
+			(uuid "989219c8-9d36-45f1-9d6d-1db704fd9db0")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/971de258-84b3-438c-84b6-ee44796701a6"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_FET2:TC4427")
 		(at 170.18 87.63 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -642,7 +1311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -650,15 +1319,25 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 87.63 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf"
+			(at 169.672 70.866 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TC4427ACOA713"
 			(at 170.18 87.63 0)
 			(effects
 				(font
@@ -695,6 +1374,83 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/971de258-84b3-438c-84b6-ee44796701a6"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "959a9363-4330-445b-9eef-1185bfddb0cf")
+		(property "Reference" "R26"
+			(at 210.82 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 210.82 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.82 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07680RL"
+			(at 210.82 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "759b3391-05a3-4894-8d18-cc5483ac83aa")
+		)
+		(pin "1"
+			(uuid "bcfb202d-77be-4600-9efb-d3abc9f81860")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/971de258-84b3-438c-84b6-ee44796701a6"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -745,7 +1501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -768,16 +1524,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 101.6 270)
+		(at 222.25 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7f0dd2e-d87c-4b96-9f45-656d7ea65800")
-		(property "Reference" "#PWR056"
-			(at 151.13 101.6 0)
+		(uuid "b6b98afe-d777-4b4a-92c9-330dc7ceaf28")
+		(property "Reference" "#PWR030"
+			(at 222.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,16 +1541,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 101.5999 90)
+			(at 222.25 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 101.6 0)
+			(at 222.25 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -804,7 +1558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 101.6 0)
+			(at 222.25 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,8 +1566,75 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 157.48 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4396e215-4b38-4afe-9fab-77f4ef585278")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/971de258-84b3-438c-84b6-ee44796701a6"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7f0dd2e-d87c-4b96-9f45-656d7ea65800")
+		(property "Reference" "#PWR056"
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

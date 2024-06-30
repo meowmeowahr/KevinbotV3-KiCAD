@@ -476,7 +476,7 @@
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 158.75 100.33 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -510,7 +510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 158.75 100.33 0)
 			(effects
 				(font
@@ -519,7 +519,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B5B-XH-A"
 			(at 158.75 100.33 0)
 			(effects
 				(font
@@ -556,7 +565,7 @@
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 137.16 115.57 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -590,7 +599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -599,7 +608,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B5B-XH-A"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -636,7 +654,7 @@
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 158.75 115.57 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -669,7 +687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 158.75 115.57 0)
 			(effects
 				(font
@@ -678,7 +696,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B5B-XH-A"
 			(at 158.75 115.57 0)
 			(effects
 				(font
@@ -715,7 +742,7 @@
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 137.16 100.33 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -749,7 +776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 137.16 100.33 0)
 			(effects
 				(font
@@ -758,7 +785,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B5B-XH-A"
 			(at 137.16 100.33 0)
 			(effects
 				(font

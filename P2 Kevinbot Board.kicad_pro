@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -588,7 +588,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
