@@ -6960,28 +6960,6 @@
 			)
 		)
 	)
-	(global_label "P2_P35"
-		(shape input)
-		(at 31.75 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e9236db-7d45-44b6-8268-e65245151681")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7919 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P2_P38"
 		(shape input)
 		(at 130.81 30.48 180)
@@ -7237,28 +7215,6 @@
 		(uuid "57620bbc-b17e-44f4-a854-9f97a7c6db14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.9199 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P2_P36"
-		(shape input)
-		(at 31.75 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "58f32564-ded0-4736-9321-4ec733ff8500")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7919 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,6 +7660,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P35"
+		(shape input)
+		(at 31.75 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b896f97-fe7c-4c88-9078-dd5d01261ec8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7919 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8293,6 +8271,28 @@
 		(uuid "a7966cab-b027-41b2-8d0f-81165b9fdbf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7898 129.4606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P36"
+		(shape input)
+		(at 31.75 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa641522-725d-423a-a970-9a18657af2ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7919 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,6 +10341,73 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d8cb0a1-061a-4f17-a67d-4c954f6dd17c")
+		(property "Reference" "#PWR05"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c93e909-aca1-46c3-9d68-533048d04ab5")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14043,73 +14110,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b434855-de0f-4b27-8f15-7ee3d5b06cc8")
-		(property "Reference" "#PWR05"
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41fcc705-91b8-4cac-bca2-383113a64c28")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
