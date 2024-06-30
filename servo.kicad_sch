@@ -2198,7 +2198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 208.28 129.54 90)
 			(effects
 				(font
@@ -2700,7 +2700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 151.13 129.54 90)
 			(effects
 				(font
@@ -2780,7 +2780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 151.13 78.74 90)
 			(effects
 				(font
@@ -3024,7 +3024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 208.28 127 90)
 			(effects
 				(font
@@ -3104,7 +3104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 207.01 81.28 90)
 			(effects
 				(font
@@ -3184,7 +3184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 151.13 76.2 90)
 			(effects
 				(font
@@ -3264,7 +3264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 208.28 121.92 90)
 			(effects
 				(font
@@ -3344,7 +3344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 207.01 73.66 90)
 			(effects
 				(font
@@ -3506,7 +3506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 151.13 81.28 90)
 			(effects
 				(font
@@ -3586,7 +3586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 207.01 76.2 90)
 			(effects
 				(font
@@ -3749,7 +3749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 151.13 127 90)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 151.13 73.66 90)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 208.28 124.46 90)
 			(effects
 				(font
@@ -4179,7 +4179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 151.13 121.92 90)
 			(effects
 				(font
@@ -4259,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 151.13 124.46 90)
 			(effects
 				(font
@@ -4434,7 +4434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0805FR-07220RL"
+		(property "Part Number" "RC0603FR-07220RL"
 			(at 207.01 78.74 90)
 			(effects
 				(font
