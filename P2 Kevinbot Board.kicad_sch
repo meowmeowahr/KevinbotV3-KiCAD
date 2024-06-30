@@ -5478,6 +5478,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 133.35) (xy 40.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096e4f3e-3593-47b9-8b9d-ee01bcf3953f")
+	)
+	(wire
+		(pts
 			(xy 53.34 133.35) (xy 50.8 133.35)
 		)
 		(stroke
@@ -5698,6 +5708,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 132.08) (xy 95.25 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a82f4a-d4b4-4be2-b382-d1198d07c830")
+	)
+	(wire
+		(pts
 			(xy 284.48 38.1) (xy 293.37 38.1)
 		)
 		(stroke
@@ -5808,16 +5828,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 133.35) (xy 40.64 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89082693-e447-497c-a65f-8b9934873489")
-	)
-	(wire
-		(pts
 			(xy 43.18 35.56) (xy 66.04 35.56)
 		)
 		(stroke
@@ -5878,16 +5888,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 130.81) (xy 95.25 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f7ab97-37a2-43e3-94b3-e183b7e29bc6")
-	)
-	(wire
-		(pts
 			(xy 285.75 161.29) (xy 309.88 161.29)
 		)
 		(stroke
@@ -5908,7 +5908,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 26.67 133.35)
+			(xy 33.02 133.35) (xy 26.67 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5985,16 +5985,6 @@
 			(type default)
 		)
 		(uuid "c557cc00-d163-4b02-aad6-9c968451a15f")
-	)
-	(wire
-		(pts
-			(xy 86.36 132.08) (xy 86.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caa6b0fc-41fe-48e7-8ca4-233d64f207c0")
 	)
 	(wire
 		(pts
@@ -9485,7 +9475,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 100.33 130.81 0)
+		(at 100.33 129.54 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -9494,7 +9484,7 @@
 		(fields_autoplaced yes)
 		(uuid "04b7ed4b-590a-4178-a6e5-142baccd90b6")
 		(property "Reference" "J31"
-			(at 102.87 130.8099 0)
+			(at 102.87 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +9493,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 102.87 133.3499 0)
+			(at 102.87 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +9502,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 100.33 130.81 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9511,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 100.33 130.81 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,7 +9520,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 100.33 130.81 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9539,7 +9529,7 @@
 			)
 		)
 		(property "Part Number" "B2B-XH-A"
-			(at 100.33 130.81 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12039,7 +12029,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 34.29 138.43 270)
+		(at 33.02 138.43 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -12048,7 +12039,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d252397-2ce7-4396-8e1e-379f2cbb2cac")
 		(property "Reference" "J14"
-			(at 36.83 137.1599 90)
+			(at 30.48 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,7 +12048,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 36.83 139.6999 90)
+			(at 30.48 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12066,7 +12057,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 34.29 138.43 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 34.29 138.43 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12075,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 138.43 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12084,7 @@
 			)
 		)
 		(property "Part Number" "B2B-XH-A"
-			(at 34.29 138.43 90)
+			(at 33.02 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14876,7 +14867,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 95.25 133.35 90)
+		(at 95.25 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14885,7 +14876,7 @@
 		(fields_autoplaced yes)
 		(uuid "af321041-5084-4ec1-9595-60d9f0976f71")
 		(property "Reference" "#PWR058"
-			(at 99.06 133.35 0)
+			(at 99.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14894,7 +14885,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 91.44 133.3499 90)
+			(at 91.44 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +14894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 133.35 0)
+			(at 95.25 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14912,7 +14903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 133.35 0)
+			(at 95.25 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,7 +14912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 95.25 133.35 0)
+			(at 95.25 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
