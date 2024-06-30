@@ -1370,7 +1370,7 @@
 		(uuid "06fe27ee-f6db-40eb-83cf-855ba3431e51")
 	)
 	(label "S11"
-		(at 210.82 81.28 180)
+		(at 203.2 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1381,7 +1381,7 @@
 		(uuid "179d27dc-4d8a-4596-bc7b-c646a54f5a11")
 	)
 	(label "S6"
-		(at 154.94 127 180)
+		(at 147.32 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1425,7 +1425,7 @@
 		(uuid "32a55ab3-5bc2-4f42-8ae2-cf5564dd57af")
 	)
 	(label "S9"
-		(at 210.82 76.2 180)
+		(at 203.2 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1436,7 +1436,7 @@
 		(uuid "3861edda-a084-4100-bd5d-6d45d726fccb")
 	)
 	(label "S10"
-		(at 210.82 78.74 180)
+		(at 203.2 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1447,7 +1447,7 @@
 		(uuid "4b65cb01-b553-4af5-ad3f-cc1332bb80d1")
 	)
 	(label "S5"
-		(at 154.94 124.46 180)
+		(at 147.32 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1480,7 +1480,7 @@
 		(uuid "5f995f26-ca88-4f97-93c8-faa3d1db1785")
 	)
 	(label "S2"
-		(at 154.94 78.74 180)
+		(at 147.32 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1546,7 +1546,7 @@
 		(uuid "775b3400-2157-477b-b9c8-76a0d0aa155c")
 	)
 	(label "S15"
-		(at 212.09 129.54 180)
+		(at 204.47 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1557,7 +1557,7 @@
 		(uuid "78e953d8-89d0-4972-b240-c4d9332c5938")
 	)
 	(label "S8"
-		(at 210.82 73.66 180)
+		(at 203.2 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1566,17 +1566,6 @@
 			(justify right bottom)
 		)
 		(uuid "7c422d12-2741-4dce-ad3d-264dd6720ce2")
-	)
-	(label "A0"
-		(at 93.98 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c5bcc7a-47a9-43b9-b332-e12976ef716d")
 	)
 	(label "S13"
 		(at 138.43 114.3 0)
@@ -1623,7 +1612,7 @@
 		(uuid "a94cdbf1-f25c-4e1d-9dc8-b8a23f1046c3")
 	)
 	(label "S3"
-		(at 154.94 81.28 180)
+		(at 147.32 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1634,7 +1623,7 @@
 		(uuid "aa8f45aa-c5f5-4aa5-8fde-3e693b03f9ab")
 	)
 	(label "S7"
-		(at 154.94 129.54 180)
+		(at 147.32 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1689,7 +1678,7 @@
 		(uuid "b0a9007f-bb0f-4e43-8aff-c7046f4e993a")
 	)
 	(label "S1"
-		(at 154.94 76.2 180)
+		(at 147.32 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1700,7 +1689,7 @@
 		(uuid "b8fbe0d1-7e8e-4bfb-a9c3-20bdb133f243")
 	)
 	(label "S4"
-		(at 154.94 121.92 180)
+		(at 147.32 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1711,7 +1700,7 @@
 		(uuid "bcb586af-deb2-4791-bd0a-67c8a15d435e")
 	)
 	(label "S0"
-		(at 154.94 73.66 180)
+		(at 147.32 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1733,7 +1722,7 @@
 		(uuid "ce5f947b-93fe-430f-8b22-237ded21da35")
 	)
 	(label "S14"
-		(at 212.09 127 180)
+		(at 204.47 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1799,7 +1788,7 @@
 		(uuid "effa328f-c7a9-4404-a935-17326b881eba")
 	)
 	(label "S12"
-		(at 212.09 121.92 180)
+		(at 204.47 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1810,7 +1799,7 @@
 		(uuid "f114853e-3605-4532-8898-8f9e2bfcc22c")
 	)
 	(label "S13"
-		(at 212.09 124.46 180)
+		(at 204.47 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2156,6 +2145,86 @@
 			(justify right)
 		)
 		(uuid "fed883f8-94e5-4f1a-acfd-29be01696e51")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03007ac3-f572-4f99-85e2-a5860bd37af8")
+		(property "Reference" "R46"
+			(at 213.106 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 208.28 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 208.28 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad271e1b-f0a2-410e-b2fb-50e05fe3fe6b")
+		)
+		(pin "2"
+			(uuid "a84953b7-e7d9-43de-ad64-37e2aca4f1fd")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2581,6 +2650,166 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 151.13 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "454895ec-c4ae-40b5-bd51-3b7782ed81e5")
+		(property "Reference" "R54"
+			(at 155.956 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 151.13 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 151.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 151.13 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9143ca77-d91a-49ab-a506-26436aa3ca29")
+		)
+		(pin "2"
+			(uuid "85e270d5-d011-44df-957c-e7e9d7903829")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49af2265-c393-433a-91bd-dcc04109be55")
+		(property "Reference" "R31"
+			(at 155.702 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 151.13 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 151.13 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "181022cf-36db-4b83-a3b1-a38a685e008f")
+		)
+		(pin "2"
+			(uuid "b4f301d2-4482-4ff0-8e95-53ebe1df97da")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 110.49 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2745,33 +2974,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 140.97 0)
+		(at 208.28 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6b229f71-5ba6-4436-958e-2e24c6f59563")
-		(property "Reference" "R9"
-			(at 96.52 139.6999 0)
+		(uuid "67d7fcb5-f532-437e-9a2b-1aa18dd7d473")
+		(property "Reference" "R45"
+			(at 212.852 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 96.52 142.2399 0)
+		(property "Value" "220R"
+			(at 208.28 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.202 140.97 90)
+			(at 208.28 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3007,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 93.98 140.97 0)
+			(at 208.28 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3016,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 140.97 0)
+			(at 208.28 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,8 +3024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0603FR-0710KL"
-			(at 93.98 140.97 0)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 208.28 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,19 +3034,339 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bb66f87-d6b0-498e-9e01-4e5466ca0f23")
+			(uuid "327061c3-bc3f-422e-a683-b60b56fb006b")
 		)
 		(pin "2"
-			(uuid "21d306c8-a649-4b1d-8b4a-b17230e1c052")
+			(uuid "7f1465e6-b8e8-448c-8fb3-584f891e28bc")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
-					(reference "R9")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
-					(reference "R16")
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.01 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72f332da-237e-43e3-ba34-1af30d818e80")
+		(property "Reference" "R38"
+			(at 211.836 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 207.01 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 207.01 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "911cdf6b-8107-463d-bfd3-884a138c6c0b")
+		)
+		(pin "2"
+			(uuid "b0b75934-695d-4048-8daf-3c8734ab81c7")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8519edb7-9ec2-44d8-aaae-dad23b19e977")
+		(property "Reference" "R29"
+			(at 155.702 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 151.13 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 151.13 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6895c491-5582-4e7c-952b-9ee95ab6eb91")
+		)
+		(pin "2"
+			(uuid "42dffe75-91d8-4c44-ab5f-4b78b8e3b7da")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9315674b-e76a-49dc-a892-094a55732174")
+		(property "Reference" "R43"
+			(at 212.852 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 208.28 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 208.28 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "897bc208-96e8-4b92-a6d1-d5a4d9ac425f")
+		)
+		(pin "2"
+			(uuid "ec840d4e-8973-431a-8068-078eac1e9415")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.01 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a62d14a-bdb3-4a80-81e1-6906a4166108")
+		(property "Reference" "R35"
+			(at 211.582 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 207.01 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 207.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 207.01 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "120daccc-8038-43e6-a7cf-631d7538d540")
+		)
+		(pin "2"
+			(uuid "631982fa-d3ea-45eb-a2ab-97d2869e3ba8")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2909,6 +3456,166 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 151.13 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1dda182-1532-46fb-91a0-5277c8e7d809")
+		(property "Reference" "R33"
+			(at 155.956 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 151.13 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 151.13 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12a08dd4-f76a-4285-8e6a-88fdcac8e956")
+		)
+		(pin "2"
+			(uuid "86f3799f-aedb-434e-913b-49276e4d002b")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.01 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ade673ae-fec0-49e0-925f-f1b29f72f170")
+		(property "Reference" "R36"
+			(at 211.582 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 207.01 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 207.01 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62bde688-3094-466c-969d-aa6cb05480cc")
+		)
+		(pin "2"
+			(uuid "472243d0-f1f3-461d-b283-2b9e3f7ce95a")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 96.52 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2985,6 +3692,246 @@
 				)
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5c8544b-6c3b-43a1-85c8-dd8242ed4a99")
+		(property "Reference" "R53"
+			(at 155.702 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 151.13 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 151.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 151.13 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "632aa427-d014-4f3a-8bde-8714e25f96a3")
+		)
+		(pin "2"
+			(uuid "b6ea6ee9-a13a-46f9-9245-8fac112195d3")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccd01e98-6f1b-479f-8dc3-df15a9ec0119")
+		(property "Reference" "R28"
+			(at 155.702 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 151.13 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 151.13 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "494cfdec-171b-42ec-a74d-e96c55918e52")
+		)
+		(pin "2"
+			(uuid "030fa883-8a8a-4b36-bf32-ad8568873dc0")
+		)
+		(instances
+			(project ""
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd404ef4-2c12-4329-96a3-18d78ac7aaa0")
+		(property "Reference" "R44"
+			(at 212.852 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 208.28 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 208.28 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d3dfae-77b6-411d-8956-1f3a47f1ff1f")
+		)
+		(pin "2"
+			(uuid "b27da0a0-2442-4f8c-8fe4-af4e578e2fd7")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -3181,6 +4128,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 151.13 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4fdcbd7-92d1-43c2-8478-67094245f19f")
+		(property "Reference" "R51"
+			(at 155.702 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 151.13 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 151.13 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 151.13 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ffeb4b2-81da-4130-ae4f-9f88a3acabf2")
+		)
+		(pin "2"
+			(uuid "f984f00a-1dad-4876-9fa4-74c47bb4eb0b")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f61c105e-1e4c-43bc-bec5-7399126e43f3")
+		(property "Reference" "R52"
+			(at 155.702 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 151.13 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 151.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 151.13 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bbc95ee-6878-482d-bdb6-9b4c3b1cf33b")
+		)
+		(pin "2"
+			(uuid "6412653e-111c-4d34-8a47-8688476902e0")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MoreHeaders:Conn_04x03_Servo")
 		(at 160.02 130.81 0)
 		(unit 1)
@@ -3270,6 +4377,86 @@
 				)
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
 					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.01 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdf01dca-a864-4747-bc6b-fe3b27889d27")
+		(property "Reference" "R37"
+			(at 211.582 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 207.01 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-07220RL"
+			(at 207.01 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "901c9450-579a-4469-afec-2b1a79e5160d")
+		)
+		(pin "2"
+			(uuid "0fe7a7af-5430-4870-8103-ab951ed30347")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7f970330-c65a-4197-b00d-f8fc38ef2f6c"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/88f7417a-9bf4-49d1-b7be-eac854f49710"
+					(reference "R41")
 					(unit 1)
 				)
 			)
