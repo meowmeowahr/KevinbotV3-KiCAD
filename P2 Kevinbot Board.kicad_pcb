@@ -22751,6 +22751,109 @@
 			)
 		)
 	)
+	(footprint "Keystone:Keystone-1502-2"
+		(layer "F.Cu")
+		(uuid "966838fc-bab0-4293-862f-f6a4c2ccbfcc")
+		(at 121.019 144.78)
+		(property "Reference" "TP1"
+			(at 0 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "18e46568-c2f2-4786-bfc5-f31d83024ebb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 5.08 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "947d7e23-e33a-4e95-9c10-1324d328765d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Keystone:Keystone-1502-2"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f92a03ad-a190-4097-b1b5-a849a1223e81")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dfa3088-4306-4363-81c3-6aee5053987f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d566e58-4fab-4c0a-b713-5d7e2bc552c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e8df4059-2077-4454-b4d1-9d98e6a74609")
+		(sheetname "Root")
+		(sheetfile "P2 Kevinbot Board.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -3.81 -3.81)
+			(end 3.81 3.81)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ea701d62-b95b-47eb-8769-63143a99b88c")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5 5)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 120 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "31c8f2d5-d17e-483b-a0a2-3318d6bac900")
+		)
+		(model "${KICAD6_USER_3DMODEL_DIR}/Keystone-1502-2.stp"
+			(offset
+				(xyz 0 0 -2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "97b90a59-ec8a-4e81-a786-2299aef00819")
@@ -36401,6 +36504,109 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Keystone:Keystone-1502-2"
+		(layer "F.Cu")
+		(uuid "f095a6d3-22a6-42de-a8b7-f830c5f32d13")
+		(at 207.379 144.78)
+		(property "Reference" "TP2"
+			(at 0 -2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "553d1a86-e9e3-4046-97d4-1be8caa0f6af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 5.08 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f0d787db-8b55-47d9-a47b-8548ded41b03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Keystone:Keystone-1502-2"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85167e4f-4aee-414c-802e-853b9f7f017b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "667c0c5a-bf78-435c-9b93-f22879e67c2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a0d39b5-07fe-49a5-879a-61949e5f6d93")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/2cd1cd49-b6a4-424b-b996-ab4269f1690c")
+		(sheetname "Root")
+		(sheetfile "P2 Kevinbot Board.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -3.81 -3.81)
+			(end 3.81 3.81)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0353b345-649c-4241-94cd-e9279e3e6bed")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5 5)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 120 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "5539066e-87a2-4b48-9467-817095db0d04")
+		)
+		(model "${KICAD6_USER_3DMODEL_DIR}/Keystone-1502-2.stp"
+			(offset
+				(xyz 0 0 -2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -57513,12 +57719,6 @@
 		(locked yes)
 		(members "00836dd9-ec3a-4af0-bcec-af7f0f1b0b49" "04c67d56-dd92-40d2-9f10-05fbf795c041"
 			"45c4b0b1-6bb0-40f9-aeb2-1028df149620" "fd16d6b8-83da-4e97-9467-9878eb14299a"
-		)
-	)
-	(group ""
-		(uuid "f886fecd-c755-45b2-8a89-f77e9805b723")
-		(members "a3d17498-2c8a-4cb2-9aa0-5e7afdfc7a1e" "d03bc449-ae06-4290-9009-a782c087c097"
-			"d616567a-1613-4c94-bc5f-790273f5a9d3" "e29a58ee-f569-464f-9a5c-3629429d864f"
 		)
 	)
 	(group ""

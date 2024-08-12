@@ -799,6 +799,121 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -10688,6 +10803,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 81.28 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "249dcc4b-1c6a-4e55-ace7-f754413d2099")
+		(property "Reference" "#PWR062"
+			(at 81.28 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a964860-2cd0-4d27-bb41-9011e06580e8")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 130.81 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10956,6 +11137,73 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 81.28 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cd1cd49-b6a4-424b-b996-ab4269f1690c")
+		(property "Reference" "TP2"
+			(at 85.09 160.9724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 85.09 163.5124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keystone:Keystone-1502-2"
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da03e9a5-f0a4-4757-8a72-08b21f5579e0")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -12971,7 +13219,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 165.1 0)
+		(at 38.1 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12980,7 +13228,7 @@
 		(fields_autoplaced yes)
 		(uuid "6473b575-e7e5-4cdf-8d66-e86f61b6c3d4")
 		(property "Reference" "#PWR014"
-			(at 71.12 171.45 0)
+			(at 38.1 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12989,7 +13237,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 170.18 0)
+			(at 38.1 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12997,7 +13245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 165.1 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13006,7 +13254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 165.1 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13015,7 +13263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 165.1 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14251,6 +14499,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
@@ -14361,7 +14610,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 165.1 0)
+		(at 29.21 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14370,7 +14619,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ac8f14d-fdd5-4315-96f2-4167b2d9d12c")
 		(property "Reference" "#PWR06"
-			(at 44.45 171.45 0)
+			(at 29.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14379,7 +14628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 170.18 0)
+			(at 29.21 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14387,7 +14636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 165.1 0)
+			(at 29.21 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14396,7 +14645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 165.1 0)
+			(at 29.21 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14405,7 +14654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 165.1 0)
+			(at 29.21 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14674,7 +14923,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 44.45 162.56 0)
+		(at 29.21 162.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14683,7 +14932,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7751066-2e16-4f73-b299-464ba0e94124")
 		(property "Reference" "H2"
-			(at 46.99 160.0199 0)
+			(at 31.75 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14692,16 +14941,17 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 46.99 162.5599 0)
+			(at 31.75 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
-			(at 44.45 162.56 0)
+			(at 29.21 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14710,7 +14960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 162.56 0)
+			(at 29.21 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14719,7 +14969,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 44.45 162.56 0)
+			(at 29.21 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15184,6 +15434,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 58.42 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3dabe01-5513-49eb-a0e2-2394103414af")
+		(property "Reference" "#PWR060"
+			(at 58.42 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ff05cd0-d65a-4cde-95b8-d8fdef16a0cf")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 231.14 161.29 90)
 		(unit 1)
@@ -15422,7 +15738,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 165.1 0)
+		(at 46.99 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15431,7 +15747,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbeecf57-268e-4b55-8e56-11d2f340f914")
 		(property "Reference" "#PWR017"
-			(at 95.25 171.45 0)
+			(at 46.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15440,7 +15756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 170.18 0)
+			(at 46.99 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15448,7 +15764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 165.1 0)
+			(at 46.99 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15457,7 +15773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 165.1 0)
+			(at 46.99 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15466,7 +15782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 165.1 0)
+			(at 46.99 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16669,7 +16985,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 71.12 162.56 0)
+		(at 38.1 162.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -16678,7 +16994,7 @@
 		(fields_autoplaced yes)
 		(uuid "da893962-f795-40de-818b-c9ca7745d65d")
 		(property "Reference" "H3"
-			(at 73.66 160.0199 0)
+			(at 40.64 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16687,16 +17003,17 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 73.66 162.5599 0)
+			(at 40.64 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
-			(at 71.12 162.56 0)
+			(at 38.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16705,7 +17022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 162.56 0)
+			(at 38.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16714,7 +17031,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 71.12 162.56 0)
+			(at 38.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17138,8 +17455,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 58.42 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8df4059-2077-4454-b4d1-9d98e6a74609")
+		(property "Reference" "TP1"
+			(at 62.23 160.9724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 62.23 163.5124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keystone:Keystone-1502-2"
+			(at 97.79 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a434f6c-f44e-48b3-8f36-fd11ca75e5cd")
+		)
+		(instances
+			(project ""
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 95.25 162.56 0)
+		(at 46.99 162.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17148,7 +17531,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9f53ecc-b852-4979-8ee4-2af848d4bcfe")
 		(property "Reference" "H4"
-			(at 97.79 160.0199 0)
+			(at 49.53 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17157,7 +17540,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 97.79 162.5599 0)
+			(at 49.53 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17167,7 +17550,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
-			(at 95.25 162.56 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17176,7 +17559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 162.56 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17185,7 +17568,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 95.25 162.56 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
