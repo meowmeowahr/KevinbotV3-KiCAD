@@ -5265,6 +5265,12 @@
 		(uuid "38bfd033-7d16-4ed0-81a2-c6cdf31d65a7")
 	)
 	(junction
+		(at 86.36 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42c216ed-05a4-4f29-8974-cc89d7e4ebbe")
+	)
+	(junction
 		(at 38.1 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5484,16 +5490,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 133.35) (xy 50.8 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb408f2-fdeb-45ea-8670-fc953253aec6")
-	)
-	(wire
-		(pts
 			(xy 276.86 43.18) (xy 276.86 38.1)
 		)
 		(stroke
@@ -5511,6 +5507,16 @@
 			(type default)
 		)
 		(uuid "12ec632c-fa89-41a1-b60a-79239eeeb3cc")
+	)
+	(wire
+		(pts
+			(xy 69.85 127) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac5722c-fbdb-4a12-b20d-e68ab4017993")
 	)
 	(wire
 		(pts
@@ -5634,6 +5640,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 132.08) (xy 69.85 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bf5bcf-670a-4899-a129-344ba4313361")
+	)
+	(wire
+		(pts
 			(xy 327.66 114.3) (xy 325.12 114.3)
 		)
 		(stroke
@@ -5744,6 +5760,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 129.54) (xy 50.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79845556-b8d0-4dc1-a7a7-06135fab9fe3")
+	)
+	(wire
+		(pts
 			(xy 231.14 134.62) (xy 234.95 134.62)
 		)
 		(stroke
@@ -5794,16 +5820,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 133.35) (xy 50.8 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847436ef-dac0-41dd-b32d-c04d5586d74b")
-	)
-	(wire
-		(pts
 			(xy 33.02 92.71) (xy 36.83 92.71)
 		)
 		(stroke
@@ -5841,6 +5857,16 @@
 			(type default)
 		)
 		(uuid "89715abe-bc6e-4c5c-938a-7ab4c4e64125")
+	)
+	(wire
+		(pts
+			(xy 69.85 132.08) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9163d54d-b638-4cf6-89c0-37bb0f980c86")
 	)
 	(wire
 		(pts
@@ -6024,6 +6050,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 129.54) (xy 50.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68e6260-f5d9-4fbe-a7d4-60dcdf5d78e2")
+	)
+	(wire
+		(pts
 			(xy 226.06 157.48) (xy 226.06 161.29)
 		)
 		(stroke
@@ -6074,7 +6110,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 125.73) (xy 53.34 128.27)
+			(xy 53.34 121.92) (xy 53.34 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6121,6 +6157,16 @@
 			(type default)
 		)
 		(uuid "f86eca79-3a0b-4129-a0e3-7ccf8cd08b11")
+	)
+	(wire
+		(pts
+			(xy 86.36 127) (xy 86.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc01d224-a020-4343-9d0b-5a507f6c0f22")
 	)
 	(wire
 		(pts
@@ -8914,28 +8960,6 @@
 			)
 		)
 	)
-	(global_label "P2_P40"
-		(shape input)
-		(at 53.34 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ea25a880-3956-4d6d-ae32-147f2555af8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.2981 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P2_P25"
 		(shape input)
 		(at 321.31 68.58 0)
@@ -9217,72 +9241,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02867fa0-1e3c-4ac3-b081-0a84783b5391")
-		(property "Reference" "#PWR053"
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "559a4b7b-eeab-4f23-b731-33da3cc3c095")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9796,7 +9754,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 58.42 125.73 180)
+		(at 58.42 121.92 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -9805,7 +9763,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cb5067b-bb31-41d6-9137-c610c135f6b8")
 		(property "Reference" "J30"
-			(at 59.69 123.1899 0)
+			(at 59.69 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9814,7 +9772,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 59.69 125.7299 0)
+			(at 59.69 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9823,7 +9781,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 58.42 125.73 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9832,7 +9790,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_btb_254_g800.pdf?__cf_chl_jschl_tk__=4e886f12bfab7e39b45ebaa24bc16fa8ea8da833-1611873833-0-ARy4IaeOcjWlirDtXx0g_iE7oMCfIydcHLVJmdtxLjAPksbE5ymNwat1iJmz4KGNqkkTTh"
-			(at 58.42 125.73 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9841,7 +9799,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 58.42 125.73 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9850,7 +9808,7 @@
 			)
 		)
 		(property "Part Number" "G800W306018EU"
-			(at 58.42 125.73 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,7 +10458,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 55.88 130.81 0)
+		(at 55.88 127 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -10509,7 +10467,7 @@
 		(fields_autoplaced yes)
 		(uuid "23114e85-5d36-4445-8c78-24d7cb65eccb")
 		(property "Reference" "BZ1"
-			(at 59.69 130.175 0)
+			(at 59.69 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10518,7 +10476,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 59.69 132.715 0)
+			(at 59.69 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +10485,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
-			(at 55.245 128.27 90)
+			(at 55.245 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10494,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf"
-			(at 55.245 128.27 90)
+			(at 55.245 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +10503,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 55.88 130.81 0)
+			(at 55.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,7 +10512,7 @@
 			)
 		)
 		(property "Part Number" "PS1240P02BT"
-			(at 55.88 130.81 0)
+			(at 55.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13842,6 +13800,73 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "764f056b-ea45-456d-84a8-2ed8c2752862")
+		(property "Reference" "#PWR053"
+			(at 57.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4070da7e-f293-4ff1-b29d-411ce98e6ff0")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
