@@ -63,6 +63,18 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy 27.876 5.08) (xy 26.416 4.508) (xy 27.876 3.936)
+		)
+		(stroke
+			(width 0.002)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "21e15675-5da1-4e41-b60b-8ce1505bec5d")
+	)
 	(fp_rect
 		(start 28.702 6.604)
 		(end -28.702 -6.604)
@@ -73,58 +85,6 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "495287ad-d99e-4b1a-a617-7383ba40dd15")
-	)
-	(fp_line
-		(start -28.6 -4.6)
-		(end 28.6 -4.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "20f992fe-6f8f-4057-af5d-41c54fdd8792")
-	)
-	(fp_line
-		(start -28.6 4.6)
-		(end -28.6 -4.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d94fd932-02d1-49b5-8106-db995b6ef970")
-	)
-	(fp_line
-		(start 28.6 -4.6)
-		(end 28.6 4.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "03e848e8-f555-407a-ab45-6c4d5764db6c")
-	)
-	(fp_line
-		(start 28.6 4.6)
-		(end -28.6 4.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "414667af-6144-4917-a020-c392e815a6d7")
-	)
-	(fp_poly
-		(pts
-			(xy 27.94 4.128) (xy 26.988 3.81) (xy 27.94 3.492)
-		)
-		(stroke
-			(width 0.002)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Fab")
-		(uuid "21e15675-5da1-4e41-b60b-8ce1505bec5d")
 	)
 	(pad "" np_thru_hole circle
 		(at -26.675 0)
@@ -137,7 +97,7 @@
 		(at 26.675 0)
 		(size 2.45 2.45)
 		(drill 2.45)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "7c1f8bd7-36ad-4301-8e66-16da4a851b42")
 	)
 	(pad "1" smd oval
