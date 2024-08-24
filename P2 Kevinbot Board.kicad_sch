@@ -5628,10 +5628,6 @@
 		(uuid "b90ab5ed-603d-4e7e-a333-1d62c4673193")
 	)
 	(no_connect
-		(at 171.45 45.72)
-		(uuid "d3b969ad-4de5-4ad0-9955-b650d4c7ad6c")
-	)
-	(no_connect
 		(at 321.31 137.16)
 		(uuid "d5c72488-a462-48d7-959b-d07cbf8b4723")
 	)
@@ -5650,10 +5646,6 @@
 	(no_connect
 		(at 130.81 83.82)
 		(uuid "e3c40251-7a4a-428e-b6b6-05d0ef653dbb")
-	)
-	(no_connect
-		(at 171.45 48.26)
-		(uuid "e4b1d44f-2ed1-42fd-8a00-7f3d1a53d5b2")
 	)
 	(no_connect
 		(at 130.81 53.34)
@@ -7239,6 +7231,28 @@
 			)
 		)
 	)
+	(global_label "P2_P33"
+		(shape input)
+		(at 135.89 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d9709d9-0a3e-4435-9a51-63bcd1a8fa3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.7687 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2_P37"
 		(shape input)
 		(at 113.03 168.91 180)
@@ -8185,6 +8199,28 @@
 			)
 		)
 	)
+	(global_label "P2_P32"
+		(shape input)
+		(at 171.45 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b5bcdb9-ce82-4401-9f0b-eb16cee3cb55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5713 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2_V40"
 		(shape input)
 		(at 231.14 138.43 0)
@@ -8616,6 +8652,28 @@
 		(uuid "aa641522-725d-423a-a970-9a18657af2ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.7919 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P33"
+		(shape input)
+		(at 171.45 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac25e609-53bf-474d-84ad-517ce16cb464")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5713 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,6 +9207,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P32"
+		(shape input)
+		(at 135.89 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfeca39d-5507-4e5f-b38b-174f5a6bedfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.7687 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12000,6 +12080,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4258494e-e3a8-4c01-94b5-310082a14e88")
+		(property "Reference" "TP6"
+			(at 138.43 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 140.97 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9911ff99-af38-4df1-97e0-f927d03c9d0d")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse_Small")
 		(at 257.81 38.1 90)
 		(unit 1)
@@ -12919,6 +13066,73 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "590b440d-223f-4524-8399-a0fd2f130794")
+		(property "Reference" "TP5"
+			(at 138.43 154.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 156.7179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 140.97 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8da05f2-5b40-461d-a100-92bec1696c74")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

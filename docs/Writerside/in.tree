@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Kevinbot Docs"
+                 start-page="home.topic">
+
+    <toc-element topic="home.topic">
+    </toc-element>
+    <toc-element topic="Learn-about-Kevinbot-Core-Board.md"/>
+    <toc-element topic="Board-Images.md"/>
+    <toc-element topic="Hardware.md"/>
+    <toc-element topic="Software.md"/>
+    <toc-element topic="Contributing.md"/>
+</instance-profile>
