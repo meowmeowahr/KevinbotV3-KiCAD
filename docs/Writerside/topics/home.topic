@@ -6,14 +6,14 @@
        title="Home" id="home" help-id="Home">
 
     <section-starting-page>
-        <title>Welcome to the Kevinbot Core Board Docs</title>
+        <title>Welcome to the Kevinbot P2 Board Docs</title>
         <description>
-            Full documentation for the Kevinbot Core Board
+            Full documentation for the Kevinbot P2 Board
         </description>
 
         <spotlight>
-            <a href="Learn-about-Kevinbot-Core-Board.md"
-               summary="Learn about Kevinbot Core Board" type="learn"/>
+            <a href="Learn-about-Kevinbot-P2-Board.md"
+               summary="Learn about Kevinbot P2 Board" type="learn"/>
             <a href="Board-Images.md"
                summary="Image gallery" type="presentation"/>
         </spotlight>
@@ -21,15 +21,15 @@
         <primary>
             <title>Get started</title>
             <a href="Hardware.md"
-               summary="Producing gerbers and BOM"/>
+               summary="Producing Gerbers and BOM"/>
             <a href="Software.md"
-               summary="Base objects for using the Kevinbot Core Board"/>
+               summary="Kevinbot P2 Board Usage Guide"/>
         </primary>
 
         <secondary>
             <title>Additional Info</title>
             <a href="Contributing.md"
-               summary="Learn about the Kevinbot Core"/>
+               summary="Contribute to the Project"/>
             <a href="https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html"
                summary="Learn about KiCAD">KiCAD Docs</a>
         </secondary>

@@ -3,12 +3,12 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Kevinbot Docs"
+                 name="Kevinbot P2 Board"
                  start-page="home.topic">
 
     <toc-element topic="home.topic">
     </toc-element>
-    <toc-element topic="Learn-about-Kevinbot-Core-Board.md"/>
+    <toc-element topic="Learn-about-Kevinbot-P2-Board.md"/>
     <toc-element topic="Board-Images.md"/>
     <toc-element topic="Hardware.md"/>
     <toc-element topic="Software.md"/>
