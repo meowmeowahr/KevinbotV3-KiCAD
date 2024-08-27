@@ -13,4 +13,5 @@
     <toc-element topic="Hardware.md"/>
     <toc-element topic="Software.md"/>
     <toc-element topic="Contributing.md"/>
+    <toc-element topic="Board-Diagram.md"/>
 </instance-profile>
