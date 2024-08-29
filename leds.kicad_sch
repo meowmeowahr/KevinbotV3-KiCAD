@@ -875,6 +875,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b854ad-e6c7-437f-b9e8-48d03abce486")
+	)
+	(wire
+		(pts
 			(xy 151.13 88.9) (xy 151.13 92.71)
 		)
 		(stroke
@@ -882,16 +892,6 @@
 			(type default)
 		)
 		(uuid "731fc3ea-a6b5-42f4-b830-d2534e82577f")
-	)
-	(wire
-		(pts
-			(xy 222.25 83.82) (xy 238.76 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981f23ed-5147-44b4-96d7-990fcc3dbfb3")
 	)
 	(wire
 		(pts
@@ -905,13 +905,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 83.82) (xy 222.25 87.63)
+			(xy 222.25 97.79) (xy 222.25 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec8fa747-292a-413f-b753-667af092e04c")
+		(uuid "f2f98bfe-293e-401b-8794-3b49f41684d1")
 	)
 	(global_label "BODY_LED"
 		(shape input)
@@ -937,22 +937,22 @@
 	)
 	(global_label "LED_PWR"
 		(shape input)
-		(at 238.76 86.36 180)
+		(at 222.25 87.63 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "6347d3f6-0b31-4abf-a21b-189d9386b7eb")
+		(uuid "6436d1fa-58d5-4814-9727-28c0304ac9f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.3687 86.36 0)
+			(at 222.25 76.2387 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1105,8 +1105,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 236.22 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5265a789-60c5-4b5f-b69d-af1ecd38671e")
+		(property "Reference" "#PWR030"
+			(at 229.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f19de73a-6877-4b30-99e0-95cbbceb60fc")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/971de258-84b3-438c-84b6-ee44796701a6"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRLML6402")
 		(at 219.71 92.71 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1115,7 +1183,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e31bf17-9101-4fac-a335-09c873569f6c")
 		(property "Reference" "Q2"
-			(at 226.06 91.4399 0)
+			(at 226.06 93.9801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1192,7 @@
 			)
 		)
 		(property "Value" "IRLML6402"
-			(at 226.06 93.9799 0)
+			(at 226.06 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1201,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 224.79 94.615 0)
+			(at 224.79 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1212,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 224.79 96.52 0)
+			(at 224.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1277,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 243.84 83.82 0)
+		(at 241.3 101.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1218,7 +1286,7 @@
 		(fields_autoplaced yes)
 		(uuid "761c9ce7-e53f-4dd7-b4d9-605c8ddcd3b5")
 		(property "Reference" "J32"
-			(at 246.38 83.8199 0)
+			(at 243.84 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1295,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 246.38 86.3599 0)
+			(at 243.84 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1304,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 243.84 83.82 0)
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1313,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 243.84 83.82 0)
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1322,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 83.82 0)
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1331,7 @@
 			)
 		)
 		(property "Part Number" "B2B-XH-A"
-			(at 243.84 83.82 0)
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,71 +1585,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/971de258-84b3-438c-84b6-ee44796701a6"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6b98afe-d777-4b4a-92c9-330dc7ceaf28")
-		(property "Reference" "#PWR030"
-			(at 222.25 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4396e215-4b38-4afe-9fab-77f4ef585278")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/971de258-84b3-438c-84b6-ee44796701a6"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
