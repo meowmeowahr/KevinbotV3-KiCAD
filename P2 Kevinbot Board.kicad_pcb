@@ -40080,6 +40080,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "REV ?"
+		(at 254.647 149.484 0)
+		(layer "F.SilkS")
+		(uuid "89d98d36-8a39-46a2-9594-2c0a9506abb9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "S30"
 		(at 231.909 92.405 0)
 		(layer "F.SilkS")
