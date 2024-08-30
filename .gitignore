@@ -27,7 +27,6 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
-*.xml
 *.csv
 
 # Place Footprints Plug-in

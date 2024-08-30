@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
+<terms>
+    <term name="GUI">Graphical User Interface</term>
+    <term name="MQTT">Message Queuing Telemetry Transport</term>
+    <term name="IMU">Inertial Measurement Unit</term>
+    <term name="LCD">Liquid Crystal Display</term>
+    <term name="CAD">Computer Aided Design</term>
+    <term name="P2">Propeller 2</term>
+    <term name="Spin2">Propeller Spin 2</term>
+    <term name="PASM2">Propeller Assembly 2</term>
+    <term name="GPLv3">General Public License v3</term>
+</terms>

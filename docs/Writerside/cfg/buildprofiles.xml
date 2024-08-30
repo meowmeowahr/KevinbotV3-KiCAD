@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <build-profile instance="in">
+        <variables>
+            <noindex-content>false</noindex-content>
+            <custom-favicons>favicon.png</custom-favicons>
+            <header-logo>logo_dark.png</header-logo>
+            <primary-color>#2c4cff</primary-color>
+        </variables>
+        <footer>
+            <copyright>2024 Kevin Ahr and contributors</copyright>
+        </footer>
+    </build-profile>
+
+</buildprofiles>
