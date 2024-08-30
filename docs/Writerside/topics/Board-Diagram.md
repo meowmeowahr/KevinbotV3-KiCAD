@@ -198,10 +198,11 @@ Indicates power rail statuses and UART port activity.
 
 Light meanings:
 <br/>
+
+```Ini
 TX = UART transmitting
 RX = UART receiving
 
-```Ini
 SVO = Servo power rail
 3V3 = P2 V24 rail
 5V  = 5V Input rail
