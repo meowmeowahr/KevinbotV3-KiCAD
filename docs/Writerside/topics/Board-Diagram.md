@@ -217,7 +217,7 @@ Header for programming the P2. Designed for use with a [Parallax Prop Plug](http
 <b>Important! Read this!</b>
 
 Every Kevinbot P2 Board will have a different serial number identifier for the thermometer.
-It is required to know the serial number it you have any devices connected to the [One-Wire ports](#11-one-wire-ports)
+It is required to know the serial number if you have any devices connected to the [One-Wire ports](#11-one-wire-ports)
 </warning>
 
 ## 21. Second Servo Bank
@@ -237,3 +237,7 @@ They are connected to a PCA9685 at I<sup>2</sup>C address `0x40`
 Each port has a maximum rating of 3A
 <br/>
 The whole bank has a rating of 6.5A
+
+## 23. Ground test points
+
+These ground points can be invaluable when debugging hardware. Clip your oscilloscope ground to them and debug away!
