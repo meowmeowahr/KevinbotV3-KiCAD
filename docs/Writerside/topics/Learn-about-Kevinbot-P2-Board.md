@@ -2,7 +2,7 @@
 
 The Kevinbot P2 Board is a [Parallax Propeller 2 Edge](https://www.parallax.com/product/p2-edge-module/) Breakout 
 Board catered for robotics use.
-Originally designed only for use in Kevinbot v3, the board can be used for any P2-based robotics project
+Originally designed only for use in Kevinbot v3, the board can be used for any P2-based robotics project.
 
 ## Specifications
 
