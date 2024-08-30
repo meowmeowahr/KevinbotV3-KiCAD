@@ -210,3 +210,12 @@ SVO = Servo power rail
 ## 19. PropPlug programming interface
 
 Header for programming the P2. Designed for use with a [Parallax Prop Plug](https://www.parallax.com/product/prop-plug/)
+
+## 20. Internal DS18B20 thermometer
+
+<warning>
+<b>Important! Read this!</b>
+
+Every Kevinbot P2 Board will have a different serial number identifier for the thermometer.
+It is required to know the serial number it you have any devices connected to the [One-Wire ports](#11-one-wire-ports)
+</warning>
