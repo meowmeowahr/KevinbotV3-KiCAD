@@ -191,3 +191,22 @@ Max Output Current: 1.3A
 ## 17. Reset Button
 
 Pressing the button will result in the CPU and code execution restarting.
+
+## 18. LED Indicators
+
+Indicates power rail statuses and UART port activity.
+
+Light meanings:
+<br/>
+TX = UART transmitting
+RX = UART receiving
+
+```Ini
+SVO = Servo power rail
+3V3 = P2 V24 rail
+5V  = 5V Input rail
+```
+
+## 19. PropPlug programming interface
+
+Header for programming the P2. Designed for use with a [Parallax Prop Plug](https://www.parallax.com/product/prop-plug/)
