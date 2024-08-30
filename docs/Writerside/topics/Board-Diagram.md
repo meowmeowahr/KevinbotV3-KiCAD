@@ -119,7 +119,7 @@ Accessory List:
 [WX Adapter](https://www.parallax.com/product/p2-wx-adapter-add-on-board/)
 ## 10. I2C Ports
 
-Four I2C Ports on a common bus
+Four <sup>2</sup> Ports on a common bus
 
 Refer to [Pin Mappings](Pin-Mappings.md) for the internal connections
 
@@ -219,3 +219,21 @@ Header for programming the P2. Designed for use with a [Parallax Prop Plug](http
 Every Kevinbot P2 Board will have a different serial number identifier for the thermometer.
 It is required to know the serial number it you have any devices connected to the [One-Wire ports](#11-one-wire-ports)
 </warning>
+
+## 21. Second Servo Bank
+
+This is the second bank of servo ports (S16 ~ S31)
+They are connected to a PCA9685 at I<sup>2</sup>C address `0x41`
+
+Each port has a maximum rating of 3A
+<br/>
+The whole bank has a rating of 6.5A
+
+## 22. First Servo Bank
+
+This is the second bank of servo ports (S0 ~ S15)
+They are connected to a PCA9685 at I<sup>2</sup>C address `0x40`
+
+Each port has a maximum rating of 3A
+<br/>
+The whole bank has a rating of 6.5A
