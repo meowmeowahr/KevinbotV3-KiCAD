@@ -1,6 +1,6 @@
 # Board Diagram
 
-![PCB diagram with numbered elements](pcb_diagram_drawio.drawio.png)
+<img alt="PCB diagram with numbered elements" src="pcb_diagram_drawio.drawio.png" width="1400"/>
 
 ## 1. P2 Edge Socket
 
