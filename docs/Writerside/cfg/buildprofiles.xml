@@ -9,6 +9,9 @@
             <custom-favicons>favicon.png</custom-favicons>
             <header-logo>logo_dark.png</header-logo>
             <primary-color>#2c4cff</primary-color>
+            <download-title>Get Sources</download-title>
+            <download-page>https://github.com/meowmeowahr/KevinbotV3-KiCad</download-page>
+            <showDownloadButton>true</showDownloadButton>
         </variables>
         <footer>
             <copyright>2024 Kevin Ahr and contributors</copyright>
