@@ -2,7 +2,7 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="in"
+<instance-profile id="kb"
                  name="Kevinbot P2 Board"
                  start-page="home.topic">
 
