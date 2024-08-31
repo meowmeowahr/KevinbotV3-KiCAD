@@ -10,7 +10,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'docs/Writerside/kb'
+  INSTANCE: 'Writerside/kb'
   ARTIFACT: 'webHelpKB2-all.zip'
   DOCKER_VERSION: '241.15989'
 
