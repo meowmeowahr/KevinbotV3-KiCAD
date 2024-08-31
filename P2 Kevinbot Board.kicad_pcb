@@ -40360,6 +40360,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "EXPANSION"
+		(at 88.785 64.648 0)
+		(layer "F.SilkS")
+		(uuid "c29293ee-bc56-462e-8cf8-3f9fc0de2547")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "S5"
 		(at 248.805 119.385 0)
 		(layer "F.SilkS")
