@@ -20,11 +20,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        working-directory: docs
         with:
           fetch-depth: 0
 
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
+        working-directory: docs
         with:
           instance: ${{ env.INSTANCE }}
           artifact: ${{ env.ARTIFACT }}
@@ -44,12 +46,14 @@ jobs:
     steps:
       - name: Download artifacts
         uses: actions/download-artifact@v4
+        working-directory: docs
         with:
           name: docs
           path: artifacts
 
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
+        working-directory: docs
         with:
           instance: ${{ env.INSTANCE }}
   deploy:
@@ -61,6 +65,7 @@ jobs:
     steps:
       - name: Download artifacts
         uses: actions/download-artifact@v4
+        working-directory: docs
         with:
           name: docs
 
