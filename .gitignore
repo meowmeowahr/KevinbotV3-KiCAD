@@ -27,10 +27,16 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
-*.csv
+#*.csv
 
 # Place Footprints Plug-in
 place_footprints.log
 
 # Ibom
 bom/*
+
+#KiCAD-to-PcbWay
+production/*
+fabrication-toolkit-options.json
+*.kicad_pcb.zip
+
