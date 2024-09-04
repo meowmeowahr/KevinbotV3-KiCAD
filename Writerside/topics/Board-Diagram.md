@@ -242,3 +242,24 @@ The whole bank has a rating of 6.5A
 ## 23. Ground test points
 
 These ground points can be invaluable when debugging hardware. Clip your oscilloscope ground to them and debug away!
+
+## 24. Battery Input Polyfuses
+
+These fuses are for the battery voltmeters.
+They auto-reset after tripped.
+They should never trip unless the board or P2 is damaged in some way.
+
+## 25. Error Buzzer
+
+This is a piezo buzzer intended for error tones.
+In the standard [Kevinbot code](https://github.com/meowmeowahr/KevinbotV3-HW-Core),
+it will play a startup chime, and continuously beep is an error has occurred.
+
+## 26. Error Buzzer Enabler
+<img src="jumper.png" style="inline" height="32" alt="icon of jumper"/>
+This jumper should be installed to enable the internal error buzzer.
+If the jumper is not installed, the external buzzer port will still be active.
+
+## 27. Expansion connector
+This connector is reserved for future use.
+A pinout is provided [here](Pin-Mappings.md)
