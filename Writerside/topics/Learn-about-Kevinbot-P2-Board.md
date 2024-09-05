@@ -20,3 +20,8 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 * Reset Button and External Reset button port
 * Internal DS18b20 thermometer
 * Fully Open Source Design
+
+## License
+
+All hardware is licensed under the CERN-OHL-S-2.0 license. 
+Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.
