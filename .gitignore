@@ -40,3 +40,5 @@ production/*
 fabrication-toolkit-options.json
 *.kicad_pcb.zip
 
+#Writerside
+pdfSource*
