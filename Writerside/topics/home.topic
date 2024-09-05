@@ -20,8 +20,6 @@
 
         <primary>
             <title>Get started</title>
-            <a href="Hardware.md"
-               summary="Producing Gerbers and BOM"/>
             <a href="Software.md"
                summary="Kevinbot P2 Board Usage Guide"/>
         </primary>
