@@ -2,16 +2,24 @@
 
 ## Board Maps
 
-| Pin Function | Board Pin |
-|--------------|-----------|
-|              |           |
-|              |           |
-|              |           |
-|              |           |
-|              |           |
-|              |           |
-|              |           |
-|              |           |
+| Pin Function          | Board Pin |
+|-----------------------|-----------|
+| Exposed Accessory I/O | P0~P31    |
+| Test Point on Back    | P32       |
+| Test Point on Back    | P33       |
+| WS281X(b) LED Output  | P34       |
+| UART TX Output        | P35       |
+| UART RX Input         | P36       |
+| Voltmeter #1 Input    | P37       |
+| Voltmeter #2 Output   | P38       |
+| One-Wire Data Line    | P39       |
+| Error Buzzer          | P40       |
+| I2C SDA               | P41       |
+| I2C SCL               | P42       |
+| Expansion FFC I/O     | P43~P63   |
+| Robot Status Light    | P56/LED1  |
+| Programming TXD       | P62       |
+| Programming RXD       | P63       |
 
 
 ## Expansion header maps
