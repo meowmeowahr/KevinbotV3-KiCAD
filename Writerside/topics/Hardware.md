@@ -1,3 +1,0 @@
-# Hardware
-
-Start typing here...

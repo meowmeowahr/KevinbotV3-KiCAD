@@ -6,4 +6,8 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="44fd419f">
+        <description>Created after removal of "Hardware" from Kevinbot P2 Board</description>
+        <accepts>Hardware.html</accepts>
+    </rule>
 </rules>

@@ -10,8 +10,7 @@
     </toc-element>
     <toc-element topic="Learn-about-Kevinbot-P2-Board.md"/>
     <toc-element topic="Board-Images.md"/>
-    <toc-element topic="Hardware.md"/>
-    <toc-element topic="Pin-Mappings.md"/>
+    <toc-element topic="Pin-Mappings.md" accepts-web-file-names-ref="44fd419f"/>
     <toc-element topic="Software.md"/>
     <toc-element topic="Contributing.md"/>
     <toc-element topic="Board-Diagram.md"/>
