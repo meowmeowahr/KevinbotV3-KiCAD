@@ -119,7 +119,7 @@ Accessory List:
 [WX Adapter](https://www.parallax.com/product/p2-wx-adapter-add-on-board/)
 ## 10. I2C Ports
 
-Four <sup>2</sup> Ports on a common bus
+Four I<sup>2</sup>C Ports on a common bus
 
 Refer to [Pin Mappings](Pin-Mappings.md) for the internal connections
 
@@ -232,7 +232,7 @@ The whole bank has a rating of 6.5A
 
 ## 22. First Servo Bank
 
-This is the second bank of servo ports (S0 ~ S15)
+This is the first bank of servo ports (S0 ~ S15)
 They are connected to a PCA9685 at I<sup>2</sup>C address `0x40`
 
 Each port has a maximum rating of 3A
