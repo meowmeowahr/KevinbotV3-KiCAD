@@ -5,10 +5,10 @@ Your contributions, whether in code, documentation, or ideas, help the project g
 
 ## Ways to Support the Project
 
-Even if you don’t have time to contribute directly, you can support us by:
+Even if you don't have time to contribute directly, you can support us by:
 - **Starring the repository**
 - **Sharing it on social media**
-- **Mentioning it in your project’s README**
+- **Mentioning it in your project's README**
 
 ## Table of Contents
 - [I Have a Question](#i-have-a-question)
@@ -49,7 +49,7 @@ For all other issues:
 
 #### Before Submitting an Enhancement
 1. Make sure you're using the latest version.
-2. Check the documentation to ensure the feature isn’t already covered.
+2. Check the documentation to ensure the feature isn't already covered.
 3. Search the [issue tracker](https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues) for similar suggestions.
 
 #### Submitting an Enhancement Suggestion
