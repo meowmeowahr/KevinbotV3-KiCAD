@@ -2,7 +2,7 @@ name: Build documentation
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master", "RevA"]
   workflow_dispatch:
 
 permissions:
