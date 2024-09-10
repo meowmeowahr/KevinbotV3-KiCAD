@@ -12,6 +12,7 @@
             <download-title>Get Sources</download-title>
             <download-page>https://github.com/meowmeowahr/KevinbotV3-KiCad</download-page>
             <showDownloadButton>true</showDownloadButton>
+            <versions-switcher>https://raw.githubusercontent.com/meowmeowahr/KevinbotV3-KiCAD/master/help-versions.json</versions-switcher>
         </variables>
         <footer>
             <copyright>2024 Kevin Ahr and contributors</copyright>
