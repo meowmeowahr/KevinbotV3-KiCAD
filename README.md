@@ -1,6 +1,11 @@
 # Kevinbot v3 Core Board
 The KiCAD sources for the P2 Kevinbot Board
 
+| | |
+|-|-|
+|![OSHW Facts](docs/oshw_facts.svg)|<img src="certification-mark-US002675-stacked.png" width=200></img>
+
+
 ![Board](P2%20Kevinbot%20Board.png)
 
 ## Licenses
