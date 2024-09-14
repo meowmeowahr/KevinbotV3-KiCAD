@@ -1,4 +1,4 @@
-# Kevinbot v3 Core Board
+# P2 Kevinbot Board
 The KiCAD sources for the P2 Kevinbot Board
 
 | | |
