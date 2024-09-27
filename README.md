@@ -1,5 +1,5 @@
-# P2 Kevinbot Board
-The KiCAD sources for the P2 Kevinbot Board
+# Kevinbot P2 Board
+The KiCAD sources for the Kevinbot P2 Board
 
 | | |
 |-|-|
