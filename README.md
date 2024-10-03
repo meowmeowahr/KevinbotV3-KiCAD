@@ -20,6 +20,9 @@ Thanks to PCBWay for providing high-quality PCB prototypes.
 
 [Get a Quote Here](https://www.pcbway.com/orderonline.aspx)
 
+<img src="docs/pcb-edges.png" width=500></img>
+<img src="docs/pcbs.png" width=500></img>
+
 ## Credits
 
 | Part Name                       | Credit           | License                                  |
