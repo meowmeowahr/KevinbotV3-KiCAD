@@ -12,6 +12,14 @@ The KiCAD sources for the P2 Kevinbot Board
 All hardware is licensed under the CERN-OHL-S-2.0 license. 
 Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.
 
+## PCBWay
+
+<img src="docs/pcbway-logo.png" width=320></img>
+
+Thanks to PCBWay for providing high-quality PCB prototypes.
+
+[Get a Quote Here](https://www.pcbway.com/orderonline.aspx)
+
 ## Credits
 
 | Part Name                       | Credit           | License                                  |
