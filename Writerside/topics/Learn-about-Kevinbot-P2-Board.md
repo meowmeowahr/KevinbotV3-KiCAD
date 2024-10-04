@@ -25,3 +25,14 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 
 All hardware is licensed under the CERN-OHL-S-2.0 license. 
 Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.
+
+## PCBWay
+
+<img src="pcbway-logo.png" width="320" alt="PCBWay"></img>
+
+Thanks to PCBWay for providing high-quality PCB prototypes.
+
+[Get a Quote Here](https://www.pcbway.com/orderonline.aspx)
+
+<img src="pcb-edges.png" width="500" alt="pcb edges"></img>
+<img src="pcbs.png" width="500" alt="Kevinbot P2 Board pcb"></img>
