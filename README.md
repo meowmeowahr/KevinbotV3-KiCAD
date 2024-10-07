@@ -18,6 +18,8 @@ Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.
 
 Thanks to PCBWay for providing high-quality PCB prototypes.
 
+I would recommend them for any of your PCB needs. They offer fast turnaround and shipping.
+
 [Get a Quote Here](https://www.pcbway.com/orderonline.aspx)
 
 <img src="docs/pcb-edges.png" width=500></img>
