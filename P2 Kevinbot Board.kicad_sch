@@ -16710,7 +16710,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 245.11 161.29 0)
+		(at 245.11 163.83 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16718,7 +16719,7 @@
 		(dnp no)
 		(uuid "893a0755-3259-4ca0-afca-c43dfd5f5fe1")
 		(property "Reference" "J5"
-			(at 245.11 167.64 0)
+			(at 245.11 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16726,7 +16727,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 243.84 153.67 0)
+			(at 243.84 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,7 +16735,7 @@
 			)
 		)
 		(property "Footprint" "Phoenix_MSTBA:MSTBA-2,5-2-G-5,08"
-			(at 245.11 161.29 0)
+			(at 245.11 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16743,7 +16744,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1757242/pdf"
-			(at 245.11 161.29 0)
+			(at 245.11 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16752,7 +16753,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 245.11 161.29 0)
+			(at 245.11 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16761,7 +16762,7 @@
 			)
 		)
 		(property "Part Number" "1757242"
-			(at 245.11 161.29 0)
+			(at 245.11 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
