@@ -40338,7 +40338,7 @@
 	)
 	(gr_rect
 		(start 100.174 101.56)
-		(end 113.904 125.06)
+		(end 109.84 125.06)
 		(stroke
 			(width 1)
 			(type default)
@@ -40985,7 +40985,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "33v\nAbsolute\nMaximum"
+	(gr_text "33v\nMaximum"
 		(at 101.47864 113.31 270)
 		(layer "F.SilkS")
 		(uuid "83619a64-1fea-4781-aa5e-4677172ea01f")
