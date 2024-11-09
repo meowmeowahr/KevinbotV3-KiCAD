@@ -580,4 +580,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2badf08a-a583-4ecf-bdaa-2a8648ccb990")
 	)
+	(model "${KIPRJMOD}/P2Edge80p127_VERT_SMT_20927.step"
+		(offset
+			(xyz 0 0 8.5)
+		)
+		(scale
+			(xyz 1 1 0.8)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 )
