@@ -31,4 +31,4 @@ I would recommend them for any of your PCB needs. They offer fast turnaround and
 | ------------------------------------------------ | -------------------------------------------------------------------------------- | ---------------------------------------- |
 | MSTBA-2,5-2-G-5,08                               | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
 | 2-1734839-8.wrl (3D Model Only)                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| P2Edge80p127_VERT_SMT_20927.step (3D Model Only) | Michael [OBEX](https://obex.parallax.com/obex/parallax-p2-library-for-diptrace/) | Attribution-ShareAlike 4.0 International |
+| P2Edge80p127_VERT_SMT_20927.step (3D Model Only) | Michael [OBEX](https://obex.parallax.com/obex/parallax-p2-library-for-diptrace/) | MIT |
