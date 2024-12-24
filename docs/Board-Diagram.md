@@ -1,6 +1,6 @@
 # Board Diagram
 
-<img alt="PCB diagram with numbered elements" src="pcb_diagram_drawio.drawio.png" width="1400" height="960"/>
+<img alt="PCB diagram with numbered elements" src="/images/pcb_diagram_drawio.drawio.png" width="1400" height="960"/>
 
 ## 1. P2 Edge Socket
 
@@ -257,7 +257,9 @@ it will play a startup chime, and continuously beep is an error has occurred.
 
 ## 26. Error Buzzer Enabler
 
-<img src="jumper.png" style="inline" height="32" alt="icon of jumper"/>
+![jumper icon](/images/jumper.png#only-light)
+![jumper icon](/images/jumper_dark.png#only-dark)
+
 This jumper should be installed to enable the internal error buzzer.
 If the jumper is not installed, the external buzzer port will still be active.
 
