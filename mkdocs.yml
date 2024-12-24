@@ -13,9 +13,8 @@ theme:
     - navigation.instant.progress
     - navigation.footer
     - navigation.indexes
-  icon:
-    logo:
-      material/robot
+  logo: images/logo_dark.png
+  favicon: images/favicon.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -41,11 +40,13 @@ theme:
         name: Switch to system preference
 
 markdown_extensions:
+  - md_in_html
   - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.snippets
   - pymdownx.emoji
+  - pymdownx.blocks.caption
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.superfences:
