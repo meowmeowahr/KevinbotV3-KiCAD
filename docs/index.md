@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Welcome to the Kevinbot P2 Board Docs
 
 ## Get Started
