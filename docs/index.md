@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Welcome to the Kevinbot P2 Board Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Get Started
 
-## Commands
+[:fontawesome-solid-graduation-cap: Learn about the Kevinbot P2 Board](Learn-about-Kevinbot-P2-Board){ .md-button .md-button--primary }
+[:fontawesome-regular-image: Board Images](Board-Images){ .md-button .md-button--primary }
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[:fontawesome-solid-code: Software](Software){ .md-button }
 
-## Project layout
+## Additional Info
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[:fontawesome-solid-heart: Contributing](Contributing){ .md-button }
+[:fontawesome-solid-link: KiCAD](https://www.kicad.org/){ .md-button }
