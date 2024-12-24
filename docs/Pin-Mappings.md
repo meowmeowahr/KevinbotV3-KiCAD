@@ -24,8 +24,8 @@
 
 ## Expansion header maps
 
-<img alt="PCB view of Flat Flex Connector" src="/images/ffc.png" width="640"/>
-<img alt="3D view of Flat Flex Connector" src="/images/ffc2.png" width="640"/>
+![PCB view of Flat Flex Connector](images/ffc.png)
+![3D view of Flat Flex Connector](images/ffc2.png)
 
 From right (servo output) side:
 
@@ -49,7 +49,7 @@ From right (servo output) side:
 
 ## P2 Accessory header maps
 
-<img alt="PCB view of P2 Accessory Connectors" src="/images/p2acc.png"/>
-<img alt="3D view of P2 Accessory Connectors" src="/images/p2acc2.png"/>
+![PCB view of P2 Accessory Connectors](images/p2acc.png)
+![3D view of P2 Accessory Connectors](images/p2acc2.png)
 
 These ports are compatible with all the Parallax P2-EVAL accessories.
