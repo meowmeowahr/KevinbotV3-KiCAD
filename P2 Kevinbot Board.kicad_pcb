@@ -40385,16 +40385,89 @@
 		(layer "F.SilkS")
 		(uuid "cf999841-cbcf-4c3a-911b-8c67a6054e44")
 	)
-	(gr_rect
-		(start 65.9445 55.17)
-		(end 262.4535 150.58)
+	(gr_line
+		(start 262.4535 55.67)
+		(end 262.4535 150.08)
 		(stroke
 			(width 0.15)
-			(type solid)
+			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "6b879b44-0ec4-4b65-835d-3f0c79d0f379")
+		(uuid "11bc0acf-de00-40e9-9c04-7abc50a62051")
+	)
+	(gr_line
+		(start 65.9445 150.08)
+		(end 65.9445 55.67)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "166c37e2-cdef-4d8e-9f9a-19c6dd60f8a9")
+	)
+	(gr_arc
+		(start 65.9445 55.67)
+		(mid 66.090947 55.316447)
+		(end 66.4445 55.17)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1acdaca2-477a-41d9-8f92-343a56ad2595")
+	)
+	(gr_arc
+		(start 262.4535 150.08)
+		(mid 262.307053 150.433553)
+		(end 261.9535 150.58)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "46ed9901-ee4d-4cd0-a393-7e33533487d2")
+	)
+	(gr_line
+		(start 261.9535 150.58)
+		(end 66.4445 150.58)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86c36d28-d29f-4977-9aea-612dc9f50e5e")
+	)
+	(gr_arc
+		(start 261.9535 55.17)
+		(mid 262.307053 55.316447)
+		(end 262.4535 55.67)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8b6315a3-cee1-4239-be5a-7c54f10326c4")
+	)
+	(gr_arc
+		(start 66.4445 150.58)
+		(mid 66.090947 150.433553)
+		(end 65.9445 150.08)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b4688b12-d168-46fc-9068-b0688b0ea03d")
+	)
+	(gr_line
+		(start 66.4445 55.17)
+		(end 261.9535 55.17)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fa4e38c8-3155-4609-aa13-5625ca942402")
 	)
 	(gr_text "Kevinbot P2 Board"
 		(at 164.199 146.6475 0)
