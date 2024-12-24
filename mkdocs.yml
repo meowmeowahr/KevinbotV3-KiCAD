@@ -1,5 +1,6 @@
 site_name: Kevinbot P2 Board
 site_author: Kevin Ahr
+site_url: https://meowmeowahr.github.io/KevinbotV3-KiCAD/
 
 theme:
   name: "material"
