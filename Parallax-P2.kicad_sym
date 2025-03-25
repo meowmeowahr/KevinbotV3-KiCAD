@@ -1,798 +1,3477 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "P2_EDGE_MODULE_SOCKET" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U?" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Value" "P2_EDGE_MODULE_SOCKET" (at -16.51 -62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Footprint" "Card_Edge_TH_VERT_1.27mm_80p" (at -16.51 -59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MANUFACTURER" "Parallax : P2-EC" (at -16.51 -64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (symbol "P2_EDGE_MODULE_SOCKET_0_0"
-      (rectangle (start -17.78 55.88) (end 17.78 -55.88)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 15.24 53.975)
-          (xy 15.875 52.07)
-          (xy 16.51 53.975)
-          (xy 16.51 53.975)
-          (xy 15.24 53.975)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (text "Module Back" (at -16.1544 -52.4002 0)
-        (effects (font (size 1.2446 1.2446)) (justify left top))
-      )
-      (text "Module Front" (at 4.2672 -52.4002 0)
-        (effects (font (size 1.2446 1.2446)) (justify left top))
-      )
-      (text "P2 Edge Module" (at 0.4826 54.3814 0)
-        (effects (font (size 1.2446 1.2446)) (justify top))
-      )
-      (text "Socket for Parallax " (at 0.4826 56.896 0)
-        (effects (font (size 1.2446 1.2446)) (justify top))
-      )
-      (pin no_connect line (at 20.32 49.53 180) (length 2.54)
-        (name "NC@1" (effects (font (size 1.016 1.016))))
-        (number "1" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 26.67 180) (length 2.54)
-        (name "P30" (effects (font (size 1.016 1.016))))
-        (number "10" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 24.13 180) (length 2.54)
-        (name "P29" (effects (font (size 1.016 1.016))))
-        (number "11" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 21.59 180) (length 2.54)
-        (name "P28" (effects (font (size 1.016 1.016))))
-        (number "12" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 19.05 180) (length 2.54)
-        (name "P27" (effects (font (size 1.016 1.016))))
-        (number "13" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 16.51 180) (length 2.54)
-        (name "P26" (effects (font (size 1.016 1.016))))
-        (number "14" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 13.97 180) (length 2.54)
-        (name "P25" (effects (font (size 1.016 1.016))))
-        (number "15" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 11.43 180) (length 2.54)
-        (name "P24" (effects (font (size 1.016 1.016))))
-        (number "16" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 8.89 180) (length 2.54)
-        (name "P23" (effects (font (size 1.016 1.016))))
-        (number "17" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 6.35 180) (length 2.54)
-        (name "P22" (effects (font (size 1.016 1.016))))
-        (number "18" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 3.81 180) (length 2.54)
-        (name "P21" (effects (font (size 1.016 1.016))))
-        (number "19" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 20.32 46.99 180) (length 2.54)
-        (name "NC@2" (effects (font (size 1.016 1.016))))
-        (number "2" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 1.27 180) (length 2.54)
-        (name "P20" (effects (font (size 1.016 1.016))))
-        (number "20" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -1.27 180) (length 2.54)
-        (name "P19" (effects (font (size 1.016 1.016))))
-        (number "21" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -3.81 180) (length 2.54)
-        (name "P18" (effects (font (size 1.016 1.016))))
-        (number "22" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -6.35 180) (length 2.54)
-        (name "P17" (effects (font (size 1.016 1.016))))
-        (number "23" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -8.89 180) (length 2.54)
-        (name "P16" (effects (font (size 1.016 1.016))))
-        (number "24" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -11.43 180) (length 2.54)
-        (name "P15" (effects (font (size 1.016 1.016))))
-        (number "25" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -13.97 180) (length 2.54)
-        (name "P14" (effects (font (size 1.016 1.016))))
-        (number "26" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -16.51 180) (length 2.54)
-        (name "P13" (effects (font (size 1.016 1.016))))
-        (number "27" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -19.05 180) (length 2.54)
-        (name "P12" (effects (font (size 1.016 1.016))))
-        (number "28" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -21.59 180) (length 2.54)
-        (name "P11" (effects (font (size 1.016 1.016))))
-        (number "29" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 44.45 180) (length 2.54)
-        (name "P37" (effects (font (size 1.016 1.016))))
-        (number "3" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -24.13 180) (length 2.54)
-        (name "P10" (effects (font (size 1.016 1.016))))
-        (number "30" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -26.67 180) (length 2.54)
-        (name "P9" (effects (font (size 1.016 1.016))))
-        (number "31" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -29.21 180) (length 2.54)
-        (name "P8" (effects (font (size 1.016 1.016))))
-        (number "32" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -31.75 180) (length 2.54)
-        (name "P7" (effects (font (size 1.016 1.016))))
-        (number "33" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -34.29 180) (length 2.54)
-        (name "P6" (effects (font (size 1.016 1.016))))
-        (number "34" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -36.83 180) (length 2.54)
-        (name "P5" (effects (font (size 1.016 1.016))))
-        (number "35" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -39.37 180) (length 2.54)
-        (name "P4" (effects (font (size 1.016 1.016))))
-        (number "36" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -41.91 180) (length 2.54)
-        (name "P3" (effects (font (size 1.016 1.016))))
-        (number "37" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -44.45 180) (length 2.54)
-        (name "P2" (effects (font (size 1.016 1.016))))
-        (number "38" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -46.99 180) (length 2.54)
-        (name "P1" (effects (font (size 1.016 1.016))))
-        (number "39" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 41.91 180) (length 2.54)
-        (name "P36" (effects (font (size 1.016 1.016))))
-        (number "4" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 -49.53 180) (length 2.54)
-        (name "P0" (effects (font (size 1.016 1.016))))
-        (number "40" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at -20.32 -49.53 0) (length 2.54)
-        (name "5V@1" (effects (font (size 1.016 1.016))))
-        (number "41" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at -20.32 -46.99 0) (length 2.54)
-        (name "5V@2" (effects (font (size 1.016 1.016))))
-        (number "42" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at -20.32 -44.45 0) (length 2.54)
-        (name "GND@1" (effects (font (size 1.016 1.016))))
-        (number "43" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at -20.32 -41.91 0) (length 2.54)
-        (name "GND@2" (effects (font (size 1.016 1.016))))
-        (number "44" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at -20.32 -39.37 0) (length 2.54)
-        (name "GND@3" (effects (font (size 1.016 1.016))))
-        (number "45" (effects (font (size 1.016 1.016))))
-      )
-      (pin input line (at -20.32 -36.83 0) (length 2.54)
-        (name "RESn" (effects (font (size 1.016 1.016))))
-        (number "46" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at -20.32 -34.29 0) (length 2.54)
-        (name "V00" (effects (font (size 1.016 1.016))))
-        (number "47" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at -20.32 -31.75 0) (length 2.54)
-        (name "V08" (effects (font (size 1.016 1.016))))
-        (number "48" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -29.21 0) (length 2.54)
-        (name "P63/PRG_DBG_RXD" (effects (font (size 1.016 1.016))))
-        (number "49" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 39.37 180) (length 2.54)
-        (name "P35" (effects (font (size 1.016 1.016))))
-        (number "5" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -26.67 0) (length 2.54)
-        (name "P62/PRG_DBG_TXD" (effects (font (size 1.016 1.016))))
-        (number "50" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -24.13 0) (length 2.54)
-        (name "P61/FLASH_CS" (effects (font (size 1.016 1.016))))
-        (number "51" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -21.59 0) (length 2.54)
-        (name "P60/FLASH_CLK" (effects (font (size 1.016 1.016))))
-        (number "52" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -19.05 0) (length 2.54)
-        (name "P59/FLASH_MOSI" (effects (font (size 1.016 1.016))))
-        (number "53" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -16.51 0) (length 2.54)
-        (name "P58/FLASH_MISO" (effects (font (size 1.016 1.016))))
-        (number "54" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -13.97 0) (length 2.54)
-        (name "P57/LED" (effects (font (size 1.016 1.016))))
-        (number "55" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -11.43 0) (length 2.54)
-        (name "P56/LED" (effects (font (size 1.016 1.016))))
-        (number "56" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at -20.32 -8.89 0) (length 2.54)
-        (name "V56" (effects (font (size 1.016 1.016))))
-        (number "57" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at -20.32 -6.35 0) (length 2.54)
-        (name "V16" (effects (font (size 1.016 1.016))))
-        (number "58" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -3.81 0) (length 2.54)
-        (name "P55" (effects (font (size 1.016 1.016))))
-        (number "59" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 36.83 180) (length 2.54)
-        (name "P34" (effects (font (size 1.016 1.016))))
-        (number "6" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 -1.27 0) (length 2.54)
-        (name "P54" (effects (font (size 1.016 1.016))))
-        (number "60" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 1.27 0) (length 2.54)
-        (name "P53" (effects (font (size 1.016 1.016))))
-        (number "61" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 3.81 0) (length 2.54)
-        (name "P52" (effects (font (size 1.016 1.016))))
-        (number "62" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 6.35 0) (length 2.54)
-        (name "P51" (effects (font (size 1.016 1.016))))
-        (number "63" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 8.89 0) (length 2.54)
-        (name "P50" (effects (font (size 1.016 1.016))))
-        (number "64" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 11.43 0) (length 2.54)
-        (name "P49" (effects (font (size 1.016 1.016))))
-        (number "65" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 13.97 0) (length 2.54)
-        (name "P48" (effects (font (size 1.016 1.016))))
-        (number "66" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at -20.32 16.51 0) (length 2.54)
-        (name "V48" (effects (font (size 1.016 1.016))))
-        (number "67" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at -20.32 19.05 0) (length 2.54)
-        (name "V24" (effects (font (size 1.016 1.016))))
-        (number "68" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 21.59 0) (length 2.54)
-        (name "P47" (effects (font (size 1.016 1.016))))
-        (number "69" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 34.29 180) (length 2.54)
-        (name "P33" (effects (font (size 1.016 1.016))))
-        (number "7" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 24.13 0) (length 2.54)
-        (name "P46" (effects (font (size 1.016 1.016))))
-        (number "70" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 26.67 0) (length 2.54)
-        (name "P45" (effects (font (size 1.016 1.016))))
-        (number "71" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 29.21 0) (length 2.54)
-        (name "P44" (effects (font (size 1.016 1.016))))
-        (number "72" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 31.75 0) (length 2.54)
-        (name "P43" (effects (font (size 1.016 1.016))))
-        (number "73" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 34.29 0) (length 2.54)
-        (name "P42" (effects (font (size 1.016 1.016))))
-        (number "74" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 36.83 0) (length 2.54)
-        (name "P41" (effects (font (size 1.016 1.016))))
-        (number "75" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 39.37 0) (length 2.54)
-        (name "P40" (effects (font (size 1.016 1.016))))
-        (number "76" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at -20.32 41.91 0) (length 2.54)
-        (name "V40" (effects (font (size 1.016 1.016))))
-        (number "77" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at -20.32 44.45 0) (length 2.54)
-        (name "V32" (effects (font (size 1.016 1.016))))
-        (number "78" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 46.99 0) (length 2.54)
-        (name "P39" (effects (font (size 1.016 1.016))))
-        (number "79" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 31.75 180) (length 2.54)
-        (name "P32" (effects (font (size 1.016 1.016))))
-        (number "8" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -20.32 49.53 0) (length 2.54)
-        (name "P38" (effects (font (size 1.016 1.016))))
-        (number "80" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 20.32 29.21 180) (length 2.54)
-        (name "P31" (effects (font (size 1.016 1.016))))
-        (number "9" (effects (font (size 1.016 1.016))))
-      )
-    )
-  )
-  (symbol "PROPELLER_2" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U?" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Value" "PROPELLER_2" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Footprint" "Propeller_2" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "VALUE" "Propeller 2" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "ki_locked" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "PROPELLER_2_0_0"
-      (rectangle (start -49.9872 -49.9872) (end 49.9872 49.9872)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin no_connect line (at -52.5526 35.9918 0) (length 2.54)
-        (name "TEST" (effects (font (size 1.016 1.016))))
-        (number "1" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 8.9916 0) (length 2.54)
-        (name "P5" (effects (font (size 1.016 1.016))))
-        (number "10" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -35.9918 52.5526 270) (length 2.54)
-        (name "RESN" (effects (font (size 1.016 1.016))))
-        (number "100" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 5.9944 0) (length 2.54)
-        (name "VIO_4_7" (effects (font (size 1.016 1.016))))
-        (number "11" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 2.9972 0) (length 2.54)
-        (name "P6" (effects (font (size 1.016 1.016))))
-        (number "12" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 0 0) (length 2.54)
-        (name "P7" (effects (font (size 1.016 1.016))))
-        (number "13" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -2.9972 0) (length 2.54)
-        (name "VDD@3" (effects (font (size 1.016 1.016))))
-        (number "14" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -5.9944 0) (length 2.54)
-        (name "P8" (effects (font (size 1.016 1.016))))
-        (number "15" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -8.9916 0) (length 2.54)
-        (name "P9" (effects (font (size 1.016 1.016))))
-        (number "16" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -11.9888 0) (length 2.54)
-        (name "VIO_8_11" (effects (font (size 1.016 1.016))))
-        (number "17" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -15.0114 0) (length 2.54)
-        (name "P10" (effects (font (size 1.016 1.016))))
-        (number "18" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -18.0086 0) (length 2.54)
-        (name "P11" (effects (font (size 1.016 1.016))))
-        (number "19" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 32.9946 0) (length 2.54)
-        (name "VDD@1" (effects (font (size 1.016 1.016))))
-        (number "2" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -21.0058 0) (length 2.54)
-        (name "VDD@4" (effects (font (size 1.016 1.016))))
-        (number "20" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -24.003 0) (length 2.54)
-        (name "P12" (effects (font (size 1.016 1.016))))
-        (number "21" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -27.0002 0) (length 2.54)
-        (name "P13" (effects (font (size 1.016 1.016))))
-        (number "22" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -29.9974 0) (length 2.54)
-        (name "VIO_12_15" (effects (font (size 1.016 1.016))))
-        (number "23" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -32.9946 0) (length 2.54)
-        (name "P14" (effects (font (size 1.016 1.016))))
-        (number "24" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 -35.9918 0) (length 2.54)
-        (name "P15" (effects (font (size 1.016 1.016))))
-        (number "25" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -35.9918 -52.5526 90) (length 2.54)
-        (name "VDD@5" (effects (font (size 1.016 1.016))))
-        (number "26" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -32.9946 -52.5526 90) (length 2.54)
-        (name "P16" (effects (font (size 1.016 1.016))))
-        (number "27" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -29.9974 -52.5526 90) (length 2.54)
-        (name "P17" (effects (font (size 1.016 1.016))))
-        (number "28" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -27.0002 -52.5526 90) (length 2.54)
-        (name "VIO_16_19" (effects (font (size 1.016 1.016))))
-        (number "29" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 29.9974 0) (length 2.54)
-        (name "P0" (effects (font (size 1.016 1.016))))
-        (number "3" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -24.003 -52.5526 90) (length 2.54)
-        (name "P18" (effects (font (size 1.016 1.016))))
-        (number "30" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -21.0058 -52.5526 90) (length 2.54)
-        (name "P19" (effects (font (size 1.016 1.016))))
-        (number "31" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -18.0086 -52.5526 90) (length 2.54)
-        (name "VDD@6" (effects (font (size 1.016 1.016))))
-        (number "32" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -15.0114 -52.5526 90) (length 2.54)
-        (name "P20" (effects (font (size 1.016 1.016))))
-        (number "33" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -11.9888 -52.5526 90) (length 2.54)
-        (name "P21" (effects (font (size 1.016 1.016))))
-        (number "34" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -8.9916 -52.5526 90) (length 2.54)
-        (name "VIO_20_23" (effects (font (size 1.016 1.016))))
-        (number "35" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -5.9944 -52.5526 90) (length 2.54)
-        (name "P22" (effects (font (size 1.016 1.016))))
-        (number "36" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -2.9972 -52.5526 90) (length 2.54)
-        (name "P23" (effects (font (size 1.016 1.016))))
-        (number "37" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 0 -52.5526 90) (length 2.54)
-        (name "VDD@7" (effects (font (size 1.016 1.016))))
-        (number "38" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 2.9972 -52.5526 90) (length 2.54)
-        (name "P24" (effects (font (size 1.016 1.016))))
-        (number "39" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 27.0002 0) (length 2.54)
-        (name "P1" (effects (font (size 1.016 1.016))))
-        (number "4" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 5.9944 -52.5526 90) (length 2.54)
-        (name "P25" (effects (font (size 1.016 1.016))))
-        (number "40" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 8.9916 -52.5526 90) (length 2.54)
-        (name "VIO_24_27" (effects (font (size 1.016 1.016))))
-        (number "41" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 11.9888 -52.5526 90) (length 2.54)
-        (name "P26" (effects (font (size 1.016 1.016))))
-        (number "42" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 15.0114 -52.5526 90) (length 2.54)
-        (name "P27" (effects (font (size 1.016 1.016))))
-        (number "43" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 18.0086 -52.5526 90) (length 2.54)
-        (name "VDD@8" (effects (font (size 1.016 1.016))))
-        (number "44" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 21.0058 -52.5526 90) (length 2.54)
-        (name "P28" (effects (font (size 1.016 1.016))))
-        (number "45" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 24.003 -52.5526 90) (length 2.54)
-        (name "P29" (effects (font (size 1.016 1.016))))
-        (number "46" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 27.0002 -52.5526 90) (length 2.54)
-        (name "VIO_28_31" (effects (font (size 1.016 1.016))))
-        (number "47" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 29.9974 -52.5526 90) (length 2.54)
-        (name "P30" (effects (font (size 1.016 1.016))))
-        (number "48" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 32.9946 -52.5526 90) (length 2.54)
-        (name "P31" (effects (font (size 1.016 1.016))))
-        (number "49" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 24.003 0) (length 2.54)
-        (name "VIO_0_3" (effects (font (size 1.016 1.016))))
-        (number "5" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 35.9918 -52.5526 90) (length 2.54)
-        (name "XO" (effects (font (size 1.016 1.016))))
-        (number "50" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -35.9918 180) (length 2.54)
-        (name "XI" (effects (font (size 1.016 1.016))))
-        (number "51" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -32.9946 180) (length 2.54)
-        (name "VDD@9" (effects (font (size 1.016 1.016))))
-        (number "52" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -29.9974 180) (length 2.54)
-        (name "P32" (effects (font (size 1.016 1.016))))
-        (number "53" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -27.0002 180) (length 2.54)
-        (name "P33" (effects (font (size 1.016 1.016))))
-        (number "54" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -24.003 180) (length 2.54)
-        (name "VIO_32_35" (effects (font (size 1.016 1.016))))
-        (number "55" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -21.0058 180) (length 2.54)
-        (name "P34" (effects (font (size 1.016 1.016))))
-        (number "56" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -18.0086 180) (length 2.54)
-        (name "P35" (effects (font (size 1.016 1.016))))
-        (number "57" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -15.0114 180) (length 2.54)
-        (name "VDD@10" (effects (font (size 1.016 1.016))))
-        (number "58" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -11.9888 180) (length 2.54)
-        (name "P36" (effects (font (size 1.016 1.016))))
-        (number "59" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 21.0058 0) (length 2.54)
-        (name "P2" (effects (font (size 1.016 1.016))))
-        (number "6" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -8.9916 180) (length 2.54)
-        (name "P37" (effects (font (size 1.016 1.016))))
-        (number "60" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -5.9944 180) (length 2.54)
-        (name "VIO_36_39" (effects (font (size 1.016 1.016))))
-        (number "61" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 -2.9972 180) (length 2.54)
-        (name "P38" (effects (font (size 1.016 1.016))))
-        (number "62" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 0 180) (length 2.54)
-        (name "P39" (effects (font (size 1.016 1.016))))
-        (number "63" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 2.9972 180) (length 2.54)
-        (name "VDD@11" (effects (font (size 1.016 1.016))))
-        (number "64" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 5.9944 180) (length 2.54)
-        (name "P40" (effects (font (size 1.016 1.016))))
-        (number "65" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 8.9916 180) (length 2.54)
-        (name "P41" (effects (font (size 1.016 1.016))))
-        (number "66" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 11.9888 180) (length 2.54)
-        (name "VIO_40_43" (effects (font (size 1.016 1.016))))
-        (number "67" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 15.0114 180) (length 2.54)
-        (name "P42" (effects (font (size 1.016 1.016))))
-        (number "68" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 18.0086 180) (length 2.54)
-        (name "P43" (effects (font (size 1.016 1.016))))
-        (number "69" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 18.0086 0) (length 2.54)
-        (name "P3" (effects (font (size 1.016 1.016))))
-        (number "7" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 21.0058 180) (length 2.54)
-        (name "VDD@12" (effects (font (size 1.016 1.016))))
-        (number "70" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 24.003 180) (length 2.54)
-        (name "P44" (effects (font (size 1.016 1.016))))
-        (number "71" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 27.0002 180) (length 2.54)
-        (name "P45" (effects (font (size 1.016 1.016))))
-        (number "72" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 29.9974 180) (length 2.54)
-        (name "VIO_44_47" (effects (font (size 1.016 1.016))))
-        (number "73" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 32.9946 180) (length 2.54)
-        (name "P46" (effects (font (size 1.016 1.016))))
-        (number "74" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 52.5526 35.9918 180) (length 2.54)
-        (name "P47" (effects (font (size 1.016 1.016))))
-        (number "75" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 35.9918 52.5526 270) (length 2.54)
-        (name "VDD@13" (effects (font (size 1.016 1.016))))
-        (number "76" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 32.9946 52.5526 270) (length 2.54)
-        (name "P48" (effects (font (size 1.016 1.016))))
-        (number "77" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 29.9974 52.5526 270) (length 2.54)
-        (name "P49" (effects (font (size 1.016 1.016))))
-        (number "78" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 27.0002 52.5526 270) (length 2.54)
-        (name "VIO_48_51" (effects (font (size 1.016 1.016))))
-        (number "79" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 15.0114 0) (length 2.54)
-        (name "VDD@2" (effects (font (size 1.016 1.016))))
-        (number "8" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 24.003 52.5526 270) (length 2.54)
-        (name "P50" (effects (font (size 1.016 1.016))))
-        (number "80" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 21.0058 52.5526 270) (length 2.54)
-        (name "P51" (effects (font (size 1.016 1.016))))
-        (number "81" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 18.0086 52.5526 270) (length 2.54)
-        (name "VDD@14" (effects (font (size 1.016 1.016))))
-        (number "82" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 15.0114 52.5526 270) (length 2.54)
-        (name "P52" (effects (font (size 1.016 1.016))))
-        (number "83" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 11.9888 52.5526 270) (length 2.54)
-        (name "P53" (effects (font (size 1.016 1.016))))
-        (number "84" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 8.9916 52.5526 270) (length 2.54)
-        (name "VIO_52_55" (effects (font (size 1.016 1.016))))
-        (number "85" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 5.9944 52.5526 270) (length 2.54)
-        (name "P54" (effects (font (size 1.016 1.016))))
-        (number "86" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 2.9972 52.5526 270) (length 2.54)
-        (name "P55" (effects (font (size 1.016 1.016))))
-        (number "87" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at 0 52.5526 270) (length 2.54)
-        (name "VDD@15" (effects (font (size 1.016 1.016))))
-        (number "88" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -2.9972 52.5526 270) (length 2.54)
-        (name "P56" (effects (font (size 1.016 1.016))))
-        (number "89" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -52.5526 11.9888 0) (length 2.54)
-        (name "P4" (effects (font (size 1.016 1.016))))
-        (number "9" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -5.9944 52.5526 270) (length 2.54)
-        (name "P57" (effects (font (size 1.016 1.016))))
-        (number "90" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -8.9916 52.5526 270) (length 2.54)
-        (name "VIO_56_59" (effects (font (size 1.016 1.016))))
-        (number "91" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -11.9888 52.5526 270) (length 2.54)
-        (name "P58" (effects (font (size 1.016 1.016))))
-        (number "92" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -15.0114 52.5526 270) (length 2.54)
-        (name "P59" (effects (font (size 1.016 1.016))))
-        (number "93" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -18.0086 52.5526 270) (length 2.54)
-        (name "VDD@16" (effects (font (size 1.016 1.016))))
-        (number "94" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -21.0058 52.5526 270) (length 2.54)
-        (name "P60" (effects (font (size 1.016 1.016))))
-        (number "95" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -24.003 52.5526 270) (length 2.54)
-        (name "P61" (effects (font (size 1.016 1.016))))
-        (number "96" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -27.0002 52.5526 270) (length 2.54)
-        (name "VIO_60_63" (effects (font (size 1.016 1.016))))
-        (number "97" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -29.9974 52.5526 270) (length 2.54)
-        (name "P62" (effects (font (size 1.016 1.016))))
-        (number "98" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -32.9946 52.5526 270) (length 2.54)
-        (name "P63" (effects (font (size 1.016 1.016))))
-        (number "99" (effects (font (size 1.016 1.016))))
-      )
-      (pin no_connect line (at -43.9928 -52.5526 90) (length 2.54)
-        (name "GND" (effects (font (size 1.016 1.016))))
-        (number "EP" (effects (font (size 1.016 1.016))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "P2_EDGE_MODULE_SOCKET"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U?"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "P2_EDGE_MODULE_SOCKET"
+			(at -16.51 -62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Card_Edge_TH_VERT_1.27mm_80p"
+			(at -16.51 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Parallax : P2-EC"
+			(at -16.51 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(symbol "P2_EDGE_MODULE_SOCKET_0_0"
+			(rectangle
+				(start -17.78 55.88)
+				(end 17.78 -55.88)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 53.975) (xy 15.875 52.07) (xy 16.51 53.975) (xy 16.51 53.975) (xy 15.24 53.975)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "Module Back"
+				(at -16.1544 -52.4002 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify left top)
+				)
+			)
+			(text "Socket for Parallax "
+				(at 0.4826 56.896 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify top)
+				)
+			)
+			(text "P2 Edge Module"
+				(at 0.4826 54.3814 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify top)
+				)
+			)
+			(text "Module Front"
+				(at 4.2672 -52.4002 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify left top)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 49.53 0)
+				(length 2.54)
+				(name "P38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 46.99 0)
+				(length 2.54)
+				(name "P39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20.32 44.45 0)
+				(length 2.54)
+				(name "V32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20.32 41.91 0)
+				(length 2.54)
+				(name "V40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 39.37 0)
+				(length 2.54)
+				(name "P40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 36.83 0)
+				(length 2.54)
+				(name "P41"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 34.29 0)
+				(length 2.54)
+				(name "P42"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 31.75 0)
+				(length 2.54)
+				(name "P43"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 29.21 0)
+				(length 2.54)
+				(name "P44"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 26.67 0)
+				(length 2.54)
+				(name "P45"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 24.13 0)
+				(length 2.54)
+				(name "P46"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 21.59 0)
+				(length 2.54)
+				(name "P47"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20.32 19.05 0)
+				(length 2.54)
+				(name "V24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20.32 16.51 0)
+				(length 2.54)
+				(name "V48"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 13.97 0)
+				(length 2.54)
+				(name "P48"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 11.43 0)
+				(length 2.54)
+				(name "P49"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 8.89 0)
+				(length 2.54)
+				(name "P50"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 6.35 0)
+				(length 2.54)
+				(name "P51"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 3.81 0)
+				(length 2.54)
+				(name "P52"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 1.27 0)
+				(length 2.54)
+				(name "P53"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -1.27 0)
+				(length 2.54)
+				(name "P54"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -3.81 0)
+				(length 2.54)
+				(name "P55"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20.32 -6.35 0)
+				(length 2.54)
+				(name "V16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20.32 -8.89 0)
+				(length 2.54)
+				(name "V56"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -11.43 0)
+				(length 2.54)
+				(name "P56/LED"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -13.97 0)
+				(length 2.54)
+				(name "P57/LED"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -16.51 0)
+				(length 2.54)
+				(name "P58/FLASH_MISO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -19.05 0)
+				(length 2.54)
+				(name "P59/FLASH_MOSI"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -21.59 0)
+				(length 2.54)
+				(name "P60/FLASH_CLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -24.13 0)
+				(length 2.54)
+				(name "P61/FLASH_CS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -26.67 0)
+				(length 2.54)
+				(name "P62/PRG_DBG_TXD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -29.21 0)
+				(length 2.54)
+				(name "P63/PRG_DBG_RXD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20.32 -31.75 0)
+				(length 2.54)
+				(name "V08"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -20.32 -34.29 0)
+				(length 2.54)
+				(name "V00"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -36.83 0)
+				(length 2.54)
+				(name "RESn"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -39.37 0)
+				(length 2.54)
+				(name "GND@3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -41.91 0)
+				(length 2.54)
+				(name "GND@2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -44.45 0)
+				(length 2.54)
+				(name "GND@1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -46.99 0)
+				(length 2.54)
+				(name "5V@2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -49.53 0)
+				(length 2.54)
+				(name "5V@1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 20.32 49.53 180)
+				(length 2.54)
+				(name "NC@1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 20.32 46.99 180)
+				(length 2.54)
+				(name "NC@2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 44.45 180)
+				(length 2.54)
+				(name "P37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 41.91 180)
+				(length 2.54)
+				(name "P36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 39.37 180)
+				(length 2.54)
+				(name "P35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 36.83 180)
+				(length 2.54)
+				(name "P34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 34.29 180)
+				(length 2.54)
+				(name "P33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 31.75 180)
+				(length 2.54)
+				(name "P32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 29.21 180)
+				(length 2.54)
+				(name "P31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 26.67 180)
+				(length 2.54)
+				(name "P30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 24.13 180)
+				(length 2.54)
+				(name "P29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 21.59 180)
+				(length 2.54)
+				(name "P28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 19.05 180)
+				(length 2.54)
+				(name "P27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 16.51 180)
+				(length 2.54)
+				(name "P26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 13.97 180)
+				(length 2.54)
+				(name "P25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 11.43 180)
+				(length 2.54)
+				(name "P24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 8.89 180)
+				(length 2.54)
+				(name "P23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 6.35 180)
+				(length 2.54)
+				(name "P22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 3.81 180)
+				(length 2.54)
+				(name "P21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 1.27 180)
+				(length 2.54)
+				(name "P20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -1.27 180)
+				(length 2.54)
+				(name "P19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -3.81 180)
+				(length 2.54)
+				(name "P18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -6.35 180)
+				(length 2.54)
+				(name "P17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -8.89 180)
+				(length 2.54)
+				(name "P16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -11.43 180)
+				(length 2.54)
+				(name "P15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -13.97 180)
+				(length 2.54)
+				(name "P14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -16.51 180)
+				(length 2.54)
+				(name "P13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -19.05 180)
+				(length 2.54)
+				(name "P12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -21.59 180)
+				(length 2.54)
+				(name "P11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -24.13 180)
+				(length 2.54)
+				(name "P10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -26.67 180)
+				(length 2.54)
+				(name "P9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -29.21 180)
+				(length 2.54)
+				(name "P8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -31.75 180)
+				(length 2.54)
+				(name "P7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -34.29 180)
+				(length 2.54)
+				(name "P6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -36.83 180)
+				(length 2.54)
+				(name "P5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -39.37 180)
+				(length 2.54)
+				(name "P4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -41.91 180)
+				(length 2.54)
+				(name "P3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -44.45 180)
+				(length 2.54)
+				(name "P2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -46.99 180)
+				(length 2.54)
+				(name "P1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -49.53 180)
+				(length 2.54)
+				(name "P0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PROPELLER_2"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U?"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "Propeller 2"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Propeller_2"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PROPELLER_2_0_0"
+			(rectangle
+				(start -49.9872 -49.9872)
+				(end 49.9872 49.9872)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 35.9918 0)
+				(length 2.54)
+				(name "TEST"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 32.9946 0)
+				(length 2.54)
+				(name "VDD@1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 29.9974 0)
+				(length 2.54)
+				(name "P0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 27.0002 0)
+				(length 2.54)
+				(name "P1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 24.003 0)
+				(length 2.54)
+				(name "VIO_0_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 21.0058 0)
+				(length 2.54)
+				(name "P2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 18.0086 0)
+				(length 2.54)
+				(name "P3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 15.0114 0)
+				(length 2.54)
+				(name "VDD@2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 11.9888 0)
+				(length 2.54)
+				(name "P4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 8.9916 0)
+				(length 2.54)
+				(name "P5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 5.9944 0)
+				(length 2.54)
+				(name "VIO_4_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 2.9972 0)
+				(length 2.54)
+				(name "P6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 0 0)
+				(length 2.54)
+				(name "P7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -2.9972 0)
+				(length 2.54)
+				(name "VDD@3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -5.9944 0)
+				(length 2.54)
+				(name "P8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -8.9916 0)
+				(length 2.54)
+				(name "P9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -11.9888 0)
+				(length 2.54)
+				(name "VIO_8_11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -15.0114 0)
+				(length 2.54)
+				(name "P10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -18.0086 0)
+				(length 2.54)
+				(name "P11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -21.0058 0)
+				(length 2.54)
+				(name "VDD@4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -24.003 0)
+				(length 2.54)
+				(name "P12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -27.0002 0)
+				(length 2.54)
+				(name "P13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -29.9974 0)
+				(length 2.54)
+				(name "VIO_12_15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -32.9946 0)
+				(length 2.54)
+				(name "P14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -52.5526 -35.9918 0)
+				(length 2.54)
+				(name "P15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -43.9928 -52.5526 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "EP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -35.9918 52.5526 270)
+				(length 2.54)
+				(name "RESN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "100"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -35.9918 -52.5526 90)
+				(length 2.54)
+				(name "VDD@5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -32.9946 52.5526 270)
+				(length 2.54)
+				(name "P63"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "99"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -32.9946 -52.5526 90)
+				(length 2.54)
+				(name "P16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -29.9974 52.5526 270)
+				(length 2.54)
+				(name "P62"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "98"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -29.9974 -52.5526 90)
+				(length 2.54)
+				(name "P17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -27.0002 52.5526 270)
+				(length 2.54)
+				(name "VIO_60_63"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "97"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -27.0002 -52.5526 90)
+				(length 2.54)
+				(name "VIO_16_19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -24.003 52.5526 270)
+				(length 2.54)
+				(name "P61"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "96"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -24.003 -52.5526 90)
+				(length 2.54)
+				(name "P18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -21.0058 52.5526 270)
+				(length 2.54)
+				(name "P60"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "95"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -21.0058 -52.5526 90)
+				(length 2.54)
+				(name "P19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -18.0086 52.5526 270)
+				(length 2.54)
+				(name "VDD@16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "94"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -18.0086 -52.5526 90)
+				(length 2.54)
+				(name "VDD@6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -15.0114 52.5526 270)
+				(length 2.54)
+				(name "P59"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "93"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -15.0114 -52.5526 90)
+				(length 2.54)
+				(name "P20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -11.9888 52.5526 270)
+				(length 2.54)
+				(name "P58"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "92"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -11.9888 -52.5526 90)
+				(length 2.54)
+				(name "P21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -8.9916 52.5526 270)
+				(length 2.54)
+				(name "VIO_56_59"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "91"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -8.9916 -52.5526 90)
+				(length 2.54)
+				(name "VIO_20_23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -5.9944 52.5526 270)
+				(length 2.54)
+				(name "P57"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -5.9944 -52.5526 90)
+				(length 2.54)
+				(name "P22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -2.9972 52.5526 270)
+				(length 2.54)
+				(name "P56"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "89"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -2.9972 -52.5526 90)
+				(length 2.54)
+				(name "P23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 52.5526 270)
+				(length 2.54)
+				(name "VDD@15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -52.5526 90)
+				(length 2.54)
+				(name "VDD@7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.9972 52.5526 270)
+				(length 2.54)
+				(name "P55"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "87"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.9972 -52.5526 90)
+				(length 2.54)
+				(name "P24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 5.9944 52.5526 270)
+				(length 2.54)
+				(name "P54"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 5.9944 -52.5526 90)
+				(length 2.54)
+				(name "P25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 8.9916 52.5526 270)
+				(length 2.54)
+				(name "VIO_52_55"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 8.9916 -52.5526 90)
+				(length 2.54)
+				(name "VIO_24_27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.9888 52.5526 270)
+				(length 2.54)
+				(name "P53"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "84"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.9888 -52.5526 90)
+				(length 2.54)
+				(name "P26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.0114 52.5526 270)
+				(length 2.54)
+				(name "P52"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.0114 -52.5526 90)
+				(length 2.54)
+				(name "P27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 18.0086 52.5526 270)
+				(length 2.54)
+				(name "VDD@14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 18.0086 -52.5526 90)
+				(length 2.54)
+				(name "VDD@8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.0058 52.5526 270)
+				(length 2.54)
+				(name "P51"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.0058 -52.5526 90)
+				(length 2.54)
+				(name "P28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 24.003 52.5526 270)
+				(length 2.54)
+				(name "P50"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 24.003 -52.5526 90)
+				(length 2.54)
+				(name "P29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.0002 52.5526 270)
+				(length 2.54)
+				(name "VIO_48_51"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.0002 -52.5526 90)
+				(length 2.54)
+				(name "VIO_28_31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 29.9974 52.5526 270)
+				(length 2.54)
+				(name "P49"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 29.9974 -52.5526 90)
+				(length 2.54)
+				(name "P30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 32.9946 52.5526 270)
+				(length 2.54)
+				(name "P48"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 32.9946 -52.5526 90)
+				(length 2.54)
+				(name "P31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 35.9918 52.5526 270)
+				(length 2.54)
+				(name "VDD@13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 35.9918 -52.5526 90)
+				(length 2.54)
+				(name "XO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 35.9918 180)
+				(length 2.54)
+				(name "P47"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 32.9946 180)
+				(length 2.54)
+				(name "P46"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 29.9974 180)
+				(length 2.54)
+				(name "VIO_44_47"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 27.0002 180)
+				(length 2.54)
+				(name "P45"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 24.003 180)
+				(length 2.54)
+				(name "P44"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 21.0058 180)
+				(length 2.54)
+				(name "VDD@12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 18.0086 180)
+				(length 2.54)
+				(name "P43"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 15.0114 180)
+				(length 2.54)
+				(name "P42"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 11.9888 180)
+				(length 2.54)
+				(name "VIO_40_43"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 8.9916 180)
+				(length 2.54)
+				(name "P41"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 5.9944 180)
+				(length 2.54)
+				(name "P40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 2.9972 180)
+				(length 2.54)
+				(name "VDD@11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 0 180)
+				(length 2.54)
+				(name "P39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -2.9972 180)
+				(length 2.54)
+				(name "P38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -5.9944 180)
+				(length 2.54)
+				(name "VIO_36_39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -8.9916 180)
+				(length 2.54)
+				(name "P37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -11.9888 180)
+				(length 2.54)
+				(name "P36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -15.0114 180)
+				(length 2.54)
+				(name "VDD@10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -18.0086 180)
+				(length 2.54)
+				(name "P35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -21.0058 180)
+				(length 2.54)
+				(name "P34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -24.003 180)
+				(length 2.54)
+				(name "VIO_32_35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -27.0002 180)
+				(length 2.54)
+				(name "P33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -29.9974 180)
+				(length 2.54)
+				(name "P32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -32.9946 180)
+				(length 2.54)
+				(name "VDD@9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 52.5526 -35.9918 180)
+				(length 2.54)
+				(name "XI"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
