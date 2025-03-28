@@ -49,11 +49,20 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|93774029|64430000|dfef1062-f845-476c-ab6e-76c5123c1b14|248aa1a0-35e2-40fc-bae4-a4df14e3acdf|F.Cu",
+          "Fine because of low current and connection through nearby shielding pin"
+        ],
+        [
+          "starved_thermal|93774029|64430000|dfef1062-f845-476c-ab6e-76c5123c1b14|d50c233e-f8f3-4743-871c-ba3e6decd5df|F.Cu",
+          "Fine because of low current and connection through nearby shielding pin"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -617,6 +626,10 @@
     [
       "362ca48c-0b77-4943-b8b3-fc15ab97f30d",
       "Root"
+    ],
+    [
+      "c6f481d2-83f6-488c-bb50-b2feb7a98ad7",
+      "Programmer"
     ]
   ],
   "text_variables": {}

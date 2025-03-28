@@ -9,6 +9,210 @@
 		(rev "A")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2239,6 +2443,106 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 246.38 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "342c0672-1578-40ac-80ca-a05b5cb15250")
+	)
+	(junction
+		(at 171.45 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944689b6-54a7-4589-a110-ed0a651a53bd")
+	)
+	(no_connect
+		(at 173.99 158.75)
+		(uuid "876057cc-8c2f-4b73-9265-65ba787d980d")
+	)
+	(no_connect
+		(at 248.92 158.75)
+		(uuid "b084613c-1df3-489f-a1af-f829e7df9fee")
+	)
+	(wire
+		(pts
+			(xy 171.45 147.32) (xy 171.45 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16358951-fa40-4b75-8ae4-6b100681f3ce")
+	)
+	(wire
+		(pts
+			(xy 246.38 147.32) (xy 246.38 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca5de51-811b-47e9-9987-c4a045ee5d89")
+	)
+	(wire
+		(pts
+			(xy 171.45 130.81) (xy 171.45 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245b7320-e087-48c6-9647-b0675ede3e22")
+	)
+	(wire
+		(pts
+			(xy 246.38 147.32) (xy 246.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36de4846-ae6e-4ad8-ac17-8fc539f2f395")
+	)
+	(wire
+		(pts
+			(xy 284.48 147.32) (xy 284.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab8f5ec-0a7f-4502-9dcb-a32a9335e6b1")
+	)
+	(wire
+		(pts
+			(xy 209.55 147.32) (xy 209.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4669a5-7f7b-4d01-98b5-196606642eb5")
+	)
+	(wire
+		(pts
+			(xy 171.45 147.32) (xy 209.55 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d51be1-c071-40be-beb0-4d5c636b29f7")
+	)
+	(wire
+		(pts
+			(xy 246.38 147.32) (xy 284.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8277f5-dadf-4656-8d02-c03000f33812")
 	)
 	(global_label "P2_P31"
 		(shape input)
@@ -4639,73 +4943,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 246.38 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b13e022-8915-447e-842d-df9a71f42864")
-		(property "Reference" "#PWR045"
-			(at 250.19 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 242.57 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcfa7ac0-1399-4128-9f8b-df9b398693dd")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 149.86 270)
 		(unit 1)
@@ -4834,73 +5071,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 209.55 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3598ecad-4cf2-4957-8d29-2c02d29efaa5")
-		(property "Reference" "#PWR040"
-			(at 213.36 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 205.74 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 209.55 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e37365f5-d05e-4856-85be-1d91785f16b1")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5102,6 +5272,77 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 246.38 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55e35c72-8bbb-4c5b-8d23-9d2b5f289cb4")
+		(property "Reference" "J2"
+			(at 246.38 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 246.38 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 246.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 246.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cebd1c7b-cfc2-4798-a529-24019e596f93")
+		)
+		(pin "2"
+			(uuid "391c87d4-25b2-405c-aa34-50e266e083ee")
+		)
+		(pin "3"
+			(uuid "270c8bb9-c845-41af-bb18-2f1d9761621a")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6042,73 +6283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 284.48 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0835ba0-0905-4849-9206-5df0f064e1d8")
-		(property "Reference" "#PWR055"
-			(at 288.29 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 280.67 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 284.48 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9a9681a-f609-480e-bb40-1064cb859e44")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
 		(at 176.53 123.19 0)
 		(unit 1)
@@ -6216,8 +6390,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 171.45 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce575790-3c70-4cbd-bc0f-5c5edd00087e")
+		(property "Reference" "J1"
+			(at 171.45 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 171.45 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 171.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 171.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "514eff95-a86b-46e2-ab8f-007e94e47c9f")
+		)
+		(pin "2"
+			(uuid "fc3a94f1-5004-4705-b626-f0210d8f8ca3")
+		)
+		(pin "3"
+			(uuid "8e880a4e-0754-463b-9c8b-067bd0b25901")
+		)
+		(instances
+			(project ""
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 171.45 130.81 90)
+		(at 168.91 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6226,7 +6471,7 @@
 		(fields_autoplaced yes)
 		(uuid "de6bdac1-84fd-44b0-a643-dd710149e2aa")
 		(property "Reference" "#PWR031"
-			(at 175.26 130.81 0)
+			(at 168.91 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,16 +6480,15 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 167.64 130.8099 90)
+			(at 168.91 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 130.81 0)
+			(at 168.91 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 130.81 0)
+			(at 168.91 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 130.81 0)
+			(at 168.91 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,6 +6702,72 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 243.84 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee602b10-8acd-4ee9-8e59-9e5cd9e3fa73")
+		(property "Reference" "#PWR032"
+			(at 243.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 243.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 243.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbf8916e-5ce3-4fc4-b284-3b29511969ef")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 49.53 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6519,6 +6829,48 @@
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR025")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 171.45)
+		(size 36.83 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6f481d2-83f6-488c-bb50-b2feb7a98ad7")
+		(property "Sheetname" "Programmer"
+			(at 185.42 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "prog.kicad_sch"
+			(at 185.42 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(page "2")
 				)
 			)
 		)
