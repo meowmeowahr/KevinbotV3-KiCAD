@@ -2466,6 +2466,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 147.32) (xy 49.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093e5e72-3ef9-44bf-b262-2770e04ebf79")
+	)
+	(wire
+		(pts
 			(xy 171.45 147.32) (xy 171.45 158.75)
 		)
 		(stroke
@@ -2506,6 +2516,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 88.9) (xy 163.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2fc1ac-a9eb-4dad-8fc2-f2416379a14e")
+	)
+	(wire
+		(pts
 			(xy 284.48 147.32) (xy 284.48 130.81)
 		)
 		(stroke
@@ -2543,6 +2563,26 @@
 			(type default)
 		)
 		(uuid "ea8277f5-dadf-4656-8d02-c03000f33812")
+	)
+	(label "P2_RESn"
+		(at 162.56 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45ecc90d-1b8f-4674-ba71-9fa09da6e81f")
+	)
+	(label "P2_RESn"
+		(at 39.37 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1a3dbcc-1f40-48e7-9373-db65ed9b10d4")
 	)
 	(global_label "P2_P31"
 		(shape input)
@@ -3622,28 +3662,6 @@
 			)
 		)
 	)
-	(global_label "P2_RESn"
-		(shape input)
-		(at 49.53 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6cb7d86a-e0bf-4cb7-bf30-1398b7d04461")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.8921 147.2406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P2_P16"
 		(shape input)
 		(at 90.17 119.38 0)
@@ -3860,6 +3878,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P62_TXD"
+		(shape input)
+		(at 163.83 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7eb3f0c7-eb58-4e46-9b5e-7880a161e1ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.8659 91.5194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P63_RXD"
+		(shape input)
+		(at 163.83 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ee948da-bd08-4f7b-84f4-01ad5a81deae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.5636 94.0594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6834,8 +6896,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 171.45)
-		(size 36.83 16.51)
+		(at 163.83 83.82)
+		(size 20.32 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6850,7 +6912,7 @@
 		)
 		(uuid "c6f481d2-83f6-488c-bb50-b2feb7a98ad7")
 		(property "Sheetname" "Programmer"
-			(at 185.42 170.7384 0)
+			(at 163.83 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,12 +6921,42 @@
 			)
 		)
 		(property "Sheetfile" "prog.kicad_sch"
-			(at 185.42 188.5446 0)
+			(at 163.83 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RESn" input
+			(at 163.83 88.9 180)
+			(uuid "344308c0-f62f-4bd3-baf2-88d156e882c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" input
+			(at 163.83 91.44 180)
+			(uuid "f49a156e-17b8-40e9-aaec-d2e2d78b3729")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" input
+			(at 163.83 93.98 180)
+			(uuid "e40d3147-6cf2-4faa-b4f2-06a1bffef0bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

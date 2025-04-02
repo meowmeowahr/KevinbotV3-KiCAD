@@ -55,12 +55,28 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
+          "hole_clearance|93349029|64580000|075b3116-6a8b-4b76-87bf-382a16eaed67|248aa1a0-35e2-40fc-bae4-a4df14e3acdf",
+          ""
+        ],
+        [
+          "hole_clearance|93349029|64580000|075b3116-6a8b-4b76-87bf-382a16eaed67|d50c233e-f8f3-4743-871c-ba3e6decd5df",
+          ""
+        ],
+        [
+          "hole_clearance|93349029|70680000|fcc6aa1a-6f37-4e2d-928c-1fef27f00a27|3097a276-5d86-475d-bab2-7ba9eb3b44f7",
+          ""
+        ],
+        [
+          "hole_clearance|93349029|70680000|fcc6aa1a-6f37-4e2d-928c-1fef27f00a27|6f35f2c1-cd40-4d09-ac07-35a14d67bc0c",
+          ""
+        ],
+        [
           "starved_thermal|93774029|64430000|dfef1062-f845-476c-ab6e-76c5123c1b14|248aa1a0-35e2-40fc-bae4-a4df14e3acdf|F.Cu",
-          "Fine because of low current and connection through nearby shielding pin"
+          ""
         ],
         [
           "starved_thermal|93774029|64430000|dfef1062-f845-476c-ab6e-76c5123c1b14|d50c233e-f8f3-4743-871c-ba3e6decd5df|F.Cu",
-          "Fine because of low current and connection through nearby shielding pin"
+          ""
         ]
       ],
       "meta": {
