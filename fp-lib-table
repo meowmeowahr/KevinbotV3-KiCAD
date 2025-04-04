@@ -1,9 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "Parallax-P2")(type "KiCad")(uri "${KIPRJMOD}/Parallax-P2.pretty")(options "")(descr ""))
-  (lib (name "MoreSymbols")(type "KiCad")(uri "${KIPRJMOD}/MoreSymbols.pretty")(options "")(descr ""))
-  (lib (name "Keystone")(type "KiCad")(uri "${KIPRJMOD}/Keystone.pretty")(options "")(descr ""))
-  (lib (name "MoreHeaders")(type "KiCad")(uri "${KIPRJMOD}/MoreHeaders.pretty")(options "")(descr ""))
-  (lib (name "Phoenix_MSTBA")(type "KiCad")(uri "${KIPRJMOD}/Phoenix_MSTBA.pretty")(options "")(descr ""))
   (lib (name "OSHWA")(type "KiCad")(uri "${KIPRJMOD}/OSHWA.pretty")(options "")(descr ""))
+  (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/Logos.pretty")(options "")(descr ""))
 )
