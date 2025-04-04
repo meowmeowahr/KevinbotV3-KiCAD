@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Parallax-P2")(type "KiCad")(uri "${KIPRJMOD}/Parallax-P2.pretty")(options "")(descr ""))
   (lib (name "OSHWA")(type "KiCad")(uri "${KIPRJMOD}/OSHWA.pretty")(options "")(descr ""))
+  (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/Logos.pretty")(options "")(descr ""))
 )

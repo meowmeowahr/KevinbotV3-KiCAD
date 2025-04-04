@@ -651,6 +651,10 @@
     [
       "441e8b1c-2de5-43eb-9608-83e9eae90220",
       "Buzzer Out"
+    ],
+    [
+      "dc80c949-d80f-4718-ab95-fe20978a3da2",
+      "LED"
     ]
   ],
   "text_variables": {}
