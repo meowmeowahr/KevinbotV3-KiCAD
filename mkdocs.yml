@@ -61,6 +61,11 @@ markdown_extensions:
 
 plugins:
   - search
+  - mike
+
+extra:
+  version:
+    provider: mike
 
 nav:
   - index.md
