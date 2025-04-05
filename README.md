@@ -6,11 +6,6 @@ The KiCAD sources for the Kevinbot P2 Board
 |![OSHW Facts](readme/oshw_facts.svg)|<img src="certification-mark-US002675-stacked.png" width=200></img>
 
 
-| | |
-|-|-|
-|![OSHW Facts](docs/oshw_facts.svg)|<img src="certification-mark-US002675-stacked.png" width=200></img>
-
-
 ![Board](P2%20Kevinbot%20Board.png)
 
 ## Licenses
