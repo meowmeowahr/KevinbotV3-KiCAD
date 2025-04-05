@@ -69,12 +69,12 @@ extra:
 
 nav:
   - index.md
-  - Learn-about-Kevinbot-P2-Board.md
-  - Board-Diagram.md
-  - Pin-Mappings.md
-  - Software.md
-  - Board-Images.md
-  - Contributing.md
-  - Code-of-Conduct.md
+  - learn.md
+  - diagram.md
+  - map.md
+  - software.md
+  - gallery.md
+  - contributing.md
+  - coc.md
 
 repo_url: https://github.com/meowmeowahr/KevinbotV3-KiCAD

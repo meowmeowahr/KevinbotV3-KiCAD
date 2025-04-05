@@ -17,5 +17,4 @@ You can use the One-Wire scanner tool on the [Kevinbot v3 GitHub Repo](https://g
 <br/>
 The driver can be found [here](https://github.com/meowmeowahr/KevinbotV3-HW-Core/blob/v3-redesign/ka_pca9685.spin2)
 
-This is the driver for controlling the [servo banks](Board-Diagram.md#22-first-servo-bank).
-You will need to initialize two instances of the driver to use both banks.
+This will work for the built in 16x servo controller, and any additional servo expansions
