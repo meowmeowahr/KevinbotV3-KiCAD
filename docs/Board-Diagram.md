@@ -166,7 +166,7 @@ Max Output Current: 1.3A
 
 This port is intended
 to be used as a serial communication link between the P2 Board and a main processor like a Raspberry Pi,
-or another Kevinbot P2 Board.
+or another Kevinbot Core.
 While using this port is entirely optional, it may be required for more complex applications.
 
 <tip>
@@ -217,7 +217,7 @@ Header for programming the P2. Designed for use with a [Parallax Prop Plug](http
 <warning>
 <b>Important! Read this!</b>
 
-Every Kevinbot P2 Board will have a different serial number identifier for the thermometer.
+Every Kevinbot Core will have a different serial number identifier for the thermometer.
 It is required to know the serial number if you have any devices connected to the [One-Wire ports](#11-one-wire-ports)
 </warning>
 

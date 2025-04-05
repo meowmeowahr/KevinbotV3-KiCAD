@@ -1,6 +1,6 @@
-# Learn about Kevinbot P2 Board
+# Learn about Kevinbot Core
 
-The Kevinbot P2 Board is a [Parallax Propeller 2 Edge](https://www.parallax.com/product/p2-edge-module/) Breakout 
+The Kevinbot Core is a [Parallax Propeller 2 Edge](https://www.parallax.com/product/p2-edge-module/) Breakout 
 Board catered for robotics use.
 Originally designed only for use in Kevinbot v3, the board can be used for any P2-based robotics project.
 
@@ -37,4 +37,4 @@ I would recommend them for any of your PCB needs. They offer fast turnaround and
 [Get a Quote Here for as low as $5](https://www.pcbway.com/orderonline.aspx)
 
 <img src="/KevinbotV3-KiCAD/images/pcb-edges.png" width="500" alt="pcb edges"></img>
-<img src="/KevinbotV3-KiCAD/images/pcbs.png" width="500" alt="Kevinbot P2 Board pcb"></img>
+<img src="/KevinbotV3-KiCAD/images/pcbs.png" width="500" alt="Kevinbot Core pcb"></img>

@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in contributing to Kevinbot P2 Board! ❤️  
+Thank you for your interest in contributing to Kevinbot Core! ❤️  
 Your contributions, whether in code, documentation, or ideas, help the project grow. Please take a moment to review this guide to make the process easier for everyone.
 
 ## Ways to Support the Project
