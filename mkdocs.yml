@@ -1,0 +1,75 @@
+site_name: Kevinbot P2 Board
+site_author: Kevin Ahr
+site_url: https://meowmeowahr.github.io/KevinbotV3-KiCAD/
+
+theme:
+  name: "material"
+  language: en
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.footer
+    - navigation.indexes
+  logo: images/logo_dark.png
+  favicon: images/favicon.png
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: blue
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: blue
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: blue
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.emoji
+  - pymdownx.blocks.caption
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - index.md
+  - Learn-about-Kevinbot-P2-Board.md
+  - Board-Diagram.md
+  - Pin-Mappings.md
+  - Software.md
+  - Board-Images.md
+  - Contributing.md
+  - Code-of-Conduct.md
+
+repo_url: https://github.com/meowmeowahr/KevinbotV3-KiCAD
