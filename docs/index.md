@@ -5,6 +5,8 @@ hide:
 
 # Welcome to the Kevinbot Core Docs
 
+![Logo banner](images/banner.png)
+
 ## Get Started
 
 [:fontawesome-solid-graduation-cap: Learn about the Kevinbot Core](learn.md){ .md-button .md-button--primary }
