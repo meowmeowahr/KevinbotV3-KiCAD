@@ -63,6 +63,10 @@ plugins:
   - mike:
   - search:
 
+extra:
+  version:
+    provider: mike
+
 nav:
   - index.md
   - Learn-about-Kevinbot-P2-Board.md
