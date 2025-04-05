@@ -1,5 +1,10 @@
 [
   {
+    "version": "RevB",
+    "title": "RevB",
+    "aliases": []
+  },
+  {
     "version": "RevA",
     "title": "RevA",
     "aliases": []
