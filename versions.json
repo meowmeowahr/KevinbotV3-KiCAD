@@ -3,10 +3,5 @@
     "version": "RevA",
     "title": "RevA",
     "aliases": []
-  },
-  {
-    "version": "latest",
-    "title": "RevB",
-    "aliases": []
   }
 ]
