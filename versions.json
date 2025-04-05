@@ -2,7 +2,9 @@
   {
     "version": "RevB",
     "title": "RevB",
-    "aliases": []
+    "aliases": [
+      "latest"
+    ]
   },
   {
     "version": "RevA",
