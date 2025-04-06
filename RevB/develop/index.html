@@ -301,28 +301,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../learn/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Learn about Kevinbot Core
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../diagram/" class="md-nav__link">
         
   
@@ -792,20 +770,24 @@ Download it <a href="https://www.kicad.org/download/">here</a>.</p>
 <p>Version management is done using <a href="https://github.com/jimporter/mike"><code>mike</code></a>.</p>
 <h3 id="documentation-requirements">Documentation Requirements</h3>
 <p>Install Python dependencies using <code>pip</code></p>
-<div class="highlight"><pre><span></span><code><span class="go">pip install mkdocs mkdocs-material mkdocs-glightbox mike</span>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>mkdocs<span class="w"> </span>mkdocs-material<span class="w"> </span>mkdocs-glightbox<span class="w"> </span>mike
 </code></pre></div>
 <p>Serve the documentation</p>
-<div class="highlight"><pre><span></span><code><span class="go">mkdocs serve</span>
+<div class="highlight"><pre><span></span><code>mkdocs<span class="w"> </span>serve
 </code></pre></div>
 <h2 id="wireviz">WireViz</h2>
 <p>The Kevinbot Core documentation utilizes WireViz for cable harness visualizations.</p>
 <h3 id="install">Install</h3>
 <p>Install Python dependencies using <code>pip</code></p>
-<div class="highlight"><pre><span></span><code><span class="go">pip install wireviz</span>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>wireviz
 </code></pre></div>
 <h3 id="develop">Develop</h3>
 <p>All WireViz YAML sources are located in the <code>wireviz/</code> directory.</p>
 <p>Generated images are located in the <code>docs/images/wireviz/</code> directory.</p>
+<p>Images can be generated with the <code>gen-harness</code> bash script.
+Run it with the following.</p>
+<div class="highlight"><pre><span></span><code>bash<span class="w"> </span>tools/gen-harness.sh
+</code></pre></div>
 
 
 

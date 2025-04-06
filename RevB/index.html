@@ -14,7 +14,7 @@
       
       
       
-        <link rel="next" href="learn/">
+        <link rel="next" href="diagram/">
       
       
       <link rel="icon" href="images/favicon.png">
@@ -239,8 +239,6 @@
           
             
               
-                
-              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -329,18 +327,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#get-started" class="md-nav__link">
+  <a href="#revision-comparisons" class="md-nav__link">
     <span class="md-ellipsis">
-      Get Started
+      Revision Comparisons
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-info" class="md-nav__link">
+  <a href="#specifications" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional Info
+      Specifications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      License
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcbway" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCBWay
     </span>
   </a>
   
@@ -350,28 +366,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="learn/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Learn about Kevinbot Core
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -560,9 +554,7 @@
             
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -581,18 +573,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#get-started" class="md-nav__link">
+  <a href="#revision-comparisons" class="md-nav__link">
     <span class="md-ellipsis">
-      Get Started
+      Revision Comparisons
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-info" class="md-nav__link">
+  <a href="#specifications" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional Info
+      Specifications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      License
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcbway" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCBWay
     </span>
   </a>
   
@@ -611,8 +621,6 @@
               <article class="md-content__inner md-typeset">
                 
                   
-  
-
 
 
   
@@ -626,13 +634,85 @@
 
 <h1 id="kevinbot-core-docs">Kevinbot Core Docs</h1>
 <p><a class="glightbox" href="images/banner.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Logo banner" src="images/banner.png" /></a></p>
-<h2 id="get-started">Get Started</h2>
-<p><a class="md-button md-button--primary" href="learn/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9V320c0 28.4-10.8 57.7-22.3 80.8-6.5 13-13.9 25.8-22.5 37.6-3.2 4.3-4.1 9.9-2.3 15s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7.3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7-3.2-14.2-7.5-28.7-13.5-42v-24.6c0-30.2 10.2-58.7 27.9-81.5 12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5.8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1l280.6-101c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1c-7.6-2.7-15.6-4.1-23.7-4.1M128 408c0 35.3 86 72 192 72s192-36.7 192-72l-15.3-145.4L354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6l-142.2-51.4z"/></svg></span> Learn about the Kevinbot Core</a>
-<a class="md-button md-button--primary" href="gallery/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M448 80c8.8 0 16 7.2 16 16v319.8l-5-6.5-136-176c-4.5-5.9-11.6-9.3-19-9.3s-14.4 3.4-19 9.3l-83 107.4-30.5-42.7c-4.5-6.3-11.7-10-19.5-10s-15 3.7-19.5 10.1l-80 112-4.5 6.2V96c0-8.8 7.2-16 16-16zM64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm80 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96"/></svg></span> Image Gallery</a></p>
-<p><a class="md-button" href="software/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6m80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3"/></svg></span> Software</a></p>
-<h2 id="additional-info">Additional Info</h2>
-<p><a class="md-button" href="contributing/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m47.6 300.4 180.7 168.7c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9l180.7-168.7c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141-45.6-7.6-92 7.3-124.6 39.9l-12 12-12-12c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5"/></svg></span> Contributing</a>
-<a class="md-button" href="https://www.kicad.org/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6 31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5 50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5l112.2-112.3c31.5-31.5 82.5-31.5 114 0 27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0z"/></svg></span> KiCAD</a></p>
+<p>The Kevinbot Core is a <a href="https://www.parallax.com/product/p2-edge-module/">Parallax Propeller 2 Edge</a> Breakout 
+Board catered for robotics use.
+Originally designed only for use in Kevinbot v3, the board can be used for any P2-based robotics project.</p>
+<h2 id="revision-comparisons">Revision Comparisons</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Rev</th>
+<th style="text-align: left;">MCU</th>
+<th style="text-align: left;">Input Voltage</th>
+<th style="text-align: left;">I/O Pins</th>
+<th style="text-align: left;">Servo Ports</th>
+<th style="text-align: left;">Interfaces</th>
+<th style="text-align: left;">Programming</th>
+<th style="text-align: left;">Inbuilt Sensors</th>
+<th style="text-align: left;">Error Buzzer</th>
+<th style="text-align: left;">NeoPixel Output</th>
+<th style="text-align: left;">Status Light Output</th>
+<th style="text-align: left;">Reset Button and Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">RevA</td>
+<td style="text-align: left;">Parallax P2</td>
+<td style="text-align: left;">5V</td>
+<td style="text-align: left;">32 (Accessory), 20 (Expansion)</td>
+<td style="text-align: left;">32 (Up to 6V power)</td>
+<td style="text-align: left;">UART, I2C, One-Wire</td>
+<td style="text-align: left;">PropPlug Interface</td>
+<td style="text-align: left;">DS18B20 Thermo, 2x Voltmeter (33V Max)</td>
+<td style="text-align: left;">✅</td>
+<td style="text-align: left;">✅</td>
+<td style="text-align: left;">✅</td>
+<td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;">RevB</td>
+<td style="text-align: left;">Parallax P2</td>
+<td style="text-align: left;">6V ~ 40V</td>
+<td style="text-align: left;">32 (Accessory)</td>
+<td style="text-align: left;">16 (Up to 24V power)</td>
+<td style="text-align: left;">RS-422 (<em>or</em> UART), I2C, One-Wire</td>
+<td style="text-align: left;">USB-C</td>
+<td style="text-align: left;">tbd</td>
+<td style="text-align: left;">✅</td>
+<td style="text-align: left;">✅</td>
+<td style="text-align: left;">✅</td>
+<td style="text-align: left;">✅</td>
+</tr>
+</tbody>
+</table>
+<h2 id="specifications">Specifications</h2>
+<ul>
+<li>Compatible with standard P2 Edge (will not work with the 32 MB option)</li>
+<li>USB-C FTDI Programming Interface</li>
+<li>16 Servo Outputs</li>
+<li>One-Wire</li>
+<li>I2C</li>
+<li>RS-422</li>
+<li>Status Light Port</li>
+<li>Two Voltmeters (1v ~ 33v)</li>
+<li>Level-Shifted WS281X(b) port</li>
+<li>Four 2x6 Way P2 accessory headers</li>
+<li>Internal and External Error Buzzer</li>
+<li>Reset Button and External Reset button port</li>
+<li>Internal DS18b20 thermometer</li>
+<li>Fully Open Source Design</li>
+</ul>
+<h2 id="license">License</h2>
+<p>All hardware is licensed under the CERN-OHL-S-2.0 license. 
+Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.</p>
+<h2 id="pcbway">PCBWay</h2>
+<p><a class="glightbox" href="images/pcbway-logo.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/pcbway-logo.png" width="320" alt="PCBWay"></a></img></p>
+<p>Thanks to PCBWay for providing high-quality and fast PCB prototypes.</p>
+<p>I would recommend them for any of your PCB needs. They offer fast turnaround and shipping.</p>
+<p><a href="https://www.pcbway.com/orderonline.aspx">Get a Quote Here for as low as $5</a></p>
+<p><a class="glightbox" href="images/pcb-edges.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/pcb-edges.png" width="500" alt="pcb edges"></a></img>
+<a class="glightbox" href="images/pcbs.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/pcbs.png" width="500" alt="Kevinbot Core pcb"></a></img></p>
 
 
 
@@ -640,13 +720,8 @@
 
 
 
-  
-  
 
 
-
-
-  
 
 
 
@@ -672,19 +747,17 @@
   
     
       
-        
-      
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
         
           
-          <a href="learn/" class="md-footer__link md-footer__link--next" aria-label="Next: Learn about Kevinbot Core">
+          <a href="diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: Board Diagram">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Learn about Kevinbot Core
+                Board Diagram
               </div>
             </div>
             <div class="md-footer__button md-icon">
