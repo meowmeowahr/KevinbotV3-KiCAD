@@ -55,7 +55,16 @@
     
     
     
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -74,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-the-kevinbot-core-docs" class="md-skip">
+        <a href="#kevinbot-core-docs" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to the Kevinbot Core Docs
+              Kevinbot Core Docs
             
           </span>
         </div>
@@ -284,7 +293,7 @@
   
   
   <span class="md-ellipsis">
-    Welcome to the Kevinbot Core Docs
+    Kevinbot Core Docs
     
   </span>
   
@@ -297,7 +306,7 @@
   
   
   <span class="md-ellipsis">
-    Welcome to the Kevinbot Core Docs
+    Kevinbot Core Docs
     
   </span>
   
@@ -396,6 +405,28 @@
   
   
     <li class="md-nav__item">
+      <a href="harness/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Harnesses
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="map/" class="md-nav__link">
         
   
@@ -446,6 +477,28 @@
   
   <span class="md-ellipsis">
     Image Gallery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="develop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Development
     
   </span>
   
@@ -571,8 +624,8 @@
   
 
 
-<h1 id="welcome-to-the-kevinbot-core-docs">Welcome to the Kevinbot Core Docs</h1>
-<p><img alt="Logo banner" src="images/banner.png" /></p>
+<h1 id="kevinbot-core-docs">Kevinbot Core Docs</h1>
+<p><a class="glightbox" href="images/banner.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Logo banner" src="images/banner.png" /></a></p>
 <h2 id="get-started">Get Started</h2>
 <p><a class="md-button md-button--primary" href="learn/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9V320c0 28.4-10.8 57.7-22.3 80.8-6.5 13-13.9 25.8-22.5 37.6-3.2 4.3-4.1 9.9-2.3 15s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7.3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7-3.2-14.2-7.5-28.7-13.5-42v-24.6c0-30.2 10.2-58.7 27.9-81.5 12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5.8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1l280.6-101c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1c-7.6-2.7-15.6-4.1-23.7-4.1M128 408c0 35.3 86 72 192 72s192-36.7 192-72l-15.3-145.4L354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6l-142.2-51.4z"/></svg></span> Learn about the Kevinbot Core</a>
 <a class="md-button md-button--primary" href="gallery/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M448 80c8.8 0 16 7.2 16 16v319.8l-5-6.5-136-176c-4.5-5.9-11.6-9.3-19-9.3s-14.4 3.4-19 9.3l-83 107.4-30.5-42.7c-4.5-6.3-11.7-10-19.5-10s-15 3.7-19.5 10.1l-80 112-4.5 6.2V96c0-8.8 7.2-16 16-16zM64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm80 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96"/></svg></span> Image Gallery</a></p>
@@ -675,5 +728,7 @@
       <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

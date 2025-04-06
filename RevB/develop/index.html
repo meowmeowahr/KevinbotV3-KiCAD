@@ -10,13 +10,13 @@
         <meta name="author" content="Kevin Ahr">
       
       
-        <link rel="canonical" href="https://meowmeowahr.github.io/KevinbotV3-KiCAD/RevB/map/">
+        <link rel="canonical" href="https://meowmeowahr.github.io/KevinbotV3-KiCAD/RevB/develop/">
       
       
-        <link rel="prev" href="../harness/">
+        <link rel="prev" href="../gallery/">
       
       
-        <link rel="next" href="../software/">
+        <link rel="next" href="../contributing/">
       
       
       <link rel="icon" href="../images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Pin Mappings - Kevinbot Core</title>
+        <title>Development - Kevinbot Core</title>
       
     
     
@@ -85,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pin-mappings" class="md-skip">
+        <a href="#development" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pin Mappings
+              Development
             
           </span>
         </div>
@@ -364,19 +364,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../map/" class="md-nav__link">
         
   
   
@@ -387,7 +378,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -440,10 +430,32 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../develop/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Development
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -454,6 +466,122 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#board-and-schematics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Board and Schematics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Board and Schematics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fonts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fonts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentation-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireviz" class="md-nav__link">
+    <span class="md-ellipsis">
+      WireViz
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="WireViz">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#develop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Develop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -522,6 +650,110 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#board-and-schematics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Board and Schematics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Board and Schematics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fonts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fonts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentation-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireviz" class="md-nav__link">
+    <span class="md-ellipsis">
+      WireViz
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="WireViz">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#develop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Develop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -536,7 +768,7 @@
 
 
   
-    <a href="https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/master/docs/map.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/master/docs/develop.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -544,8 +776,36 @@
   
 
 
-<h1 id="pin-mappings">Pin Mappings</h1>
-<p>tbd</p>
+<h1 id="development">Development</h1>
+<h2 id="technical">Technical</h2>
+<h3 id="board-and-schematics">Board and Schematics</h3>
+<p>The project utilizes KiCAD 9.0.1 or later.
+Download it <a href="https://www.kicad.org/download/">here</a>.</p>
+<p>The project file is located at <code>P2 Kevinbot Board.kicad_pro</code></p>
+<h4 id="fonts">Fonts</h4>
+<p>The Kevinbot Core PCB design utilizes some non-standard fonts. They must be installed in the system to function correctly within KiCAD.</p>
+<p>Restart KiCAD after installing fonts.</p>
+<p>All utilized fonts are licensed under the <a href="https://openfontlicense.org/">OFL (SIL Open Font License)</a></p>
+<p><a class="md-button" href="https://fonts.google.com/specimen/Chakra+Petch">Chakra Petch <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32zM80 32C35.8 32 0 67.8 0 112v320c0 44.2 35.8 80 80 80h320c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v112c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16h112c17.7 0 32-14.3 32-32s-14.3-32-32-32z"/></svg></span></a></p>
+<h2 id="documentation">Documentation</h2>
+<p>Thr Kevinbot Core documentation is built with <a href="https://www.mkdocs.org/"><code>mkdocs</code></a> using the <a href="https://squidfunk.github.io/mkdocs-material/"><code>mkdocs-material</code></a> theme. </p>
+<p>Version management is done using <a href="https://github.com/jimporter/mike"><code>mike</code></a>.</p>
+<h3 id="documentation-requirements">Documentation Requirements</h3>
+<p>Install Python dependencies using <code>pip</code></p>
+<div class="highlight"><pre><span></span><code><span class="go">pip install mkdocs mkdocs-material mkdocs-glightbox mike</span>
+</code></pre></div>
+<p>Serve the documentation</p>
+<div class="highlight"><pre><span></span><code><span class="go">mkdocs serve</span>
+</code></pre></div>
+<h2 id="wireviz">WireViz</h2>
+<p>The Kevinbot Core documentation utilizes WireViz for cable harness visualizations.</p>
+<h3 id="install">Install</h3>
+<p>Install Python dependencies using <code>pip</code></p>
+<div class="highlight"><pre><span></span><code><span class="go">pip install wireviz</span>
+</code></pre></div>
+<h3 id="develop">Develop</h3>
+<p>All WireViz YAML sources are located in the <code>wireviz/</code> directory.</p>
+<p>Generated images are located in the <code>docs/images/wireviz/</code> directory.</p>
 
 
 
@@ -583,7 +843,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../harness/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Wiring Harnesses">
+          <a href="../gallery/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Image Gallery">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -593,20 +853,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Wiring Harnesses
+                Image Gallery
               </div>
             </div>
           </a>
         
         
           
-          <a href="../software/" class="md-footer__link md-footer__link--next" aria-label="Next: Software">
+          <a href="../contributing/" class="md-footer__link md-footer__link--next" aria-label="Next: Contributing">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Software
+                Contributing
               </div>
             </div>
             <div class="md-footer__button md-icon">

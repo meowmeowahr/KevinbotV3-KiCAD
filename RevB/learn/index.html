@@ -57,7 +57,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -275,7 +284,7 @@
   
   
   <span class="md-ellipsis">
-    Welcome to the Kevinbot Core Docs
+    Kevinbot Core Docs
     
   </span>
   
@@ -414,6 +423,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../harness/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Harnesses
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../map/" class="md-nav__link">
         
   
@@ -464,6 +495,28 @@
   
   <span class="md-ellipsis">
     Image Gallery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../develop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Development
     
   </span>
   
@@ -677,12 +730,12 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 <p>All hardware is licensed under the CERN-OHL-S-2.0 license. 
 Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.</p>
 <h2 id="pcbway">PCBWay</h2>
-<p><img src="../images/pcbway-logo.png" width="320" alt="PCBWay"></img></p>
+<p><a class="glightbox" href="../images/pcbway-logo.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/pcbway-logo.png" width="320" alt="PCBWay"></a></img></p>
 <p>Thanks to PCBWay for providing high-quality and fast PCB prototypes.</p>
 <p>I would recommend them for any of your PCB needs. They offer fast turnaround and shipping.</p>
 <p><a href="https://www.pcbway.com/orderonline.aspx">Get a Quote Here for as low as $5</a></p>
-<p><img src="../images/pcb-edges.png" width="500" alt="pcb edges"></img>
-<img src="../images/pcbs.png" width="500" alt="Kevinbot Core pcb"></img></p>
+<p><a class="glightbox" href="../images/pcb-edges.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/pcb-edges.png" width="500" alt="pcb edges"></a></img>
+<a class="glightbox" href="../images/pcbs.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/pcbs.png" width="500" alt="Kevinbot Core pcb"></a></img></p>
 
 
 
@@ -720,7 +773,7 @@ Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome to the Kevinbot Core Docs">
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Kevinbot Core Docs">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -730,7 +783,7 @@ Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Welcome to the Kevinbot Core Docs
+                Kevinbot Core Docs
               </div>
             </div>
           </a>
@@ -787,5 +840,7 @@ Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.</p>
       <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

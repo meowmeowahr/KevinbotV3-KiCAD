@@ -13,7 +13,7 @@
         <link rel="canonical" href="https://meowmeowahr.github.io/KevinbotV3-KiCAD/RevB/contributing/">
       
       
-        <link rel="prev" href="../gallery/">
+        <link rel="prev" href="../develop/">
       
       
         <link rel="next" href="../coc/">
@@ -57,7 +57,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -275,7 +284,7 @@
   
   
   <span class="md-ellipsis">
-    Welcome to the Kevinbot Core Docs
+    Kevinbot Core Docs
     
   </span>
   
@@ -320,6 +329,28 @@
   
   <span class="md-ellipsis">
     Board Diagram
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../harness/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wiring Harnesses
     
   </span>
   
@@ -386,6 +417,28 @@
   
   <span class="md-ellipsis">
     Image Gallery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../develop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Development
     
   </span>
   
@@ -843,7 +896,7 @@ Open a new topic in <a href="https://github.com/meowmeowahr/KevinbotV3-KiCAD/dis
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../gallery/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Image Gallery">
+          <a href="../develop/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Development">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -853,7 +906,7 @@ Open a new topic in <a href="https://github.com/meowmeowahr/KevinbotV3-KiCAD/dis
                 Previous
               </span>
               <div class="md-ellipsis">
-                Image Gallery
+                Development
               </div>
             </div>
           </a>
@@ -910,5 +963,7 @@ Open a new topic in <a href="https://github.com/meowmeowahr/KevinbotV3-KiCAD/dis
       <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
