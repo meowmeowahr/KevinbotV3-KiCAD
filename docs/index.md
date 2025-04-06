@@ -38,7 +38,7 @@ Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.
 
 ## PCBWay
 
-<img src="../images/pcbway-logo.png" width="320" alt="PCBWay"></img>
+<img src="images/pcbway-logo.png" width="320" alt="PCBWay"></img>
 
 Thanks to PCBWay for providing high-quality and fast PCB prototypes.
 
@@ -46,5 +46,5 @@ I would recommend them for any of your PCB needs. They offer fast turnaround and
 
 [Get a Quote Here for as low as $5](https://www.pcbway.com/orderonline.aspx)
 
-<img src="../images/pcb-edges.png" width="500" alt="pcb edges"></img>
-<img src="../images/pcbs.png" width="500" alt="Kevinbot Core pcb"></img>
+<img src="images/pcb-edges.png" width="500" alt="pcb edges"></img>
+<img src="images/pcbs.png" width="500" alt="Kevinbot Core pcb"></img>
