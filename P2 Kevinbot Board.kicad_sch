@@ -3409,6 +3409,28 @@
 			)
 		)
 	)
+	(global_label "P2_P36"
+		(shape input)
+		(at 163.83 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ad0d4ce-c959-47ed-89e5-12a550fb26c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.7087 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2_P9"
 		(shape input)
 		(at 222.25 120.65 0)
@@ -4685,6 +4707,28 @@
 			)
 		)
 	)
+	(global_label "P2_V32"
+		(shape input)
+		(at 163.83 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93c41be5-bd67-4520-8205-e3b2cdec7218")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.4621 21.5106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2_P15"
 		(shape input)
 		(at 90.17 121.92 0)
@@ -5543,6 +5587,28 @@
 			)
 		)
 	)
+	(global_label "P2_P35"
+		(shape input)
+		(at 163.83 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9e754ba-3fff-4569-aff7-1c80f0fbf6ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.7087 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2_P21"
 		(shape input)
 		(at 259.08 125.73 0)
@@ -6139,6 +6205,73 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d5fe26c-f20b-4753-9910-0e9fda19b61d")
+		(property "Reference" "#PWR039"
+			(at 157.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e727b05-c567-4eeb-aef5-a3f99c3e21fd")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8137,6 +8270,88 @@
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR028")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 17.78)
+		(size 20.32 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42a4c83c-2879-4a77-b31d-2d3ab7f5273b")
+		(property "Sheetname" "RS-422"
+			(at 163.83 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs422.kicad_sch"
+			(at 163.83 32.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 163.83 29.21 180)
+			(uuid "4ad5ce26-9dc7-4df6-9c96-45b61354c76d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" input
+			(at 163.83 24.13 180)
+			(uuid "16245df2-d30c-4e2f-8cfc-e1910c25c0ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" input
+			(at 163.83 26.67 180)
+			(uuid "61a76905-9284-4465-a81c-1dccaf970fcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 163.83 21.59 180)
+			(uuid "c5e13a50-2ebd-4d66-aee7-a39f833eddab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(page "5")
 				)
 			)
 		)

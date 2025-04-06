@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Welcome to the Kevinbot Core Docs
+# Kevinbot Core Docs
 
 ![Logo banner](images/banner.png)
 
