@@ -70,7 +70,6 @@ extra:
 
 nav:
   - index.md
-  - learn.md
   - diagram.md
   - harness.md
   - map.md

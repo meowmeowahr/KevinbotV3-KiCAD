@@ -29,13 +29,13 @@ Version management is done using [`mike`](https://github.com/jimporter/mike).
 
 Install Python dependencies using `pip`
 
-```console
+```bash
 pip install mkdocs mkdocs-material mkdocs-glightbox mike
 ```
 
 Serve the documentation
 
-```console
+```bash
 mkdocs serve
 ```
 
@@ -47,7 +47,7 @@ The Kevinbot Core documentation utilizes WireViz for cable harness visualization
 
 Install Python dependencies using `pip`
 
-```console
+```bash
 pip install wireviz
 ```
 
@@ -57,3 +57,9 @@ All WireViz YAML sources are located in the `wireviz/` directory.
 
 Generated images are located in the `docs/images/wireviz/` directory.
 
+Images can be generated with the `gen-harness` bash script.
+Run it with the following.
+
+```bash
+bash tools/gen-harness.sh
+```
