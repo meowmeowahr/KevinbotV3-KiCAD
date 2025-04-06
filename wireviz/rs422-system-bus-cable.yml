@@ -1,0 +1,57 @@
+connectors:
+  System:
+    type: "Molex Nano-Fit 2x8 1053081208 "
+    subtype: female
+    pinlabels: [R+, R-, D+, D-, GND, GND, GND, GND]
+
+  Core:
+    type: "Molex Nano-Fit 2x8 1053081208 "
+    subtype: female
+    pinlabels: [R+, R-, D+, D-, GND, GND, GND, GND]
+
+cables:
+  Cable:
+    category: bundle
+    colors: [GN, BU, YE, OG, BK]
+    gauge: 22 AWG
+    length: 0.2
+    color_code: DIN
+    wirecount: 5
+    shield: SN
+    image:
+      src: images/empty.png
+      caption: R+/R- and D+/D- are twisted pairs
+
+  Resistor1:
+    category: signal
+    gauge: 100 Ohm
+    colors: [GN, BU]
+    length: 0.01
+    wirecount: 2
+    show_wirecount: false
+
+  Resistor2:
+    category: simple
+    gauge: 100 Ohm
+    colors: [YE, OG]
+    length: 0.01
+    wirecount: 2
+    show_wirecount: false
+
+connections:
+  -
+    - System: [1, 2, 3, 4, 5, 6, 7, 8]
+    - Cable:  [1, 2, 3, 4, 5, 5, 5, 5]
+    - Core:   [3, 4, 1, 2, 5, 6, 7, 8]
+
+  -
+    - System: 8
+    - Cable: s
+
+  -
+    - System: [1, 2]
+    - Resistor1: [1, 2]
+
+  - 
+    - Resistor2: [1, 2]
+    - Core : [1, 2]

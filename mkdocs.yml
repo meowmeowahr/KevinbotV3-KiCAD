@@ -62,6 +62,7 @@ markdown_extensions:
 plugins:
   - mike:
   - search:
+  - glightbox:
 
 extra:
   version:
@@ -71,6 +72,7 @@ nav:
   - index.md
   - learn.md
   - diagram.md
+  - harness.md
   - map.md
   - software.md
   - gallery.md
