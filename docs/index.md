@@ -9,10 +9,10 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 
 ## Revision Comparisons
 
-| Rev  | MCU         | Input Voltage | I/O Pins                       | Servo Ports          | Interfaces                        | Programming        | Inbuilt Sensors                        | Error Buzzer | NeoPixel Output | Status Light Output | Reset Button and Header |
-| :--- | :---------- | :------------ | :----------------------------- | :------------------- | :-------------------------------- | :----------------- | :------------------------------------- | :----------- | :-------------- | :------------------ | :---------------------- |
-| RevA | Parallax P2 | 5V            | 32 (Accessory), 20 (Expansion) | 32 (Up to 6V power)  | UART, I2C, One-Wire               | PropPlug Interface | DS18B20 Thermo, 2x Voltmeter (33V Max) | ✅           | ✅              | ✅                  | ✅                      |
-| RevB | Parallax P2 | 6V ~ 40V      | 32 (Accessory)                 | 16 (Up to 24V power) | RS-422 (_or_ UART), I2C, One-Wire | USB-C              | tbd                                    | ✅           | ✅              | ✅                  | ✅                      |
+| Rev  | MCU         | Input Voltage | I/O Pins                       | Servo Ports          | Interfaces                        | Programming        | Inbuilt Sensors | Voltmeters                             | Error Buzzer | NeoPixel Output | Status Light Output | Reset Button and Header |
+| :--- | :---------- | :------------ | :----------------------------- | :------------------- | :-------------------------------- | :----------------- | :-------------- | :------------------------------------- | :----------- | :-------------- | :------------------ | :---------------------- |
+| RevA | Parallax P2 | 5V            | 32 (Accessory), 20 (Expansion) | 32 (Up to 6V power)  | UART, I2C, One-Wire               | PropPlug Interface | DS18B20 Thermo  | 2x Up to 33v                           | ✅           | ✅              | ✅                  | ✅                      |
+| RevB | Parallax P2 | 6V ~ 40V      | 32 (Accessory)                 | 16 (Up to 24V power) | RS-422 (_or_ UART), I2C, One-Wire | USB-C              | tbd             | 2x Up to 60v + Input meter (Up to 40v) | ✅           | ✅              | ✅                  | ✅                      |
 
 ## Specifications
 

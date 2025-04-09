@@ -659,6 +659,14 @@
     [
       "42a4c83c-2879-4a77-b31d-2d3ab7f5273b",
       "RS-422"
+    ],
+    [
+      "7b0b1465-76e8-4550-9366-259d540e6b80",
+      "I2C Outputs"
+    ],
+    [
+      "083e4746-c54f-4ebf-8db7-bc4666178b1b",
+      "Power Delivery"
     ]
   ],
   "text_variables": {}
