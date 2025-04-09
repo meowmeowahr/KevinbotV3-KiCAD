@@ -2528,7 +2528,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 196.85 91.44 270)
+		(at 214.63 87.63 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2539,7 +2539,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 209.55 91.44 270)
+		(at 214.63 109.22 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2671,7 +2671,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 209.55 83.82 90)
+		(at 214.63 101.6 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2715,7 +2715,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 196.85 83.82 90)
+		(at 214.63 80.01 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2771,6 +2771,15 @@
 			)
 		)
 		(property "Description" "Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TS3A24159DGSR"
 			(at 80.01 109.22 0)
 			(effects
 				(font
@@ -2971,6 +2980,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "D5V0L2B3SO-7"
+			(at 151.13 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6e977198-62c7-40a5-a857-fe12b5a2bd46")
 		)
@@ -3038,6 +3056,15 @@
 			)
 		)
 		(property "Description" "Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TS3A24159DGSR"
 			(at 57.15 96.52 0)
 			(effects
 				(font
@@ -3140,6 +3167,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0402FR-0710KL"
+			(at 77.47 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b71c8fa4-c064-4eae-9ca4-b0e28841af51")
 		)
@@ -3207,6 +3243,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "1053101108"
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "617c76aa-c1ec-4a6e-a458-48882fa1581f")
 		)
@@ -3242,7 +3287,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 87.63 180)
+		(at 214.63 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3250,7 +3295,7 @@
 		(dnp no)
 		(uuid "b97b9079-e787-4343-8adc-6abeaa2b4cc2")
 		(property "Reference" "C8"
-			(at 200.66 86.36 0)
+			(at 205.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,8 +3303,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 200.66 88.9 0)
+		(property "Value" "100nF 16v"
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3313,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 208.5848 83.82 0)
+			(at 213.6648 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 87.63 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3331,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 209.55 87.63 0)
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,6 +3416,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "B3B-PH-K-S"
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86f779d3-d204-4da6-bf79-84681af6a410")
 		)
@@ -3427,6 +3490,15 @@
 			)
 		)
 		(property "Description" "Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10"
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TS3A24159DGSR"
 			(at 80.01 78.74 0)
 			(effects
 				(font
@@ -3529,6 +3601,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "D5V0L2B3SO-7"
+			(at 151.13 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2e80b7e9-8285-4c08-9353-48f77ca29b3c")
 		)
@@ -3549,7 +3630,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 87.63 180)
+		(at 214.63 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3557,7 +3638,7 @@
 		(dnp no)
 		(uuid "d3c2c205-fe46-4d3f-8c2f-8c2c3cac3e67")
 		(property "Reference" "C7"
-			(at 187.96 86.36 0)
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,8 +3646,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 187.96 88.9 0)
+		(property "Value" "100nF 16v"
+			(at 197.866 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3656,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 195.8848 83.82 0)
+			(at 213.6648 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 87.63 0)
+			(at 214.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3674,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 87.63 0)
+			(at 214.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
+			(at 214.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,6 +3751,15 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 69.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CHS-01A"
 			(at 69.85 137.16 0)
 			(effects
 				(font

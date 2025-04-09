@@ -1368,6 +1368,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "M20-9990246"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c2cf75d-da7a-405c-861b-60a719939c38")
 		)
@@ -1572,6 +1581,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "1053091103"
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31c6754d-9fcb-467e-b162-74b688f011e9")
 		)
@@ -1638,6 +1656,15 @@
 		)
 		(property "Description" "1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, complementary drivers, SOIC-8"
 			(at 98.298 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TC4428EOA713"
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,6 +1900,15 @@
 			)
 		)
 		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "IRLML6402TRPBF"
 			(at 119.38 109.22 0)
 			(effects
 				(font

@@ -1083,6 +1083,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "IRLML6402TRPBF"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "631d3293-2013-4211-a7cb-d385462caa93")
 		)
@@ -1223,6 +1232,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "1053091103"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5eee3826-00b0-477e-b19e-afa25ad1942d")
 		)
@@ -1297,6 +1315,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "1053091103"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "09848596-1d88-4941-a7b0-02d727944658")
 		)
@@ -1363,6 +1390,15 @@
 		)
 		(property "Description" "1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, complementary drivers, SOIC-8"
 			(at 84.328 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TC4428EOA713"
+			(at 83.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1079,6 +1079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "1053101106"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4a132dc-51df-4cd1-afa7-c5360894334d")
 		)
@@ -1124,8 +1133,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 143.51 71.12 0)
+		(property "Value" "100nF 16v"
+			(at 143.51 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,6 +1161,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -1220,6 +1238,15 @@
 			)
 		)
 		(property "Description" "Low Voltage I2C/SMBus Accelerator"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTC4311CSC6#TRPBF"
 			(at 144.78 97.79 0)
 			(effects
 				(font

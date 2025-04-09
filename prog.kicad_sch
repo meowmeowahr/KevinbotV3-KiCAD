@@ -3359,7 +3359,7 @@
 		(uuid "7a5c3bea-ca30-41fc-ae8b-65143b73b4ef")
 	)
 	(label "TXDEN"
-		(at 153.67 143.51 90)
+		(at 149.86 143.51 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3504,6 +3504,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0402FR-07100KL"
+			(at 121.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3895688f-ccc0-4168-9714-b131ec56f540")
 		)
@@ -3521,7 +3530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 59.69 0)
+		(at 57.15 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3530,7 +3539,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a7cd407-b889-4582-a163-20f46dad7a1a")
 		(property "Reference" "#PWR011"
-			(at 62.23 66.04 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 64.77 0)
+			(at 57.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 59.69 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 59.69 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 59.69 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3596,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 91.44 0)
+		(at 43.18 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3596,7 +3605,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bbb2b27-2292-4b15-b290-e991e817b0de")
 		(property "Reference" "C1"
-			(at 49.53 90.1699 0)
+			(at 46.99 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,8 +3613,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 49.53 92.7099 0)
+		(property "Value" "10nF 16v"
+			(at 46.99 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3623,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 46.6852 95.25 0)
+			(at 44.1452 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +3632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 91.44 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3641,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 91.44 0)
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R71C103KA01D"
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3758,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 16v"
 			(at 39.37 135.89 90)
 			(effects
 				(font
@@ -3768,6 +3786,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 39.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R71C103KA01D"
+			(at 39.37 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,6 +3870,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060RS75000"
 			(at 171.45 106.68 0)
 			(effects
 				(font
@@ -4211,6 +4247,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "150060BS75000"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11360df0-96c2-4ae8-821f-b4148ccb9f80")
 		)
@@ -4271,6 +4316,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-07470KL"
+			(at 78.74 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,6 +4400,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "MPZ1608S221ATA00"
+			(at 68.58 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e2928f5-d7e0-4a38-b514-82f6a674fb56")
 		)
@@ -4363,7 +4426,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 151.13 0)
+		(at 149.86 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4372,7 +4435,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cda943e-fefc-4d79-90ab-7e4685b09918")
 		(property "Reference" "#PWR019"
-			(at 153.67 157.48 0)
+			(at 149.86 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 156.21 0)
+			(at 149.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 151.13 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 151.13 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 151.13 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,6 +4620,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 68.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "USB4105-GF-A"
 			(at 68.58 92.71 0)
 			(effects
 				(font
@@ -4759,7 +4831,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VD")
-		(at 62.23 52.07 0)
+		(at 57.15 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4768,7 +4840,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e6badb2-8f8b-4d2f-821f-13bd5fffc819")
 		(property "Reference" "#PWR0101"
-			(at 62.23 55.88 0)
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4849,7 @@
 			)
 		)
 		(property "Value" "+5VUSB"
-			(at 62.23 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 52.07 0)
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 52.07 0)
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 62.23 52.07 0)
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,6 +5013,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0402FR-07240RL"
+			(at 186.69 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f1172a4-81e5-4153-8554-286acc53df63")
 		)
@@ -5025,7 +5106,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 147.32 180)
+		(at 149.86 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5033,7 +5114,7 @@
 		(dnp no)
 		(uuid "61a5090c-8339-4607-bb1f-8b914c55f859")
 		(property "Reference" "R9"
-			(at 156.972 146.05 0)
+			(at 153.162 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5122,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 157.988 148.336 0)
+			(at 154.178 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5130,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 155.448 147.32 90)
+			(at 151.638 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 147.32 0)
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5148,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 147.32 0)
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-07100KL"
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,6 +5234,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0402FR-075K1L"
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "adc4072f-27b9-42fd-87d4-b26caa0facdd")
 		)
@@ -5206,6 +5305,15 @@
 			)
 		)
 		(property "Description" "Full Speed USB to Full Handshake UART, SSOP-20"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "FT231XS-R"
 			(at 135.89 99.06 0)
 			(effects
 				(font
@@ -5301,8 +5409,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 107.95 110.49 0)
+		(property "Value" "100nF 16v"
+			(at 103.124 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,6 +5437,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
 			(at 116.84 109.22 0)
 			(effects
 				(font
@@ -5634,8 +5751,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 161.29 143.51 0)
+		(property "Value" "100nF 16v"
+			(at 157.226 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,6 +5787,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "GRM155R71C104KA88D"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a63e1d1-f2b0-48f2-b78b-5f42d62a40bf")
 		)
@@ -5687,7 +5813,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 55.88 0)
+		(at 57.15 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5696,7 +5822,7 @@
 		(fields_autoplaced yes)
 		(uuid "9181cf2d-3212-46ee-8d9c-d1b984076000")
 		(property "Reference" "C2"
-			(at 66.04 54.6099 0)
+			(at 60.96 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,8 +5830,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 66.04 57.1499 0)
+		(property "Value" "4.7uF 10v"
+			(at 60.96 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5840,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 63.1952 59.69 0)
+			(at 58.1152 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 55.88 0)
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5858,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 55.88 0)
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A475MEAAD"
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 95.25 0)
+		(at 43.18 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5766,7 +5901,7 @@
 		(fields_autoplaced yes)
 		(uuid "948ecc35-7507-4cc9-ba5a-d1e9809f3eb8")
 		(property "Reference" "#PWR06"
-			(at 45.72 101.6 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5910,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 100.33 0)
+			(at 43.18 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 95.25 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +5927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 95.25 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +5936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 95.25 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,6 +6276,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "MUN5211T1G"
+			(at 48.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b7706f8-30bf-40a1-b691-2f12f66359f0")
 		)
@@ -6277,6 +6421,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0402FR-0727RL"
+			(at 95.25 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ec56413-c72f-473d-895d-00d6d63fe9ff")
 		)
@@ -6294,7 +6447,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 45.72 87.63 0)
+		(at 43.18 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6302,7 +6455,7 @@
 		(dnp no)
 		(uuid "b199b16c-8dca-4a6a-be35-e67c124c055e")
 		(property "Reference" "#PWR05"
-			(at 45.72 91.44 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6464,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 43.434 84.074 0)
+			(at 40.894 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 87.63 0)
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 87.63 0)
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 45.72 87.63 0)
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,6 +6556,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 78.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-07240RL"
+			(at 78.74 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,6 +6639,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0402FR-07100KL"
+			(at 219.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d33d7033-fd24-4694-ac75-b2917a170079")
 		)
@@ -6537,6 +6708,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-0727RL"
+			(at 102.87 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,6 +6859,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0402FR-075K1L"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e587f317-661f-4ba6-beb0-dd112dc0c08d")
 		)
@@ -6779,7 +6968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF 10v"
 			(at 78.74 57.1499 0)
 			(effects
 				(font
@@ -6807,6 +6996,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61A475MEAAD"
 			(at 74.93 55.88 0)
 			(effects
 				(font

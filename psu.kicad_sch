@@ -467,6 +467,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "0430450400"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dea619ed-4400-4d8a-8eb5-d71daa205119")
 		)
