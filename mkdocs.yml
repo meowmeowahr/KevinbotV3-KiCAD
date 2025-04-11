@@ -73,6 +73,8 @@ nav:
   - diagram.md
   - harness.md
   - map.md
+  - Assembly:
+    - ftdi.md
   - software.md
   - gallery.md
   - develop.md
