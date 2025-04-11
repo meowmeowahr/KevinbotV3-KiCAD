@@ -808,156 +808,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Small_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Small_Bridged"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, small symbol, bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_0_0"
-				(circle
-					(center -1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_0_1"
-				(arc
-					(start -0.762 0.254)
-					(mid 0 0.5696)
-					(end 0.762 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -3116,16 +2966,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 33.02) (xy 137.16 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "414348b9-89aa-47e5-8741-c5e76d9fd49c")
-	)
-	(wire
-		(pts
 			(xy 59.69 29.21) (xy 60.96 29.21)
 		)
 		(stroke
@@ -3143,6 +2983,16 @@
 			(type default)
 		)
 		(uuid "4dabd548-3ff4-494e-98dd-27975fdb8a10")
+	)
+	(wire
+		(pts
+			(xy 148.59 20.32) (xy 156.21 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79540e69-405c-4818-a9cb-6f0be0edb382")
 	)
 	(wire
 		(pts
@@ -3166,16 +3016,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 38.1) (xy 147.32 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b499fb90-d33a-41e4-976e-6d35069987c2")
-	)
-	(wire
-		(pts
 			(xy 74.93 29.21) (xy 72.39 29.21)
 		)
 		(stroke
@@ -3183,26 +3023,6 @@
 			(type default)
 		)
 		(uuid "b5519a69-846e-4da9-9a9d-917271414e27")
-	)
-	(wire
-		(pts
-			(xy 128.27 35.56) (xy 140.97 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b859f8d9-d920-440d-a5d0-c09252cc3fad")
-	)
-	(wire
-		(pts
-			(xy 152.4 38.1) (xy 156.21 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a84e3a-097b-484b-a68a-94c233c102d4")
 	)
 	(wire
 		(pts
@@ -3223,16 +3043,6 @@
 			(type default)
 		)
 		(uuid "cc4669a5-7f7b-4d01-98b5-196606642eb5")
-	)
-	(wire
-		(pts
-			(xy 146.05 35.56) (xy 156.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d582aa3b-b852-4b98-a1a2-ed77ba438995")
 	)
 	(wire
 		(pts
@@ -3264,25 +3074,15 @@
 		)
 		(uuid "f16624f7-4bd2-488d-88fb-1bea6a307c0a")
 	)
-	(wire
-		(pts
-			(xy 142.24 33.02) (xy 156.21 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffeb4642-8317-430f-bd42-e2cd045d2089")
-	)
 	(label "P2_RESn"
-		(at 130.81 33.02 180)
+		(at 148.59 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "45ecc90d-1b8f-4674-ba71-9fa09da6e81f")
+		(uuid "393fffc1-1e88-4e33-bd56-0fe05233c501")
 	)
 	(label "P2_RESn"
 		(at 59.69 29.21 180)
@@ -3405,6 +3205,28 @@
 		(uuid "02b0e56d-af8c-4a9d-8674-81e1190e894d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 35.5987 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P63_RXD"
+		(shape input)
+		(at 156.21 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0312d7e6-cc56-472c-92e4-2f19e9785685")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.9436 22.9394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,50 +4534,6 @@
 			)
 		)
 	)
-	(global_label "P2_P62_TXD"
-		(shape input)
-		(at 128.27 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7eb3f0c7-eb58-4e46-9b5e-7880a161e1ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3059 35.6394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P2_P63_RXD"
-		(shape input)
-		(at 123.19 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ee948da-bd08-4f7b-84f4-01ad5a81deae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.9236 38.1794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P2_P7"
 		(shape input)
 		(at 128.27 85.09 0)
@@ -5280,6 +5058,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P62_TXD"
+		(shape input)
+		(at 156.21 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2338f03-8de9-4cbd-8d9f-56496fe528ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.2459 25.4794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6459,73 +6259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 139.7 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b0f136f-5581-4273-b0fe-ac7f57ab1b0f")
-		(property "Reference" "JP3"
-			(at 139.7 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Small_Bridged"
-			(at 134.112 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 139.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 139.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c84d8834-3371-42da-b249-68782e7f521a")
-		)
-		(pin "2"
-			(uuid "9050aeca-24c5-462b-8338-335a15f1e4ac")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 146.05 270)
 		(unit 1)
@@ -7276,73 +7009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 143.51 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "966f2320-ce86-4871-96c6-06baf6b14dbb")
-		(property "Reference" "JP2"
-			(at 143.51 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Small_Bridged"
-			(at 137.922 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 143.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 143.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ff78f5e-34c2-4251-8e8e-f91e6159840d")
-		)
-		(pin "2"
-			(uuid "f5c4dd77-f893-4854-8332-1c980e83b25e")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 128.27 157.48 0)
 		(unit 1)
@@ -7643,73 +7309,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 149.86 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab242a17-a2ed-4fb0-bb70-690267b3db2d")
-		(property "Reference" "JP1"
-			(at 149.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Small_Bridged"
-			(at 144.272 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 149.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 149.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec7ff59d-b417-4904-a3d4-2aefdadf90ba")
-		)
-		(pin "2"
-			(uuid "b0e61d00-3e8c-45f8-b96c-259f7e0886dd")
-		)
-		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -9272,6 +8871,79 @@
 		)
 	)
 	(sheet
+		(at 156.21 16.51)
+		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36ef8cf2-6197-4fa1-9b06-a24478d77804")
+		(property "Sheetname" "PGM MUX"
+			(at 156.21 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pgmmux.kicad_sch"
+			(at 156.21 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RESn" input
+			(at 156.21 20.32 180)
+			(uuid "1064d934-bd6d-4524-a99e-9eb0cbcd86cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 156.21 22.86 180)
+			(uuid "74b6f262-cfe9-425e-8365-5618d27f1343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" input
+			(at 156.21 25.4 180)
+			(uuid "a15e4ba4-7bda-4a35-aeba-22632453d486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 208.28 25.4)
 		(size 20.32 13.97)
 		(exclude_from_sim no)
@@ -9503,78 +9175,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 156.21 27.94)
-		(size 20.32 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c6f481d2-83f6-488c-bb50-b2feb7a98ad7")
-		(property "Sheetname" "Programmer"
-			(at 156.21 27.2284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "prog.kicad_sch"
-			(at 156.21 43.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "RESn" input
-			(at 156.21 33.02 180)
-			(uuid "344308c0-f62f-4bd3-baf2-88d156e882c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX" input
-			(at 156.21 35.56 180)
-			(uuid "f49a156e-17b8-40e9-aaec-d2e2d78b3729")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TX" input
-			(at 156.21 38.1 180)
-			(uuid "e40d3147-6cf2-4faa-b4f2-06a1bffef0bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(page "2")
 				)
 			)
 		)

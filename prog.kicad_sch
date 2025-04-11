@@ -3683,14 +3683,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "3895688f-ccc0-4168-9714-b131ec56f540")
+			(uuid "dace0170-1df8-483c-82c6-8057b2d63417")
 		)
 		(pin "1"
-			(uuid "c4bb2b44-c4f6-4994-a24a-6b94f9387849")
+			(uuid "00bfe651-2187-46a1-bcf7-f819f1f6e835")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R8")
 					(unit 1)
 				)
@@ -3752,11 +3752,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e036661-8c3d-418f-a10e-5a890067f213")
+			(uuid "964fe3ba-4d9d-40b5-8892-10edd433b632")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -3828,14 +3828,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "52c2d21e-6cb2-473f-a36e-60ce14e63f0d")
+			(uuid "0bc96417-1291-40f6-a277-f692967ed1a9")
 		)
 		(pin "1"
-			(uuid "07c6b8fd-4b04-43f4-a6be-d85c910b3c79")
+			(uuid "93473dda-c59a-413d-8723-4631de42795b")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "C1")
 					(unit 1)
 				)
@@ -3898,11 +3898,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2797dfa4-f3ea-43a3-b5fb-3a0317b05587")
+			(uuid "14c0845f-f0e9-44b9-b0ea-59a4009f58c6")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR0103")
 					(unit 1)
 				)
@@ -3972,14 +3972,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "9123bf19-51c6-4571-b1a9-8fa4d6d47199")
+			(uuid "83b8b97b-3403-4a2d-b406-6499d108c4b1")
 		)
 		(pin "1"
-			(uuid "c5023970-8be1-49b3-907f-a71274a7a2bd")
+			(uuid "77635760-d361-4da3-a3cd-6269d0adacd1")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "C5")
 					(unit 1)
 				)
@@ -4057,14 +4057,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4990113-9ba4-4c57-8b6c-8957ecce69fa")
+			(uuid "afa72045-8939-47b4-b73e-53837b934256")
 		)
 		(pin "2"
-			(uuid "a08632cb-e09b-4fca-a8b0-e04584131bef")
+			(uuid "379b5af5-7fe7-45a1-b7a5-9be14d7eba82")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "D1")
 					(unit 1)
 				)
@@ -4126,11 +4126,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "35926e13-54e2-4db8-b6ac-1e2204f7c4c8")
+			(uuid "6a56cb5e-0faf-48fa-b788-f1092d724f66")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -4192,11 +4192,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ae2f91a-85c8-4c00-81c9-bbcb2f10c539")
+			(uuid "8b84fa03-b354-4b36-a920-deb5f7c95619")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -4258,11 +4258,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0a143c6-0e5a-430e-9de4-0a147a9d77e8")
+			(uuid "6c90cdf3-bb02-4716-a6d4-2bff0bb22aaf")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -4332,23 +4332,23 @@
 			)
 		)
 		(pin "4"
-			(uuid "4ca446e1-bb35-485c-b5a8-9483ba18321f")
+			(uuid "8966659e-880d-4eaa-af4a-ece508b134b2")
 		)
 		(pin "3"
-			(uuid "de744092-9c71-4141-9b4d-6c922342efb5")
+			(uuid "4385e775-43b6-4966-bbb7-b3c23e1d9c4e")
 		)
 		(pin "1"
-			(uuid "cc217fde-bcc2-4915-821b-49d7dd9a6075")
+			(uuid "5d7fb838-2542-4367-89bf-91daeb1a5e1c")
 		)
 		(pin "2"
-			(uuid "cd507e90-e828-48b9-9673-4fed3a32e067")
+			(uuid "7e14208d-4f6f-4a86-b4f9-a5808723c0ee")
 		)
 		(pin "5"
-			(uuid "b2f4b7fa-f5df-4f33-bbcf-4d6755a17578")
+			(uuid "e6f36090-db6d-4277-8ed2-0365d39c569c")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "U3")
 					(unit 1)
 				)
@@ -4426,14 +4426,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "11360df0-96c2-4ae8-821f-b4148ccb9f80")
+			(uuid "d3d1730a-961c-4082-9a44-5f3db791c3e3")
 		)
 		(pin "2"
-			(uuid "d2291144-5b51-42db-94a0-f176e4888453")
+			(uuid "fbef03e9-dfee-4a34-b57b-03eb3f201bc7")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "D2")
 					(unit 1)
 				)
@@ -4502,14 +4502,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "70ff6d9b-9799-4609-9d60-4518b214d875")
+			(uuid "fb0170bc-45d0-4226-8415-f7fec51fd7fd")
 		)
 		(pin "1"
-			(uuid "f2badf79-3a08-4d9a-8270-34fa19289367")
+			(uuid "0083ed83-147b-49fc-9e32-2ca4914d5ce4")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R7")
 					(unit 1)
 				)
@@ -4572,11 +4572,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f622a407-de12-4423-b6ee-c09996566da7")
+			(uuid "a90190e7-6297-499e-a3dc-0292be072b42")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "TP3")
 					(unit 1)
 				)
@@ -4646,14 +4646,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e2928f5-d7e0-4a38-b514-82f6a674fb56")
+			(uuid "7eea8c19-3057-4455-808b-8e9f30dc4273")
 		)
 		(pin "1"
-			(uuid "b1e2d65b-5758-422a-959e-edf3ef73551b")
+			(uuid "1c254469-759a-4520-908a-c63899db36a0")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "FB1")
 					(unit 1)
 				)
@@ -4715,11 +4715,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9c9b116-5b93-4de7-a79b-a54d12de7d38")
+			(uuid "aa2b190e-d035-4264-99f5-6079798928ab")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -4789,23 +4789,23 @@
 			)
 		)
 		(pin "4"
-			(uuid "b74b5c7e-c0b2-4b3e-b03c-3460956a77c4")
+			(uuid "77fe19f4-3c3f-41d7-bb25-806ba8c78d2d")
 		)
 		(pin "3"
-			(uuid "a8912217-b33c-4041-9507-2b0a80b2f21c")
+			(uuid "ea8962c4-a954-43c0-b536-9e037352b31a")
 		)
 		(pin "1"
-			(uuid "d5e319f2-603e-4b34-ac5d-9842b881480d")
+			(uuid "0dfef6cf-9e09-43ae-87c5-92e5df88c2cf")
 		)
 		(pin "2"
-			(uuid "65d16f02-6242-4948-a988-33a67bb429ff")
+			(uuid "aa1a66d4-28ac-4495-ad45-f9cef2af4f8b")
 		)
 		(pin "5"
-			(uuid "231b5cef-3a62-4d6b-a1b1-8b5bc3624036")
+			(uuid "643008f2-ec94-447f-9a93-ddeeacaefa12")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "U4")
 					(unit 1)
 				)
@@ -4874,59 +4874,59 @@
 			)
 		)
 		(pin "A5"
-			(uuid "956135e5-2313-40f1-b1d9-78dc5ac50741")
+			(uuid "27c9eb11-e11a-4f45-beb8-9752327f0998")
 		)
 		(pin "A9"
-			(uuid "ae6c88d6-718b-4556-9d20-c2c3ff5c0399")
+			(uuid "64417b58-277f-4104-aed3-d9e17bb7145e")
 		)
 		(pin "B7"
-			(uuid "0bc334a5-c38d-493a-8b9a-b152ce3cf8c3")
+			(uuid "1a5f83f5-f785-40d8-91d8-c6d288fa44e9")
 		)
 		(pin "A8"
-			(uuid "fa46be59-b974-4c2b-b216-608628c33d93")
+			(uuid "e1f03165-c238-4ba5-8e5e-90ccf0e5ff86")
 		)
 		(pin "B6"
-			(uuid "87a22417-33d8-4446-b688-f93b21a63ef0")
+			(uuid "12cd54d8-3af3-4421-a11a-b42bac673bde")
 		)
 		(pin "A6"
-			(uuid "cad61d42-3635-423a-a0b2-a5971bcf43c8")
+			(uuid "67490209-bcf2-4640-9ae4-7a6a5136cf46")
 		)
 		(pin "B4"
-			(uuid "78eff407-1e0e-4045-a10c-62cd84e9b63f")
+			(uuid "8bc77e8c-a684-4ea5-beec-853b83c569c1")
 		)
 		(pin "A7"
-			(uuid "2f517c5e-d8b8-40a6-886b-6ecefaa6fde5")
+			(uuid "4ece4d55-47d3-4f42-afc5-fa2c5a83a17a")
 		)
 		(pin "S1"
-			(uuid "13f12c3e-91b1-4ae8-8df0-7e4f8f4a11e1")
+			(uuid "22a60628-0061-4532-ab84-1d5f2999559a")
 		)
 		(pin "B5"
-			(uuid "9e569b5d-3aa0-4e2e-9c56-05460600852f")
+			(uuid "9db7c093-ba0b-45b4-87bc-7a48fc612fe8")
 		)
 		(pin "A4"
-			(uuid "349533b9-f169-45b4-ba08-06e53af1d0b6")
+			(uuid "0c9b8d22-4e95-4f7e-81f5-e07cbb907b35")
 		)
 		(pin "A12"
-			(uuid "2701a661-e2bd-4cc3-bad1-571f72d6f447")
+			(uuid "fb913638-d210-435a-9d97-26865d41f1df")
 		)
 		(pin "B1"
-			(uuid "87a8983e-03c2-4a32-837c-eab8af301e58")
+			(uuid "fa8f70cd-2a14-4b83-b84e-0f50889e977f")
 		)
 		(pin "B12"
-			(uuid "6f1e270f-0d9c-4107-91b0-ac8ee3422242")
+			(uuid "03b74e7f-9d3d-45a6-b803-cf0cafe3e364")
 		)
 		(pin "A1"
-			(uuid "860c90d8-689e-420e-8289-0bbc7db424a7")
+			(uuid "fd62a84b-2f00-4b8c-9532-11a0de054869")
 		)
 		(pin "B9"
-			(uuid "69a195cf-e78f-46df-9250-9e9abd243414")
+			(uuid "5b42b839-115a-4433-8b40-d29ec8d1bd77")
 		)
 		(pin "B8"
-			(uuid "d80cd3fb-8eff-4b60-8304-e54507a64c8d")
+			(uuid "1a25553a-bc92-47b0-a584-5ad1ade67f11")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "J3")
 					(unit 1)
 				)
@@ -4988,11 +4988,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ded341e-1e9a-465c-9bb7-b08f153b6605")
+			(uuid "daacf16d-2dd1-4203-a260-c491540e83b0")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -5054,11 +5054,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "340e82a1-422d-4bb8-8ba5-4c2a9647da07")
+			(uuid "ece8a7fc-22b8-4046-b7de-b8c9706da308")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -5120,11 +5120,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3605be4c-4f16-4754-b76e-5f560646b57a")
+			(uuid "92a9f69c-548d-412e-9152-c0d0e676240d")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -5186,11 +5186,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f9bdefd-4d9d-494d-a640-26ed1fc18f85")
+			(uuid "b2e87b0c-a557-427d-b1eb-bbf96d0ca371")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -5259,14 +5259,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "7f1172a4-81e5-4153-8554-286acc53df63")
+			(uuid "a814e881-2959-4359-881d-b5cfc770501d")
 		)
 		(pin "1"
-			(uuid "2af68955-81aa-4bd0-95c1-9059504e4f94")
+			(uuid "097ce3a2-2747-4cfd-9aa8-d3088793ad1f")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R5")
 					(unit 1)
 				)
@@ -5329,11 +5329,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "50471407-d434-4202-a8fb-7170c45870bb")
+			(uuid "ae3ed3e8-a75e-40eb-8da6-0ad9780a2646")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -5402,14 +5402,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "15289cbd-5328-4164-8324-13a13241db4a")
+			(uuid "7a6d954b-7941-4358-b2b2-2ec848adbe5c")
 		)
 		(pin "1"
-			(uuid "afc92ea5-b3ef-41cd-be78-77ed5cd96172")
+			(uuid "9d9255c6-aaf6-4ffa-9245-fca20148410f")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R9")
 					(unit 1)
 				)
@@ -5480,14 +5480,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "adc4072f-27b9-42fd-87d4-b26caa0facdd")
+			(uuid "9f5ee1c8-de6e-4797-a72c-3e7585c2ab75")
 		)
 		(pin "1"
-			(uuid "ee626d49-3167-4b3b-934c-12bfcdadf0da")
+			(uuid "14a0bba7-7515-4fac-9c48-d5bc5592882b")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R1")
 					(unit 1)
 				)
@@ -5559,68 +5559,68 @@
 			)
 		)
 		(pin "15"
-			(uuid "a31ea81d-85b3-4e53-88c0-f1530fd11eb9")
+			(uuid "2e26058d-9d35-41f0-b16f-68c8b416bc1a")
 		)
 		(pin "20"
-			(uuid "08ba2393-60b7-44ec-8856-5911fc9f6c29")
+			(uuid "986a8f61-b0ef-4638-98a2-d8212823a37b")
 		)
 		(pin "4"
-			(uuid "9b53dfd1-8448-4c6a-9bf9-883d6f31bb07")
+			(uuid "bfebb661-ef9c-40cc-a426-0526125ba0f9")
 		)
 		(pin "16"
-			(uuid "a156f95c-c445-482b-8f5e-95a55f3bf6da")
+			(uuid "59e4944a-9e22-4eb5-a9b5-9f957a904202")
 		)
 		(pin "10"
-			(uuid "0952f6cf-645f-4e50-b010-38004fa475df")
+			(uuid "7d722f0f-f014-47ca-8477-4cce6e460bb7")
 		)
 		(pin "2"
-			(uuid "11941e83-e3d4-4e3c-ac1e-3590ebf69319")
+			(uuid "326f41e0-1eb0-46ee-b227-051fe188f77c")
 		)
 		(pin "18"
-			(uuid "90701708-37b1-4ee0-a9e1-5013eab27c58")
+			(uuid "5704b3d7-f310-46ec-9d92-86c45ae0b4e4")
 		)
 		(pin "17"
-			(uuid "d0028e1d-614a-4312-9833-9948b2dc08fc")
+			(uuid "31930690-1216-415a-b9b6-adde7b2c3bcc")
 		)
 		(pin "5"
-			(uuid "6226c256-4f18-494f-bcc9-efd78a41e78d")
+			(uuid "ff35f15b-12ea-4124-8327-5c9027391801")
 		)
 		(pin "6"
-			(uuid "105c7623-eb5f-4cad-8a27-e4b80f122b2e")
+			(uuid "759c3608-beb7-47b0-9ab7-a12bb759538b")
 		)
 		(pin "19"
-			(uuid "09f83570-4ce7-4650-ac76-72435247dda3")
+			(uuid "f852b998-ae29-4062-ad28-fe89aeab130b")
 		)
 		(pin "3"
-			(uuid "cd5526b9-a218-4541-8f70-e9746e8bc318")
+			(uuid "8b4142b4-2003-4d4d-ac26-f9b0029ee7a0")
 		)
 		(pin "8"
-			(uuid "069ae3e9-418c-49b0-a37c-c04e73657178")
+			(uuid "d3c5279f-04c6-4f05-b843-5b0f34a03646")
 		)
 		(pin "7"
-			(uuid "07849037-c118-4a07-aa26-6aae9bd82eef")
+			(uuid "cc84e6f2-6900-493d-80df-1839cec356f4")
 		)
 		(pin "1"
-			(uuid "7ecf29f8-897e-4a1c-b6bf-58c4b1df37a8")
+			(uuid "806e6b02-1699-4fc3-b0f3-ded356cd4cdd")
 		)
 		(pin "9"
-			(uuid "65b68ef4-f9d8-406f-8850-09f51f9d5fcf")
+			(uuid "7351290e-b4ee-4ca7-a01b-78b3da5cfb36")
 		)
 		(pin "12"
-			(uuid "9634ebfc-55a4-49d6-b75f-1a9ab2b45758")
+			(uuid "411f16e1-d649-44a5-8b45-e250b41fc088")
 		)
 		(pin "14"
-			(uuid "40c8787f-53f3-4025-9351-c29ca6f1423a")
+			(uuid "64f28297-50e3-4b19-a478-7e8146dbdf53")
 		)
 		(pin "13"
-			(uuid "0b25158c-1b61-440a-9f51-fd0f02be3e78")
+			(uuid "5df066d4-fd2a-4ff2-9c76-71fd7a768503")
 		)
 		(pin "11"
-			(uuid "1713a540-8d07-440f-89c4-c8cfd1b5afd8")
+			(uuid "80d6f48b-87ab-4c7e-8c21-481f07930efe")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "U2")
 					(unit 1)
 				)
@@ -5691,14 +5691,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "73c8cfdd-c1d0-42a7-a449-b20e39b8e9e1")
+			(uuid "601ae98d-a86a-4182-a3be-754bee42fd0b")
 		)
 		(pin "1"
-			(uuid "fbd75532-b9d8-4bd6-b351-23281880d863")
+			(uuid "868b48d6-770a-4051-be4a-3b2b41b18fa2")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "C4")
 					(unit 1)
 				)
@@ -5760,11 +5760,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "bae9b14b-e13f-4c01-944f-11a5178bd05a")
+			(uuid "46cb0759-b454-43b0-8eea-9248e44bad74")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -5826,11 +5826,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e28efd41-4898-4277-bd34-1563401d6046")
+			(uuid "c4392fed-ea99-4bc4-a55f-64ea206cfea1")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -5892,11 +5892,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b077c6e-dabb-43b3-87a7-265cac8083cd")
+			(uuid "2f32ef8f-2697-4a14-ad80-6354f15c0900")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR0102")
 					(unit 1)
 				)
@@ -5958,11 +5958,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd565853-ee7b-45ff-b5de-44a3816deff2")
+			(uuid "ad5df90b-1212-4b3d-b452-593d1360fd0d")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -6025,11 +6025,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "95d0c1c0-6a08-4bc6-b71f-172f9c6201fc")
+			(uuid "87cab056-f89c-4e99-aef6-7599aa3067c3")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -6100,14 +6100,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "3a63e1d1-f2b0-48f2-b78b-5f42d62a40bf")
+			(uuid "6a7f5466-717b-4d34-978d-4d23ed748465")
 		)
 		(pin "1"
-			(uuid "a8883d01-e9ad-486e-b07a-d3e2f1066348")
+			(uuid "a3fc5807-b674-495a-8cda-7b9b4265e047")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "C6")
 					(unit 1)
 				)
@@ -6179,14 +6179,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "8482d613-1a20-4e51-8e60-8a283a212b2d")
+			(uuid "aa874c21-6d2e-455f-a874-d2dfa32b5001")
 		)
 		(pin "1"
-			(uuid "c191ad5d-4881-4d35-8ebf-91e74b44c95d")
+			(uuid "74d3ece3-eddf-47f5-915b-d7e9950ecc99")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "C2")
 					(unit 1)
 				)
@@ -6248,11 +6248,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0971469e-a5ad-444f-8917-6d444d3a7d11")
+			(uuid "ff67a9be-889e-4628-9e25-a6eabd167234")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -6314,11 +6314,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa3ba1e5-c6f9-4e81-8d6c-39902050fd87")
+			(uuid "8cd5060e-4f2b-48b2-8efc-53e4ebbde63b")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -6380,11 +6380,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "72c6fb66-b1a9-4e3c-b052-f1a6003b91b3")
+			(uuid "6967231c-c175-47f0-a64b-aa21072a5080")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -6446,11 +6446,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "86fd8541-5c1c-4b1d-bca1-c2c54a447cbb")
+			(uuid "8158e8dd-42f7-4a57-8601-8b3f38a4293f")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -6467,7 +6467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ae29c4-20a5-4458-a35e-2c0f7acc496c")
-		(property "Reference" "#PWR99"
+		(property "Reference" "#PWR099"
 			(at 67.31 40.64 0)
 			(effects
 				(font
@@ -6513,12 +6513,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c25033a-7c81-4289-8204-bebfeb11d7f5")
+			(uuid "03ea8f66-c32c-48f1-8f8f-655c0631b3cf")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
-					(reference "#PWR99")
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -6589,17 +6589,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b7706f8-30bf-40a1-b691-2f12f66359f0")
+			(uuid "86bf0002-8b49-4046-b6f2-4c6934476bb3")
 		)
 		(pin "3"
-			(uuid "100ca1e9-3864-4f97-8f7b-ed5833cd54c9")
+			(uuid "a8fce59b-24d4-4060-a529-f271a4266e03")
 		)
 		(pin "2"
-			(uuid "c84944a1-5483-478f-901f-79e521f67313")
+			(uuid "f2c93a67-a1be-4102-a03a-422f8447113c")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -6661,11 +6661,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9cff633-91fe-4b5b-9c8c-9e76ef0dc4be")
+			(uuid "a06e0d40-96a1-49fe-9244-0994c5438300")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -6734,14 +6734,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ec56413-c72f-473d-895d-00d6d63fe9ff")
+			(uuid "77c14c9b-d2f1-4d44-bec5-a5b44f11aa1e")
 		)
 		(pin "1"
-			(uuid "54b1d99e-d7a4-4460-9546-9e56416544b6")
+			(uuid "0fa568a5-0cf1-483b-b1fb-834ab3ac025a")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R3")
 					(unit 1)
 				)
@@ -6803,11 +6803,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "60f35430-875b-4d84-90fd-aa5c0c35adfb")
+			(uuid "1517db52-c69f-4807-892c-3aab2eedafcd")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -6876,14 +6876,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "36ebadcd-6b2a-4173-9b2e-a467f7d2d5df")
+			(uuid "bd9fb34a-7923-4356-b83b-d19464801365")
 		)
 		(pin "1"
-			(uuid "f85956a2-6bf8-439e-8745-0750bc8ee958")
+			(uuid "b7ba2b54-fbe2-4ce8-a930-66b3fb7598d1")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R6")
 					(unit 1)
 				)
@@ -6946,11 +6946,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f96bf332-2368-4269-a757-0f22e8bc1036")
+			(uuid "8a4adfc3-ad56-46d5-a3d1-6a82ecce89c2")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -7019,14 +7019,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "d33d7033-fd24-4694-ac75-b2917a170079")
+			(uuid "f3ce6870-6aa7-4ac4-91ad-ceb2c442e538")
 		)
 		(pin "1"
-			(uuid "9c35d80b-885c-4300-823c-8c8b7593bd7e")
+			(uuid "5efc0aa0-6806-4ce4-abf3-5576773d6e16")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R10")
 					(unit 1)
 				)
@@ -7089,11 +7089,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "84c426ec-09cc-40e6-8cb0-89956decd428")
+			(uuid "e30f384f-aaa1-4b8f-a257-3682607a10c4")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "TP4")
 					(unit 1)
 				)
@@ -7162,14 +7162,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "edc3618d-84de-408b-a8a9-331194c1bc7b")
+			(uuid "9fe43ac7-f053-48a4-9524-fc12bccd3939")
 		)
 		(pin "1"
-			(uuid "e85878d4-becb-4338-af01-66ceae55d5c4")
+			(uuid "0a1602bf-929e-4e51-b6a2-0cb6bcc6072d")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R4")
 					(unit 1)
 				)
@@ -7231,11 +7231,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "24676f65-a794-408f-a0b9-35dc2a4e22c5")
+			(uuid "aed24742-d322-4d5d-bfa6-19bdc47bd1e4")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -7306,14 +7306,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "e587f317-661f-4ba6-beb0-dd112dc0c08d")
+			(uuid "026799af-5888-4db9-aacd-54d7b62caaca")
 		)
 		(pin "1"
-			(uuid "7ab60fa0-98cd-4726-ac10-03fe8d4a82de")
+			(uuid "d93f8ca6-79af-45a7-8f82-5b6e7074833a")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "R2")
 					(unit 1)
 				)
@@ -7375,11 +7375,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "53748760-9f4e-4930-9ca4-36b1b2dc7287")
+			(uuid "f2a235cc-5944-4d94-abb1-484d9a2dff94")
 		)
 		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -7451,14 +7451,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "b44ece9d-2e7c-45fc-bcda-e08ce5b1c769")
+			(uuid "d763f26b-5b73-488e-bf2e-91a1f059a804")
 		)
 		(pin "1"
-			(uuid "24f53fef-6c89-4c2c-bae7-462def9a6775")
+			(uuid "ae6035b2-83a1-43a2-bffa-64a415bb7092")
 		)
 		(instances
 			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/c6f481d2-83f6-488c-bb50-b2feb7a98ad7"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2"
 					(reference "C3")
 					(unit 1)
 				)

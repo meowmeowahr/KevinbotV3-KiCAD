@@ -687,8 +687,8 @@
       "Root"
     ],
     [
-      "c6f481d2-83f6-488c-bb50-b2feb7a98ad7",
-      "Programmer"
+      "021ef78a-1e6a-4c77-a259-f094daf2e0e2",
+      "USB Programmer"
     ],
     [
       "441e8b1c-2de5-43eb-9608-83e9eae90220",
@@ -709,6 +709,10 @@
     [
       "083e4746-c54f-4ebf-8db7-bc4666178b1b",
       "Power Delivery"
+    ],
+    [
+      "36ef8cf2-6197-4fa1-9b06-a24478d77804",
+      "PGM MUX"
     ]
   ],
   "text_variables": {}
