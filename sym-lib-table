@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Parallax-P2")(type "KiCad")(uri "${KIPRJMOD}/Parallax-P2.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_Accelerator")(type "KiCad")(uri "${KIPRJMOD}/Interface_Accelerator.kicad_sym")(options "")(descr ""))
+  (lib (name "Analog_Switch_Local")(type "KiCad")(uri "${KIPRJMOD}/Analog_Switch_Local.kicad_sym")(options "")(descr ""))
 )

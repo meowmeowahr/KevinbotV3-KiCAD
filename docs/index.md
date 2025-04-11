@@ -23,7 +23,7 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 * I2C
 * RS-422
 * Status Light Port
-* Two Voltmeters (1v ~ 33v)
+* Internal Input Voltmeter + Two External Voltmeters (1v ~ 40v)
 * Level-Shifted WS281X(b) port
 * Four 2x6 Way P2 accessory headers
 * Internal and External Error Buzzer
