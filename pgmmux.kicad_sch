@@ -761,43 +761,2197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_DIP_x02"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x02"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x02_0_0"
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TS3A44159PWR_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.668 12.827 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "TS3A44159PWR"
+				(at -10.668 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3a44159.pdf?ts=1744359177958&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS3A44159"
+				(at 1.27 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TS3A44159 0.45-Ω Quad SPDT Analog Switch 4-Channel 2:1 Multiplexer – Demultiplexer With Two Controls"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch analog SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS3A44159PWR_1_1_1"
+				(rectangle
+					(start -11.176 9.525)
+					(end 9.906 -15.621)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -2.794 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -2.794 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.7018 -4.953) (xy 2.4892 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 5.207) (xy 2.54 6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 2.794 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 2.794 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "COM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "IN1-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "NO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "NO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS3A44159PWR_1_2_1"
+				(rectangle
+					(start -11.43 9.525)
+					(end 9.652 -15.621)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 5.08) (xy -3.048 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 -5.08) (xy -3.048 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.413 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.413 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.9558 -4.953) (xy 2.2352 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 5.207) (xy 2.286 6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -15.24) (xy -0.254 6.35)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 7.62) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 -7.62) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "COM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "COM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "IN3-4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "NC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "NO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "NC4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "NO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS3A44159PWR_1_3_1"
+				(rectangle
+					(start -3.81 10.16)
+					(end 3.81 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TS3A44159PWR_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.668 12.827 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "TS3A44159PWR"
+				(at -10.668 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3a44159.pdf?ts=1744359177958&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS3A44159"
+				(at 1.27 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TS3A44159 0.45-Ω Quad SPDT Analog Switch 4-Channel 2:1 Multiplexer – Demultiplexer With Two Controls"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch analog SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS3A44159PWR_2_1_1"
+				(rectangle
+					(start -11.176 9.525)
+					(end 9.906 -15.621)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -2.794 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -2.794 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.7018 -4.953) (xy 2.4892 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 5.207) (xy 2.54 6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 2.794 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 2.794 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "COM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "IN1-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "NO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "NO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS3A44159PWR_2_2_1"
+				(rectangle
+					(start -11.43 9.525)
+					(end 9.652 -15.621)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 5.08) (xy -3.048 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 -5.08) (xy -3.048 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.413 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.413 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.9558 -4.953) (xy 2.2352 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 5.207) (xy 2.286 6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -15.24) (xy -0.254 6.35)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 7.62) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 -7.62) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "COM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "COM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "IN3-4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "NC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "NO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "NC4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "NO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS3A44159PWR_2_3_1"
+				(rectangle
+					(start -3.81 10.16)
+					(end 3.81 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(hierarchical_label "RESn"
+	(rectangle
+		(start 97.79 40.64)
+		(end 160.02 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f4a1d709-7bcb-46e7-bd72-0c2616317598)
+	)
+	(text "Bidirectional Switch"
+		(exclude_from_sim no)
+		(at 108.204 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6501531-9ec5-41d5-b388-afdeaf056d67")
+	)
+	(no_connect
+		(at 148.59 96.52)
+		(uuid "68069088-5380-48ea-8196-212fe3ff065b")
+	)
+	(no_connect
+		(at 121.92 99.06)
+		(uuid "7e45a037-4d7e-4ab6-a82e-56682ad36fcd")
+	)
+	(no_connect
+		(at 148.59 101.6)
+		(uuid "c36227c5-f6af-4a97-a8be-636b53db317e")
+	)
+	(wire
+		(pts
+			(xy 134.62 139.7) (xy 134.62 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5834aa-89e4-4f8e-b51e-2777aad02d34")
+	)
+	(wire
+		(pts
+			(xy 119.38 137.16) (xy 119.38 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d63eb82-a4a5-443c-9baf-f416d3e228d4")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319487ba-86c5-4bf5-8bfb-79c6c160e3d0")
+	)
+	(wire
+		(pts
+			(xy 143.51 137.16) (xy 143.51 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be1c581-f9ae-436c-840b-31242d94bcb0")
+	)
+	(wire
+		(pts
+			(xy 134.62 137.16) (xy 143.51 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fbf27c-25f7-463c-8fe5-e3020b0c9a3e")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 179.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca30799-41ca-462e-90f2-c0c4b5172f79")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 179.07 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58dfda5-234d-4317-bfed-c51615503edc")
+	)
+	(label "EN_EXT_RES"
+		(at 134.62 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f3eff7d-d743-40ee-a34b-754f7e4a2192")
+	)
+	(label "TXD_USB"
+		(at 148.59 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a2c43bc-be3c-46eb-a9cc-52dfb1429f34")
+	)
+	(label "RESn_EXT"
+		(at 148.59 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4193ce86-76d9-4c91-ad02-233750a26219")
+	)
+	(label "EN_EXT"
+		(at 135.89 71.12 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "634294a4-c666-49aa-8427-3a333df57f9b")
+	)
+	(label "EN_EXT_RES"
+		(at 135.89 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6514d56a-525d-482e-ba08-911f83cafe1a")
+	)
+	(label "TXD_USB"
+		(at 167.64 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ba79200-35c1-4282-be55-7487087c7c44")
+	)
+	(label "RESn_USB"
+		(at 148.59 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "808ea15c-5f74-45e8-89c5-de34caa7a6b2")
+	)
+	(label "EN_EXT"
+		(at 137.16 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "899c8a6c-89b2-4caf-93b7-f164dc91aea5")
+	)
+	(label "RXD_EXT"
+		(at 148.59 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c4c50d5-402b-46d9-a10f-0b16869038c1")
+	)
+	(label "RESn_USB"
+		(at 167.64 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dc76a1f-d82d-4fcc-aac6-164e87f2e38b")
+	)
+	(label "RXD_USB"
+		(at 148.59 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a43aa8d5-e317-4a96-8323-ffe708354b29")
+	)
+	(label "RXD_USB"
+		(at 167.64 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edcf57da-6b92-494e-9793-3f958d55f994")
+	)
+	(label "TXD_EXT"
+		(at 148.59 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbdec2f8-10ee-4db8-bf2f-e34bade602f2")
+	)
+	(hierarchical_label "VCC"
 		(shape input)
-		(at 168.91 92.71 180)
+		(at 104.14 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "245e0acd-d970-42eb-a629-b1ed452d3239")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 104.14 87.63 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0adc8629-969f-427f-a938-ae7735a3b3b9")
+		(uuid "3ba190fb-c798-4c54-b745-04b426a14cf2")
 	)
 	(hierarchical_label "RXD"
 		(shape input)
-		(at 168.91 97.79 180)
+		(at 121.92 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8fa41cd4-3040-401f-884b-ff24d3490c87")
+		(uuid "5c2ab055-f04f-4f36-8311-e996ece2647d")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 119.38 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f5a12da-8f02-4d9b-90ef-365260147b5a")
 	)
 	(hierarchical_label "TXD"
 		(shape input)
-		(at 168.91 95.25 180)
+		(at 121.92 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "dce914ca-6bfd-4ad6-bf16-c4a5c0ce3eb0")
+		(uuid "7fa5fe97-531f-44e9-a9a8-c7fe1758dbfe")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 134.62 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cfe1426-4cb1-4c38-88b2-97d5addfd153")
+	)
+	(hierarchical_label "RESn"
+		(shape input)
+		(at 121.92 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5b13830-79f6-4ff3-ba28-c53f7fc7754e")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 143.51 149.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e606a3c1-7546-4a51-9007-8d890ab2cb60")
 	)
 	(symbol
+		(lib_name "TS3A44159PWR_2")
 		(lib_id "Analog_Switch_Local:TS3A44159PWR")
-		(at 76.2 91.44 0)
+		(at 135.89 93.98 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -806,7 +2960,7 @@
 		(fields_autoplaced yes)
 		(uuid "10a43977-d958-4cdd-8844-0e39073d1d67")
 		(property "Reference" "U10"
-			(at 65.532 78.613 0)
+			(at 125.222 81.153 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +2970,7 @@
 			)
 		)
 		(property "Value" "TS3A44159PWR"
-			(at 65.532 80.518 0)
+			(at 125.222 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +2980,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 77.47 104.14 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,7 +2990,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3a44159.pdf?ts=1744359177958&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS3A44159"
-			(at 77.47 106.045 0)
+			(at 137.16 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +3000,16 @@
 			)
 		)
 		(property "Description" "TS3A44159 0.45-Ω Quad SPDT Analog Switch 4-Channel 2:1 Multiplexer – Demultiplexer With Two Controls"
-			(at 76.2 92.71 0)
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TS3A44159PWR"
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,8 +3075,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 134.62 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d9bc087-2eed-429e-bc65-2e781ccf8954")
+		(property "Reference" "R12"
+			(at 137.16 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.16 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 132.842 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-0710KL"
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2bf0244-4317-4297-bd30-5429dd3c56bc")
+		)
+		(pin "2"
+			(uuid "c3ad7419-8ffa-4d36-ab73-c967bee0b40b")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_Switch_Local:TS3A44159PWR")
-		(at 44.45 72.39 0)
+		(at 104.14 74.93 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -922,7 +3164,7 @@
 		(fields_autoplaced yes)
 		(uuid "731e8630-b177-4316-90ee-a4257690a8e3")
 		(property "Reference" "U10"
-			(at 33.782 59.563 0)
+			(at 93.472 62.103 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +3174,7 @@
 			)
 		)
 		(property "Value" "TS3A44159PWR"
-			(at 33.782 61.468 0)
+			(at 93.472 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +3184,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 45.72 85.09 0)
+			(at 105.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +3194,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3a44159.pdf?ts=1744359177958&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS3A44159"
-			(at 45.72 86.995 0)
+			(at 105.41 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +3204,16 @@
 			)
 		)
 		(property "Description" "TS3A44159 0.45-Ω Quad SPDT Analog Switch 4-Channel 2:1 Multiplexer – Demultiplexer With Two Controls"
-			(at 44.45 73.66 0)
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TS3A44159PWR"
+			(at 104.14 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,52 +3222,52 @@
 			)
 		)
 		(pin "5"
-			(uuid "b5652585-0f2f-4fc6-bdcc-cb941478e4b8")
+			(uuid "b5652585-0f2f-4fc6-bdcc-cb941478e4b9")
 		)
 		(pin "4"
-			(uuid "ac56c83f-842e-45e8-a34a-185a6b8c105b")
+			(uuid "ac56c83f-842e-45e8-a34a-185a6b8c105c")
 		)
 		(pin "6"
-			(uuid "599df1b4-e545-4e0e-a2c2-09a7052d2087")
+			(uuid "599df1b4-e545-4e0e-a2c2-09a7052d2088")
 		)
 		(pin "8"
-			(uuid "2af181ce-88a4-4c2b-98ec-3696e36dea4e")
+			(uuid "2af181ce-88a4-4c2b-98ec-3696e36dea4f")
 		)
 		(pin "11"
-			(uuid "9ce93a5f-a515-4517-a4ae-a38745d7b2f6")
+			(uuid "9ce93a5f-a515-4517-a4ae-a38745d7b2f7")
 		)
 		(pin "10"
-			(uuid "551b6562-eed9-4357-bfce-2ff505e36daf")
+			(uuid "551b6562-eed9-4357-bfce-2ff505e36db0")
 		)
 		(pin "9"
-			(uuid "56d6e775-1acf-43f9-9874-34a0ad84d012")
+			(uuid "56d6e775-1acf-43f9-9874-34a0ad84d013")
 		)
 		(pin "13"
-			(uuid "4d24ea07-86ce-49a6-a710-93d9b5d8eeb9")
+			(uuid "4d24ea07-86ce-49a6-a710-93d9b5d8eeba")
 		)
 		(pin "14"
-			(uuid "f56dc22f-d328-451d-82f9-154998900a4b")
+			(uuid "f56dc22f-d328-451d-82f9-154998900a4c")
 		)
 		(pin "15"
-			(uuid "f46d0339-0d55-4bed-821b-a32ac88a3711")
+			(uuid "f46d0339-0d55-4bed-821b-a32ac88a3712")
 		)
 		(pin "16"
-			(uuid "66317c9f-1d85-4419-828f-e146665ed2c5")
+			(uuid "66317c9f-1d85-4419-828f-e146665ed2c6")
 		)
 		(pin "2"
-			(uuid "1463ac07-c6ff-45dc-a073-2037b3420a68")
+			(uuid "1463ac07-c6ff-45dc-a073-2037b3420a69")
 		)
 		(pin "3"
-			(uuid "97890e8c-20e8-4abe-84c8-c9e142a90886")
+			(uuid "97890e8c-20e8-4abe-84c8-c9e142a90887")
 		)
 		(pin "1"
-			(uuid "93c01d7b-3fbe-4b8b-b6d7-b8f9f89b174e")
+			(uuid "93c01d7b-3fbe-4b8b-b6d7-b8f9f89b174f")
 		)
 		(pin "7"
-			(uuid "fc9ac498-3907-4cf9-bc4b-46d86499716d")
+			(uuid "fc9ac498-3907-4cf9-bc4b-46d86499716e")
 		)
 		(pin "12"
-			(uuid "9e6d13c5-c79d-4ba6-9730-4a0ffe0db114")
+			(uuid "9e6d13c5-c79d-4ba6-9730-4a0ffe0db115")
 		)
 		(instances
 			(project ""
@@ -1028,8 +3279,9 @@
 		)
 	)
 	(symbol
+		(lib_name "TS3A44159PWR_1")
 		(lib_id "Analog_Switch_Local:TS3A44159PWR")
-		(at 76.2 50.8 0)
+		(at 135.89 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1038,7 +3290,7 @@
 		(fields_autoplaced yes)
 		(uuid "841ca458-84e5-4a33-8940-9c0895bcbf76")
 		(property "Reference" "U10"
-			(at 65.532 37.973 0)
+			(at 125.222 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +3300,7 @@
 			)
 		)
 		(property "Value" "TS3A44159PWR"
-			(at 65.532 39.878 0)
+			(at 125.222 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +3310,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 77.47 63.5 0)
+			(at 137.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +3320,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3a44159.pdf?ts=1744359177958&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTS3A44159"
-			(at 77.47 65.405 0)
+			(at 137.16 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +3330,16 @@
 			)
 		)
 		(property "Description" "TS3A44159 0.45-Ω Quad SPDT Analog Switch 4-Channel 2:1 Multiplexer – Demultiplexer With Two Controls"
-			(at 76.2 52.07 0)
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TS3A44159PWR"
+			(at 135.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,52 +3348,52 @@
 			)
 		)
 		(pin "5"
-			(uuid "b5652585-0f2f-4fc6-bdcc-cb941478e4b8")
+			(uuid "b5652585-0f2f-4fc6-bdcc-cb941478e4ba")
 		)
 		(pin "4"
-			(uuid "ac56c83f-842e-45e8-a34a-185a6b8c105b")
+			(uuid "ac56c83f-842e-45e8-a34a-185a6b8c105d")
 		)
 		(pin "6"
-			(uuid "599df1b4-e545-4e0e-a2c2-09a7052d2087")
+			(uuid "599df1b4-e545-4e0e-a2c2-09a7052d2089")
 		)
 		(pin "8"
-			(uuid "2af181ce-88a4-4c2b-98ec-3696e36dea4e")
+			(uuid "2af181ce-88a4-4c2b-98ec-3696e36dea50")
 		)
 		(pin "11"
-			(uuid "9ce93a5f-a515-4517-a4ae-a38745d7b2f6")
+			(uuid "9ce93a5f-a515-4517-a4ae-a38745d7b2f8")
 		)
 		(pin "10"
-			(uuid "551b6562-eed9-4357-bfce-2ff505e36daf")
+			(uuid "551b6562-eed9-4357-bfce-2ff505e36db1")
 		)
 		(pin "9"
-			(uuid "56d6e775-1acf-43f9-9874-34a0ad84d012")
+			(uuid "56d6e775-1acf-43f9-9874-34a0ad84d014")
 		)
 		(pin "13"
-			(uuid "4d24ea07-86ce-49a6-a710-93d9b5d8eeb9")
+			(uuid "4d24ea07-86ce-49a6-a710-93d9b5d8eebb")
 		)
 		(pin "14"
-			(uuid "f56dc22f-d328-451d-82f9-154998900a4b")
+			(uuid "f56dc22f-d328-451d-82f9-154998900a4d")
 		)
 		(pin "15"
-			(uuid "f46d0339-0d55-4bed-821b-a32ac88a3711")
+			(uuid "f46d0339-0d55-4bed-821b-a32ac88a3713")
 		)
 		(pin "16"
-			(uuid "66317c9f-1d85-4419-828f-e146665ed2c5")
+			(uuid "66317c9f-1d85-4419-828f-e146665ed2c7")
 		)
 		(pin "2"
-			(uuid "1463ac07-c6ff-45dc-a073-2037b3420a68")
+			(uuid "1463ac07-c6ff-45dc-a073-2037b3420a6a")
 		)
 		(pin "3"
-			(uuid "97890e8c-20e8-4abe-84c8-c9e142a90886")
+			(uuid "97890e8c-20e8-4abe-84c8-c9e142a90888")
 		)
 		(pin "1"
-			(uuid "93c01d7b-3fbe-4b8b-b6d7-b8f9f89b174e")
+			(uuid "93c01d7b-3fbe-4b8b-b6d7-b8f9f89b1750")
 		)
 		(pin "7"
-			(uuid "fc9ac498-3907-4cf9-bc4b-46d86499716d")
+			(uuid "fc9ac498-3907-4cf9-bc4b-46d86499716f")
 		)
 		(pin "12"
-			(uuid "9e6d13c5-c79d-4ba6-9730-4a0ffe0db114")
+			(uuid "9e6d13c5-c79d-4ba6-9730-4a0ffe0db116")
 		)
 		(instances
 			(project ""
@@ -1143,8 +3404,161 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "913a81ce-fb6d-4819-90dd-405847395fe0")
+		(property "Reference" "R13"
+			(at 146.05 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 146.05 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 141.732 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-0710KL"
+			(at 143.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c255b514-4124-498b-aea0-8af0b742398b")
+		)
+		(pin "2"
+			(uuid "2e514f99-282a-4780-a91a-206b0397be75")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x02")
+		(at 127 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "975ebd3d-5053-49e9-906b-eddafb7e71cf")
+		(property "Reference" "SW3"
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x02"
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48ca729b-ee2b-4b83-83e3-e1fa29b6f323")
+		)
+		(pin "4"
+			(uuid "6a88db19-7793-42cb-b3ca-e6ec7af9c9fe")
+		)
+		(pin "1"
+			(uuid "877ac6dd-0cca-4a63-a561-4a9019f18db8")
+		)
+		(pin "2"
+			(uuid "1fbd3594-34e9-46de-aa5f-627ee64807b6")
+		)
+		(instances
+			(project ""
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/36ef8cf2-6197-4fa1-9b06-a24478d77804"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 168.91 87.63)
+		(at 179.07 86.36)
 		(size 20.32 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1160,7 +3574,7 @@
 		)
 		(uuid "021ef78a-1e6a-4c77-a259-f094daf2e0e2")
 		(property "Sheetname" "USB Programmer"
-			(at 168.91 86.9184 0)
+			(at 179.07 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +3583,7 @@
 			)
 		)
 		(property "Sheetfile" "prog.kicad_sch"
-			(at 168.91 103.4546 0)
+			(at 179.07 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +3592,7 @@
 			)
 		)
 		(pin "RESn" input
-			(at 168.91 92.71 180)
+			(at 179.07 91.44 180)
 			(uuid "4da52c9d-6376-4eef-bbcf-b8c7ca0f45b0")
 			(effects
 				(font
@@ -1188,7 +3602,7 @@
 			)
 		)
 		(pin "RX" input
-			(at 168.91 95.25 180)
+			(at 179.07 93.98 180)
 			(uuid "3e5b8cfc-a075-472e-8922-1ce2d594446e")
 			(effects
 				(font
@@ -1198,7 +3612,7 @@
 			)
 		)
 		(pin "TX" input
-			(at 168.91 97.79 180)
+			(at 179.07 96.52 180)
 			(uuid "a0f0903b-3547-48b8-b387-328332872166")
 			(effects
 				(font

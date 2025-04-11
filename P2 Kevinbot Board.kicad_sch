@@ -2986,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 20.32) (xy 156.21 20.32)
+			(xy 137.16 30.48) (xy 156.21 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3075,12 +3075,12 @@
 		(uuid "f16624f7-4bd2-488d-88fb-1bea6a307c0a")
 	)
 	(label "P2_RESn"
-		(at 148.59 20.32 180)
+		(at 137.16 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "393fffc1-1e88-4e33-bd56-0fe05233c501")
 	)
@@ -3216,7 +3216,7 @@
 	)
 	(global_label "P2_P63_RXD"
 		(shape input)
-		(at 156.21 22.86 180)
+		(at 156.21 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3226,7 +3226,7 @@
 		)
 		(uuid "0312d7e6-cc56-472c-92e4-2f19e9785685")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.9436 22.9394 0)
+			(at 141.9436 33.0994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,6 +3491,28 @@
 		(uuid "1466a74c-3f04-4e36-ae84-fd465f059d52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.1587 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_V56"
+		(shape input)
+		(at 156.21 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1507f16b-0c3d-4b75-bca4-12f9c145de10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.2701 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5086,7 @@
 	)
 	(global_label "P2_P62_TXD"
 		(shape input)
-		(at 156.21 25.4 180)
+		(at 156.21 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5074,7 +5096,7 @@
 		)
 		(uuid "b2338f03-8de9-4cbd-8d9f-56496fe528ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2459 25.4794 0)
+			(at 142.2459 35.6394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,6 +8840,73 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd3728c0-cf72-41ae-8822-5fdbd93c8771")
+		(property "Reference" "#PWR051"
+			(at 149.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24829053-c742-4ec7-8090-0cf7cae04889")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 208.28 95.25)
 		(size 20.32 13.97)
@@ -8871,8 +8960,8 @@
 		)
 	)
 	(sheet
-		(at 156.21 16.51)
-		(size 20.32 12.7)
+		(at 156.21 25.4)
+		(size 20.32 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8887,7 +8976,7 @@
 		)
 		(uuid "36ef8cf2-6197-4fa1-9b06-a24478d77804")
 		(property "Sheetname" "PGM MUX"
-			(at 156.21 15.7984 0)
+			(at 156.21 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +8985,7 @@
 			)
 		)
 		(property "Sheetfile" "pgmmux.kicad_sch"
-			(at 156.21 29.7946 0)
+			(at 156.21 41.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +8995,7 @@
 			)
 		)
 		(pin "RESn" input
-			(at 156.21 20.32 180)
+			(at 156.21 30.48 180)
 			(uuid "1064d934-bd6d-4524-a99e-9eb0cbcd86cb")
 			(effects
 				(font
@@ -8916,7 +9005,7 @@
 			)
 		)
 		(pin "RXD" input
-			(at 156.21 22.86 180)
+			(at 156.21 33.02 180)
 			(uuid "74b6f262-cfe9-425e-8365-5618d27f1343")
 			(effects
 				(font
@@ -8926,8 +9015,28 @@
 			)
 		)
 		(pin "TXD" input
-			(at 156.21 25.4 180)
+			(at 156.21 35.56 180)
 			(uuid "a15e4ba4-7bda-4a35-aeba-22632453d486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 156.21 38.1 180)
+			(uuid "a6255332-c890-4668-a6f9-bbe6edc47b42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 156.21 27.94 180)
+			(uuid "7ec99b66-d530-48e7-be8d-21572988a717")
 			(effects
 				(font
 					(size 1.27 1.27)
