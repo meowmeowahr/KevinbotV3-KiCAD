@@ -1,5 +1,6 @@
+![alt text](docs/images/banner.png)
 # Kevinbot Core
-The KiCAD sources for the Kevinbot Core
+The KiCAD sources for the Kevinbot Core control board
 
 | | |
 |-|-|
@@ -29,6 +30,8 @@ I would recommend them for any of your PCB needs. They offer fast turnaround and
 
 | Part Name                                        | Credit                                                                           | License                                  |
 | ------------------------------------------------ | -------------------------------------------------------------------------------- | ---------------------------------------- |
-| MSTBA-2,5-2-G-5,08                               | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| 2-1734839-8.wrl (3D Model Only)                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| P2Edge80p127_VERT_SMT_20927.step (3D Model Only) | Michael [OBEX](https://obex.parallax.com/obex/parallax-p2-library-for-diptrace/) | MIT |
+| 430450400--3DModel-STEP-56544                    | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
+| 1053091102--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
+| 1053091103--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
+| 1053091106--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
+| 1053091108--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
