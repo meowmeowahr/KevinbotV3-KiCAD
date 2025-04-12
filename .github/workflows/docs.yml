@@ -39,7 +39,7 @@ jobs:
         run: docker build -t kicad-ihbom-env .
 
       - name: Install MkDocs + mike
-        run: pip install mkdocs mkdocs-material mike
+        run: pip install mkdocs mkdocs-material  mkdocs-glightbox
 
       - name: Build MkDocs site
         run: mkdocs build
