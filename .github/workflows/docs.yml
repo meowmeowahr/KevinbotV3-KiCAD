@@ -1,0 +1,61 @@
+name: Generate and Deploy InteractiveHtmlBom with mike
+
+on:
+  push:
+    branches:
+      - devel
+      - RevA
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Required so mike can see all branches/tags
+
+      - name: Set VERSION based on branch
+        id: vars
+        run: |
+          if [[ "${{ github.ref_name }}" == "devel" ]]; then
+            echo "VERSION=RevB" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.ref_name }}" == "RevA" ]]; then
+            echo "VERSION=RevA" >> $GITHUB_OUTPUT
+          else
+            echo "Unsupported branch" >&2
+            exit 1
+          fi
+
+      - name: Fetch gh-pages branch
+        run: git fetch origin gh-pages:gh-pages || echo "gh-pages does not exist yet"
+
+      - name: Build Docker image
+        run: docker build -t kicad-ihbom-env .
+
+      - name: Install MkDocs + mike
+        run: pip install mkdocs mkdocs-material mike
+
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      - name: Generate iBOM for P2 Kevinbot Board
+        run: |
+          docker run --rm \
+            -v "$(pwd):/workspace" \
+            kicad-ihbom-env bash -c \
+            "Xvfb :99 -screen 0 1024x768x16 & \
+            export DISPLAY=:99 && \
+            kicad-cli sch export netlist --format kicadxml --output p2.xml 'P2 Kevinbot Board.kicad_sch' && \
+            generate_interactive_bom 'P2 Kevinbot Board.kicad_pcb' --extra-data-file p2.xml --no-browser --dest-dir site/ibom --name-format ibom --dark-mode --layer-view FB --extra-fields 'Part' --highlight-pin1 selected || true"
+
+      - name: Commit and deploy docs with mike
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          mike deploy --push --update-aliases "${{ steps.vars.outputs.VERSION }}"
