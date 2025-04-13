@@ -2973,6 +2973,12 @@
 		)
 	)
 	(junction
+		(at 207.01 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ae8ed06-8f8b-4ee7-81b9-9e04c48c6613")
+	)
+	(junction
 		(at 72.39 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3011,6 +3017,16 @@
 	(no_connect
 		(at 119.38 133.35)
 		(uuid "b084613c-1df3-489f-a1af-f829e7df9fee")
+	)
+	(wire
+		(pts
+			(xy 208.28 137.16) (xy 207.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a9aa3a-5a10-4c9f-996c-5fe77d001c30")
 	)
 	(wire
 		(pts
@@ -3054,6 +3070,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 137.16) (xy 207.01 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb88f72-1f0b-488e-9fa1-08169973bfd6")
+	)
+	(wire
+		(pts
 			(xy 115.57 87.63) (xy 115.57 91.44)
 		)
 		(stroke
@@ -3094,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 139.7) (xy 207.01 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a16189-721f-4c9e-970d-713409c07520")
+	)
+	(wire
+		(pts
 			(xy 245.11 39.37) (xy 264.16 39.37)
 		)
 		(stroke
@@ -3101,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "79540e69-405c-4818-a9cb-6f0be0edb382")
+	)
+	(wire
+		(pts
+			(xy 207.01 139.7) (xy 208.28 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f9ef23-74c7-45ac-b4ee-15ef7c36d04a")
 	)
 	(wire
 		(pts
@@ -4232,6 +4278,28 @@
 			)
 		)
 	)
+	(global_label "P2_V32"
+		(shape input)
+		(at 205.74 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ae0371b-cc65-4a0b-ac94-1884bc2424c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.3721 139.6206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2_V40"
 		(shape input)
 		(at 45.72 62.23 180)
@@ -4949,6 +5017,28 @@
 		(uuid "93c41be5-bd67-4520-8205-e3b2cdec7218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.9121 29.1306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P39"
+		(shape input)
+		(at 208.28 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94d5da06-1170-4fc1-b260-46aebaf22009")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.7307 142.1606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,6 +7567,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90ea5057-def3-4385-b830-e67281cd2fd8")
+		(property "Reference" "#PWR054"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "189ac124-7045-46ff-be14-44d7bef712a6")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 146.05 157.48 0)
 		(unit 1)
@@ -8510,6 +8666,73 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 208.28 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c21aebaf-516b-4b20-b96b-d8b6bfb4c9c6")
+		(property "Reference" "#PWR055"
+			(at 212.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 204.47 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1694b329-ca52-473a-a3a0-3108de26738f")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -9936,6 +10159,98 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 132.08)
+		(size 20.32 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5453e275-4798-490a-963f-0bb3e1119943")
+		(property "Sheetname" "One-Wire"
+			(at 208.28 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "owx.kicad_sch"
+			(at 208.28 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 208.28 144.78 180)
+			(uuid "735d702b-b161-4e27-ba2d-769f4c8e9601")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OWX" bidirectional
+			(at 208.28 142.24 180)
+			(uuid "2c9a052b-5402-449c-9b35-06bcc39c622f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCIO" passive
+			(at 208.28 139.7 180)
+			(uuid "b1ff2244-6cdc-49e7-b8f9-e22a9ba7a977")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 208.28 134.62 180)
+			(uuid "f6f3539d-c535-4044-9396-f7207da2da95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCTH" passive
+			(at 208.28 137.16 180)
+			(uuid "5cb059f4-fa68-4d6a-bf64-e39501e1ef4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(page "9")
 				)
 			)
 		)

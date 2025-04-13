@@ -38,3 +38,4 @@ Notice: All parts below retain their original license
 | 1053091106--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
 | 1053091108--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
 | 1053132102--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
+| 1053101104--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |

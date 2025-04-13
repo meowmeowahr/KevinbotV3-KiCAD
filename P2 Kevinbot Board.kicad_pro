@@ -713,6 +713,10 @@
     [
       "36ef8cf2-6197-4fa1-9b06-a24478d77804",
       "PGM MUX, Headers"
+    ],
+    [
+      "5453e275-4798-490a-963f-0bb3e1119943",
+      "One-Wire"
     ]
   ],
   "text_variables": {}
