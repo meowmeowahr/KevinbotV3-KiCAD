@@ -360,6 +360,19 @@
 				)
 			)
 		)
+		(property "Part Number" "1053132102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1adfe4a7-54ab-42b0-8e44-312cc65c03d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/083e4746-c54f-4ebf-8db7-bc4666178b1b/526f1534-2147-45df-8aa3-59836be72b40")
 		(sheetname "/Power Delivery/")
@@ -735,6 +748,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "PPTC091LFBN-RC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09097f53-7024-4c54-a693-908e85716df5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3824,7 +3850,7 @@
 				)
 			)
 		)
-		(property "Part Number" "3568, 099707.5WXN"
+		(property "Part Number" "3568"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11870,6 +11896,19 @@
 				)
 			)
 		)
+		(property "Part Number" "PPTC081LFBN-RC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e6c00f2-51e5-45e1-90a9-013587ca14c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/36ef8cf2-6197-4fa1-9b06-a24478d77804/31ce6e03-8916-4222-90ca-21e92b83eca5")
 		(sheetname "/PGM MUX, Headers/")
@@ -12186,6 +12225,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "1053132102"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc621660-9a84-4bc1-8816-c43e3f91d2fd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17257,12 +17309,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Parallax : P2-EC"
+		(property "Part Number" "450-00308"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9d8168f-6b65-4ed2-a0c7-99d32e0cbe64")
+			(uuid "6409b934-f4a5-42bd-8022-fb464abf4951")
 			(effects
 				(font
 					(size 1 1)
@@ -21900,6 +21952,19 @@
 				)
 			)
 		)
+		(property "Part Number" "TMUX1511PWR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f306a985-afd4-4c16-827d-ce90b256871a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "VSSOP*3x3mm*P0.5mm*")
 		(path "/083e4746-c54f-4ebf-8db7-bc4666178b1b/15788117-fc51-4e11-895f-e694c122d263")
 		(sheetname "/Power Delivery/")
@@ -24051,7 +24116,7 @@
 		(path "/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2/cda8e569-5dc2-42da-b2fe-df7d4308556c")
 		(sheetname "/PGM MUX, Headers/USB Programmer/")
 		(sheetfile "prog.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24159,7 +24224,7 @@
 		(path "/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2/2ae551e6-76ae-4a92-9791-b4b5c177152e")
 		(sheetname "/PGM MUX, Headers/USB Programmer/")
 		(sheetfile "prog.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24267,7 +24332,7 @@
 		(path "/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2/8277727e-2250-422b-ace7-45174c0007e5")
 		(sheetname "/PGM MUX, Headers/USB Programmer/")
 		(sheetfile "prog.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24375,7 +24440,7 @@
 		(path "/36ef8cf2-6197-4fa1-9b06-a24478d77804/021ef78a-1e6a-4c77-a259-f094daf2e0e2/c7a5a3ce-dc93-41e7-b6d6-b04bd018cfc5")
 		(sheetname "/PGM MUX, Headers/USB Programmer/")
 		(sheetfile "prog.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24483,7 +24548,7 @@
 		(path "/6c34ba17-8eb0-4f63-998e-32a51b3fa6d9")
 		(sheetname "/")
 		(sheetfile "P2 Kevinbot Board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24591,7 +24656,7 @@
 		(path "/7af80d90-8700-4329-81e5-f020a8299cb2")
 		(sheetname "/")
 		(sheetfile "P2 Kevinbot Board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24699,7 +24764,7 @@
 		(path "/ab021a4a-9a4c-4c06-b651-a2689985d167")
 		(sheetname "/")
 		(sheetfile "P2 Kevinbot Board.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)

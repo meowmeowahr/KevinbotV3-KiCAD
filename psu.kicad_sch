@@ -2263,6 +2263,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "TMUX1511PWR"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e234f1a-147f-4e6a-af20-7aa6dd9269c3")
 		)
@@ -2647,6 +2656,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1053132102"
 			(at 143.51 93.98 0)
 			(effects
 				(font
@@ -3347,6 +3365,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1053132102"
 			(at 143.51 60.96 0)
 			(effects
 				(font

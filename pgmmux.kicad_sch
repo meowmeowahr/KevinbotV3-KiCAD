@@ -4196,6 +4196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "PPTC081LFBN-RC"
+			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "23f6b98f-3951-49ae-b260-4add5aa1ef89")
 		)
@@ -4274,6 +4283,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PPTC091LFBN-RC"
 			(at 184.15 69.85 0)
 			(effects
 				(font
