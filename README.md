@@ -28,6 +28,8 @@ I would recommend them for any of your PCB needs. They offer fast turnaround and
 
 ## Credits
 
+Notice: All parts below retain their original license
+
 | Part Name                                        | Credit                                                                           | License                                  |
 | ------------------------------------------------ | -------------------------------------------------------------------------------- | ---------------------------------------- |
 | 430450400--3DModel-STEP-56544                    | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |

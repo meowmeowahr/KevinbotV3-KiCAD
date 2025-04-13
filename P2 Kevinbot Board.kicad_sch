@@ -5,8 +5,9 @@
 	(uuid "362ca48c-0b77-4943-b8b3-fc15ab97f30d")
 	(paper "USLegal")
 	(title_block
-		(title "P2 Kevinbot Board")
-		(rev "A")
+		(title "Kevinbot Core")
+		(date "2025-04-12")
+		(rev "B-DEV")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -5378,7 +5379,7 @@
 	)
 	(global_label "P2_P40"
 		(shape input)
-		(at 156.21 55.88 180)
+		(at 208.28 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5388,7 +5389,7 @@
 		)
 		(uuid "c679fc2a-fe79-47e2-bff7-7aa3ec9fd2d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6607 55.8006 0)
+			(at 198.7307 123.1106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +8848,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 156.21 53.34 90)
+		(at 208.28 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8856,7 +8857,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8fadbc1-95ee-4846-9ce6-3b18c863b52a")
 		(property "Reference" "#PWR028"
-			(at 160.02 53.34 0)
+			(at 212.09 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,7 +8866,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 152.4 53.3399 90)
+			(at 204.47 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,7 +8875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 53.34 0)
+			(at 208.28 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +8884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 53.34 0)
+			(at 208.28 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,7 +8893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 53.34 0)
+			(at 208.28 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,6 +8908,72 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 276.86 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f92e4788-8ab5-449c-991c-de62959eb634")
+		(property "Reference" "#PWR052"
+			(at 276.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 276.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eeea669-c588-4d1b-9560-55574d00b227")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9038,7 +9105,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -9048,7 +9114,7 @@
 		)
 		(uuid "36ef8cf2-6197-4fa1-9b06-a24478d77804")
 		(property "Sheetname" "PGM MUX, Headers"
-			(at 264.16 33.5784 0)
+			(at 270.256 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,6 +9222,16 @@
 				(justify left)
 			)
 		)
+		(pin "5V" input
+			(at 276.86 34.29 90)
+			(uuid "be2058ac-fbcb-450e-8153-ba3c19fe28da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
@@ -9247,7 +9323,7 @@
 		)
 	)
 	(sheet
-		(at 156.21 50.8)
+		(at 208.28 118.11)
 		(size 20.32 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9263,7 +9339,7 @@
 		)
 		(uuid "441e8b1c-2de5-43eb-9608-83e9eae90220")
 		(property "Sheetname" "Buzzer Out"
-			(at 156.21 50.0884 0)
+			(at 208.28 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9348,7 @@
 			)
 		)
 		(property "Sheetfile" "buzzout.kicad_sch"
-			(at 156.21 59.0046 0)
+			(at 208.28 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9357,7 @@
 			)
 		)
 		(pin "SIG" input
-			(at 156.21 55.88 180)
+			(at 208.28 123.19 180)
 			(uuid "9de350b6-4cfa-460e-9c2d-26266a9c56de")
 			(effects
 				(font
@@ -9291,7 +9367,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 156.21 53.34 180)
+			(at 208.28 120.65 180)
 			(uuid "15ec4e5f-e1f4-4566-8080-90df87955d98")
 			(effects
 				(font

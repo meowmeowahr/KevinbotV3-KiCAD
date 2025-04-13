@@ -3318,10 +3318,6 @@
 		(uuid "7e45a037-4d7e-4ab6-a82e-56682ad36fcd")
 	)
 	(no_connect
-		(at 189.23 59.69)
-		(uuid "7ffcb878-3457-4cff-8fb4-f1b55c1c5b30")
-	)
-	(no_connect
 		(at 148.59 101.6)
 		(uuid "c36227c5-f6af-4a97-a8be-636b53db317e")
 	)
@@ -3803,6 +3799,17 @@
 		)
 		(uuid "d42f7aee-2800-49fe-92cf-df8977bdaefa")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 189.23 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e41e4eed-308b-4549-907a-c5b031b07788")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 189.23 77.47 0)
@@ -4001,7 +4008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x08_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -4087,7 +4094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x09_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical"
 			(at 184.15 69.85 0)
 			(effects
 				(font

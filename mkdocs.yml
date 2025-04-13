@@ -74,6 +74,7 @@ nav:
   - harness.md
   - map.md
   - Assembly:
+    - ibom.md
     - ftdi.md
   - software.md
   - gallery.md
