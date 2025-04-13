@@ -73,6 +73,7 @@ nav:
   - diagram.md
   - harness.md
   - map.md
+  - specs.md
   - Assembly:
     - ibompage.md
     - ftdi.md
