@@ -52,7 +52,7 @@ jobs:
             "Xvfb :99 -screen 0 1024x768x16 & \
             export DISPLAY=:99 && \
             kicad-cli sch export netlist --format kicadxml --output p2.xml 'P2 Kevinbot Board.kicad_sch' && \
-            generate_interactive_bom 'P2 Kevinbot Board.kicad_pcb' --extra-data-file p2.xml --no-browser --dest-dir site/ibom --name-format ibom --dark-mode --layer-view FB --extra-fields 'Part' --highlight-pin1 selected || true"
+            generate_interactive_bom 'P2 Kevinbot Board.kicad_pcb' --extra-data-file p2.xml --no-browser --dest-dir site/ibom --name-format ibom --dark-mode --layer-view FB --extra-fields 'Part Number' --highlight-pin1 selected || true"
 
       - name: Commit and deploy docs with mike
         run: |
