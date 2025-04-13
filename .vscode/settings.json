@@ -1,6 +1,14 @@
 {
     "cSpell.words": [
+        "FTDI",
         "kicad",
-        "mkdocs"
+        "mkdocs",
+        "OSHW",
+        "pcbs",
+        "RXLED",
+        "TXDEN",
+        "TXLED",
+        "UART",
+        "wireviz"
     ]
 }
