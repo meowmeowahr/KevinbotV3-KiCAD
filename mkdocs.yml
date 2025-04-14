@@ -14,7 +14,7 @@ theme:
     - navigation.instant.progress
     - navigation.footer
     - navigation.indexes
-  logo: images/logo_dark.png
+  logo: images/header-logo.svg
   favicon: images/favicon.png
   palette:
     # Palette toggle for automatic mode
