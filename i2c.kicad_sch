@@ -572,203 +572,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 134.62 102.87)
@@ -776,15 +579,19 @@
 		(color 0 0 0 0)
 		(uuid "e25dfddd-1208-43e5-8c82-98919e61f034")
 	)
+	(no_connect
+		(at 160.02 123.19)
+		(uuid "89b05888-08bc-43cd-94a0-0043ea17c2ce")
+	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 134.62 97.79)
+			(xy 128.27 123.19) (xy 129.54 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a20215b-978a-4541-bfd2-319b10be01ba")
+		(uuid "4a1d5847-0272-4a54-8774-7de4efb6dcf6")
 	)
 	(wire
 		(pts
@@ -795,6 +602,16 @@
 			(type default)
 		)
 		(uuid "4b8888ff-3cce-42bf-ba8b-c82885b0eccd")
+	)
+	(wire
+		(pts
+			(xy 128.27 134.62) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612daebf-a16c-4ae1-a53a-de31c8001e32")
 	)
 	(wire
 		(pts
@@ -829,7 +646,7 @@
 	)
 	(hierarchical_label "VCCIO"
 		(shape passive)
-		(at 116.84 97.79 180)
+		(at 134.62 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -882,6 +699,17 @@
 		)
 		(uuid "65f28368-7d60-486b-a35b-defae3cc446a")
 	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 128.27 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dac0e1f-86dd-4348-8138-684651a08bb8")
+	)
 	(hierarchical_label "5V"
 		(shape passive)
 		(at 189.23 97.79 0)
@@ -903,6 +731,17 @@
 			(justify right)
 		)
 		(uuid "714938a6-9edf-4dbe-806b-d61a95ef303d")
+	)
+	(hierarchical_label "VCCIO"
+		(shape passive)
+		(at 128.27 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "869ab348-bf6e-446e-b066-e17f4abceb3b")
 	)
 	(hierarchical_label "VCCIO"
 		(shape passive)
@@ -948,6 +787,28 @@
 		)
 		(uuid "c1b39c12-4929-4851-8bb1-4858e42761e1")
 	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 129.54 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df98a194-ceff-4c8e-a820-b689bfacd9b0")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 129.54 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea2ac277-e056-408c-a117-eef3d145c24f")
+	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 176.53 97.79 180)
@@ -958,73 +819,6 @@
 			(justify right)
 		)
 		(uuid "f825721c-5398-45cc-b755-24696eab1805")
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 120.65 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bf0b953-5179-4c84-a4db-eca662414b76")
-		(property "Reference" "JP5"
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 120.65 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 120.65 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c23586fb-d461-4e40-9c9a-2814abf79213")
-		)
-		(pin "1"
-			(uuid "ae0426ce-5e37-4743-b597-abfa32d348ac")
-		)
-		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7b0b1465-76e8-4550-9366-259d540e6b80"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
@@ -1278,6 +1072,98 @@
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7b0b1465-76e8-4550-9366-259d540e6b80"
 					(reference "U9")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 119.38)
+		(size 29.21 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f1106b7e-a892-4542-9aa4-e84e85953c9f")
+		(property "Sheetname" "Servo Controller"
+			(at 129.54 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo.kicad_sch"
+			(at 129.54 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 129.54 134.62 180)
+			(uuid "008cc2d3-6e51-4810-8595-82ec7ca81dea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VMOT" input
+			(at 158.75 123.19 0)
+			(uuid "eecf9a57-68b0-435d-9e72-ad5201f52aee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 129.54 127 180)
+			(uuid "3b1b8839-41c1-4ae9-a473-bae13233c09f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 129.54 129.54 180)
+			(uuid "181393d4-0013-4ae7-8005-4d26c5859e92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCIO" input
+			(at 129.54 123.19 180)
+			(uuid "123469d1-59e0-4537-a2c8-6ef8fe7087af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/7b0b1465-76e8-4550-9366-259d540e6b80"
+					(page "10")
 				)
 			)
 		)

@@ -52,65 +52,14 @@
           "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "hole_clearance|125892223|59503224|84ad0dd7-b49e-48d4-9a2f-638d77f997a3|f0792616-3395-47e6-8c6b-1403de0befe7",
-          ""
-        ],
-        [
-          "hole_clearance|127839000|59110000|84ad0dd7-b49e-48d4-9a2f-638d77f997a3|2408e7e5-9a82-4b62-aeee-9a62ee0dfbcf",
-          ""
-        ],
-        [
-          "hole_clearance|205392223|59503224|beddbd92-5200-4202-bfa2-c13159df4487|e43d0e01-1d77-4a26-a973-fe1be335bd22",
-          ""
-        ],
-        [
-          "hole_clearance|205392223|67703224|da88a15b-499c-4db7-b6f5-a7cbbabe476b|20932a75-815f-4a0a-a5a3-eb5e3bc05878",
-          ""
-        ],
-        [
-          "hole_clearance|205392223|75903224|fd1714e0-60b4-4273-b65a-6215ce074698|a2ec1ebb-dc94-43d6-95de-47666c78fb0d",
-          ""
-        ],
-        [
-          "hole_clearance|207339000|59110000|beddbd92-5200-4202-bfa2-c13159df4487|a74ef067-120c-4ecf-ad09-71625d69514d",
-          ""
-        ],
-        [
-          "hole_clearance|207339000|67310000|da88a15b-499c-4db7-b6f5-a7cbbabe476b|6f5271cb-27b6-449f-abe7-546c66f21cd5",
-          ""
-        ],
-        [
-          "hole_clearance|207339000|75510000|fd1714e0-60b4-4273-b65a-6215ce074698|5cd8c310-c0b4-4128-9208-061eea755a72",
-          ""
-        ],
-        [
-          "hole_clearance|93349029|64580000|075b3116-6a8b-4b76-87bf-382a16eaed67|248aa1a0-35e2-40fc-bae4-a4df14e3acdf",
-          ""
-        ],
-        [
-          "hole_clearance|93349029|64580000|075b3116-6a8b-4b76-87bf-382a16eaed67|d50c233e-f8f3-4743-871c-ba3e6decd5df",
-          ""
-        ],
-        [
-          "hole_clearance|93349029|70680000|fcc6aa1a-6f37-4e2d-928c-1fef27f00a27|3097a276-5d86-475d-bab2-7ba9eb3b44f7",
-          ""
-        ],
-        [
-          "hole_clearance|93349029|70680000|fcc6aa1a-6f37-4e2d-928c-1fef27f00a27|6f35f2c1-cd40-4d09-ac07-35a14d67bc0c",
-          ""
-        ],
-        [
-          "starved_thermal|93774029|64430000|dfef1062-f845-476c-ab6e-76c5123c1b14|248aa1a0-35e2-40fc-bae4-a4df14e3acdf|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|93774029|64430000|dfef1062-f845-476c-ab6e-76c5123c1b14|d50c233e-f8f3-4743-871c-ba3e6decd5df|F.Cu",
-          ""
-        ]
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -243,7 +192,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -270,7 +221,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -749,6 +705,10 @@
     [
       "5453e275-4798-490a-963f-0bb3e1119943",
       "One-Wire"
+    ],
+    [
+      "f1106b7e-a892-4542-9aa4-e84e85953c9f",
+      "Servo Controller"
     ]
   ],
   "text_variables": {}

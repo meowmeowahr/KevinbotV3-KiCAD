@@ -1593,6 +1593,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2246,10 +2429,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC847BDW1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC847BDW1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN/NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC847BDW1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BC847BDW1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BC847BDW1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 49.53 66.04)
-		(end 97.79 127)
+		(start 30.48 71.12)
+		(end 78.74 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -2261,7 +2710,7 @@
 	)
 	(text "Bidirectional Switch"
 		(exclude_from_sim no)
-		(at 59.944 68.072 0)
+		(at 40.894 73.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2269,15 +2718,35 @@
 		)
 		(uuid "f8e5afd5-eed6-45b7-a1f9-bb1072cf4b2f")
 	)
+	(text_box "Indicator LEDs"
+		(exclude_from_sim no)
+		(at 190.5 60.96 0)
+		(size 71.12 45.72)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f6901f31-3576-48c4-9168-b079127b8567")
+	)
 	(junction
-		(at 77.47 137.16)
+		(at 58.42 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8cb2c4b-79b3-40ca-9bd1-ba238c518521")
 	)
 	(wire
 		(pts
-			(xy 77.47 137.16) (xy 82.55 137.16)
+			(xy 58.42 142.24) (xy 63.5 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2755,7 @@
 		(uuid "ea4e8848-ebbc-4260-9509-e3825466e90d")
 	)
 	(label "D-"
-		(at 134.62 96.52 0)
+		(at 127 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2296,7 +2765,7 @@
 		(uuid "001e1c04-617b-49b7-9397-5029c21d32eb")
 	)
 	(label "TX_422"
-		(at 87.63 106.68 0)
+		(at 68.58 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2306,7 +2775,7 @@
 		(uuid "0a026b35-7cc2-4754-9a79-444a31e0bdd3")
 	)
 	(label "TX_422"
-		(at 114.3 93.98 180)
+		(at 106.68 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2316,7 +2785,7 @@
 		(uuid "13a104cd-2cec-4094-9d4b-419e9ff7ef85")
 	)
 	(label "D+"
-		(at 162.56 90.17 180)
+		(at 154.94 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2326,7 +2795,7 @@
 		(uuid "1c3596c4-65a6-426e-a243-98c389ebd53b")
 	)
 	(label "RX_UART"
-		(at 87.63 81.28 0)
+		(at 68.58 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2336,7 +2805,7 @@
 		(uuid "2f3e5b30-d855-4b8f-b677-d366ad9ae407")
 	)
 	(label "R-"
-		(at 134.62 86.36 0)
+		(at 127 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2346,7 +2815,7 @@
 		(uuid "3e317856-868b-4032-85eb-8b3ff6bb3f3e")
 	)
 	(label "R+"
-		(at 134.62 81.28 0)
+		(at 127 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2356,7 +2825,7 @@
 		(uuid "4729945f-6f0b-4edf-a5d9-71673f1badaa")
 	)
 	(label "D+"
-		(at 151.13 93.98 90)
+		(at 143.51 66.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2366,7 +2835,7 @@
 		(uuid "4be242f4-f2f6-456f-a9e2-921f04d23d32")
 	)
 	(label "EN_UART"
-		(at 80.01 86.36 270)
+		(at 60.96 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2376,7 +2845,7 @@
 		(uuid "4f0f4ada-5d67-46ea-b472-27753662a223")
 	)
 	(label "R-"
-		(at 151.13 83.82 270)
+		(at 143.51 55.88 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2386,7 +2855,7 @@
 		(uuid "6c3f4e51-89af-4852-9758-5a91eeef2f92")
 	)
 	(label "D+"
-		(at 134.62 91.44 0)
+		(at 127 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2396,7 +2865,7 @@
 		(uuid "799bec9a-0aa5-4a49-b646-a2294162edbd")
 	)
 	(label "TX_UART"
-		(at 121.92 132.08 180)
+		(at 120.65 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2406,7 +2875,7 @@
 		(uuid "8607feec-c5fe-40d5-9006-dc2f82eb1d07")
 	)
 	(label "RX_422"
-		(at 114.3 83.82 180)
+		(at 106.68 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2416,7 +2885,7 @@
 		(uuid "87d038aa-3023-46f2-a502-123f93a13521")
 	)
 	(label "TX_UART"
-		(at 87.63 111.76 0)
+		(at 68.58 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2426,7 +2895,7 @@
 		(uuid "ae69cf9f-6e35-4fbf-b019-985998dacb67")
 	)
 	(label "EN_UART"
-		(at 80.01 116.84 270)
+		(at 60.96 121.92 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2436,7 +2905,7 @@
 		(uuid "c3ae748a-db26-4490-b5bf-7a7695e8924f")
 	)
 	(label "D-"
-		(at 151.13 111.76 270)
+		(at 143.51 83.82 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2446,7 +2915,7 @@
 		(uuid "ce9507a7-c72e-4612-8a83-341b7a3c33fa")
 	)
 	(label "RX_422"
-		(at 87.63 76.2 0)
+		(at 68.58 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,7 +2925,7 @@
 		(uuid "dddf6558-c829-4f13-bdde-a7b41da25b93")
 	)
 	(label "R+"
-		(at 162.56 85.09 180)
+		(at 154.94 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2466,7 +2935,7 @@
 		(uuid "e0a14083-05c8-4bd1-9ee1-caccc3e7a8cb")
 	)
 	(label "D-"
-		(at 162.56 92.71 180)
+		(at 154.94 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2476,7 +2945,7 @@
 		(uuid "e9af28b5-5f33-4eb0-a3a1-7d52954bb359")
 	)
 	(label "EN_UART"
-		(at 82.55 137.16 0)
+		(at 63.5 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2486,7 +2955,7 @@
 		(uuid "ee9272cc-fdc1-4442-948a-88c27b57e46c")
 	)
 	(label "R-"
-		(at 162.56 87.63 180)
+		(at 154.94 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2496,7 +2965,7 @@
 		(uuid "f04028e6-da18-43b7-bf63-f88b7bf96fc6")
 	)
 	(label "R+"
-		(at 151.13 66.04 90)
+		(at 143.51 38.1 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2975,7 @@
 		(uuid "f1305edd-9c41-4243-a90c-88e0ffe60f53")
 	)
 	(label "RX_UART"
-		(at 121.92 129.54 180)
+		(at 120.65 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2517,7 +2986,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 147.32 74.93 180)
+		(at 139.7 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,7 +2997,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 214.63 87.63 270)
+		(at 121.92 143.51 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2537,9 +3006,20 @@
 		)
 		(uuid "0c077140-e264-4be2-8e0e-c9b82d39fdc9")
 	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 246.38 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16f0da9d-e9b0-4f8b-9d94-50a8bcd0ab8c")
+	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 214.63 109.22 270)
+		(at 121.92 165.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2550,7 +3030,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 77.47 144.78 270)
+		(at 58.42 149.86 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2561,7 +3041,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 57.15 83.82 90)
+		(at 38.1 88.9 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2572,7 +3052,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 175.26 87.63 0)
+		(at 167.64 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2583,7 +3063,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 175.26 90.17 0)
+		(at 167.64 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2594,7 +3074,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 57.15 109.22 270)
+		(at 38.1 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,7 +3085,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 175.26 92.71 0)
+		(at 167.64 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,7 +3096,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 175.26 85.09 0)
+		(at 167.64 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2627,7 +3107,18 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 147.32 102.87 180)
+		(at 212.09 95.25 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61dd91e2-55e2-4d79-8b69-223be2a6a25f")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 139.7 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2636,9 +3127,20 @@
 		)
 		(uuid "64f02b27-e4d0-442a-a920-c5c276d52e55")
 	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 196.85 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a212a49-ada1-4ffe-8778-3ee840547f4c")
+	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 62.23 137.16 180)
+		(at 43.18 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2649,7 +3151,18 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 121.92 134.62 180)
+		(at 246.38 95.25 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81901979-c028-4503-a9f5-9256fb5772b2")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 120.65 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,9 +3171,20 @@
 		)
 		(uuid "8202aefd-7e57-46c6-bb7b-404294037d38")
 	)
+	(hierarchical_label "TX"
+		(shape input)
+		(at 231.14 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87bc3353-3cf7-445d-b1ef-dc14ff21a802")
+	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 124.46 104.14 270)
+		(at 116.84 76.2 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2671,7 +3195,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 214.63 101.6 90)
+		(at 121.92 157.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2682,7 +3206,7 @@
 	)
 	(hierarchical_label "RX"
 		(shape input)
-		(at 72.39 78.74 180)
+		(at 53.34 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2693,7 +3217,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 124.46 73.66 90)
+		(at 116.84 45.72 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2704,7 +3228,7 @@
 	)
 	(hierarchical_label "TX"
 		(shape input)
-		(at 72.39 109.22 180)
+		(at 53.34 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2715,7 +3239,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 214.63 80.01 90)
+		(at 121.92 135.89 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2724,9 +3248,97 @@
 		)
 		(uuid "cc6b2387-c1d8-4d1c-8cfe-e5a04125065b")
 	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 212.09 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e49f8a57-d149-4ebe-9207-9148835213b2")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09ebcf09-d98c-4521-9faa-ad0f39195417")
+		(property "Reference" "R45"
+			(at 234.95 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 234.95 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 234.95 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-0733KL"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "013dab87-02b0-4855-bad4-92ba734a2856")
+		)
+		(pin "2"
+			(uuid "996b121f-6ec1-4391-8cb2-bf04da624c84")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Analog_Switch:TS3A24159DGS")
-		(at 80.01 109.22 0)
+		(at 60.96 114.3 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2735,7 +3347,7 @@
 		(fields_autoplaced yes)
 		(uuid "14b94df3-925e-488e-98da-2f46960411fc")
 		(property "Reference" "U8"
-			(at 80.01 100.33 0)
+			(at 60.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +3355,7 @@
 			)
 		)
 		(property "Value" "TS3A24159DGS"
-			(at 80.01 102.87 0)
+			(at 60.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +3363,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 81.28 120.65 0)
+			(at 62.23 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +3373,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts3a24159.pdf"
-			(at 81.28 122.555 0)
+			(at 62.23 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +3383,7 @@
 			)
 		)
 		(property "Description" "Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10"
-			(at 80.01 109.22 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3392,7 @@
 			)
 		)
 		(property "Part Number" "TS3A24159DGSR"
-			(at 80.01 109.22 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +3441,7 @@
 	)
 	(symbol
 		(lib_id "Interface_UART:THVD1451D")
-		(at 124.46 88.9 0)
+		(at 116.84 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2838,7 +3450,7 @@
 		(fields_autoplaced yes)
 		(uuid "31c8b7f1-d757-4f91-bebe-10b64944bd1d")
 		(property "Reference" "U5"
-			(at 126.6033 71.12 0)
+			(at 118.9833 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +3459,7 @@
 			)
 		)
 		(property "Value" "THVD1451D"
-			(at 126.6033 73.66 0)
+			(at 118.9833 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +3468,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 124.46 88.9 0)
+			(at 116.84 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +3478,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/thvd1451.pdf"
-			(at 124.46 88.9 0)
+			(at 116.84 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +3487,7 @@
 			)
 		)
 		(property "Description" "RS485 transceiver, 3.3-V to 5-V, 18-kV IEC ESD Protection, SOIC-8"
-			(at 124.46 88.9 0)
+			(at 116.84 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +3496,7 @@
 			)
 		)
 		(property "Part Number" "THVD1451D"
-			(at 124.46 88.9 0)
+			(at 116.84 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,8 +3538,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC847BDW1")
+		(at 209.55 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "487bc01d-e5a3-49e0-a486-6be4934b48e5")
+		(property "Reference" "Q4"
+			(at 214.63 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847BDW1"
+			(at 214.63 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 214.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BC847BDW1T1G"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b6cc4e4b-0546-466d-ae12-1a4b7d7a6396")
+		)
+		(pin "3"
+			(uuid "5bf70a37-e8a3-46ca-8449-47d6cf4ec5b9")
+		)
+		(pin "4"
+			(uuid "600a4120-1aac-4363-9a50-5761d2362572")
+		)
+		(pin "1"
+			(uuid "025bb391-b86d-47e5-a09d-0b72567c38b6")
+		)
+		(pin "6"
+			(uuid "998e2fbb-b54b-4a71-a08a-813beb684223")
+		)
+		(pin "2"
+			(uuid "acdd67b8-2dee-4937-8411-9bab6e8c1b21")
+		)
+		(instances
+			(project ""
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 151.13 102.87 270)
+		(at 143.51 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2936,7 +3639,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c16db1b-f5cd-4960-86c1-ed90905a8826")
 		(property "Reference" "D4"
-			(at 153.67 101.5999 90)
+			(at 146.05 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +3648,7 @@
 			)
 		)
 		(property "Value" "D_TVS_Dual_AAC"
-			(at 153.67 104.1399 90)
+			(at 146.05 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3657,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 151.13 99.06 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +3666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 99.06 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3675,7 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 151.13 102.87 0)
+			(at 143.51 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +3684,7 @@
 			)
 		)
 		(property "Part Number" "D5V0L2B3SO-7"
-			(at 151.13 102.87 90)
+			(at 143.51 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3712,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS3A24159DGS")
-		(at 57.15 96.52 0)
+		(at 38.1 101.6 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3018,7 +3721,7 @@
 		(fields_autoplaced yes)
 		(uuid "6051dbd5-613f-4fd2-b5ca-06a546e9ee30")
 		(property "Reference" "U8"
-			(at 62.23 95.2499 0)
+			(at 43.18 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3730,7 @@
 			)
 		)
 		(property "Value" "TS3A24159DGS"
-			(at 62.23 97.7899 0)
+			(at 43.18 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3739,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 58.42 107.95 0)
+			(at 39.37 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3749,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts3a24159.pdf"
-			(at 58.42 109.855 0)
+			(at 39.37 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3759,7 @@
 			)
 		)
 		(property "Description" "Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10"
-			(at 57.15 96.52 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3768,7 @@
 			)
 		)
 		(property "Part Number" "TS3A24159DGSR"
-			(at 57.15 96.52 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3817,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 140.97 0)
+		(at 58.42 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3123,7 +3826,7 @@
 		(fields_autoplaced yes)
 		(uuid "9673aa90-4a43-4c51-868e-f29c4dc6d1c8")
 		(property "Reference" "R11"
-			(at 80.01 139.6999 0)
+			(at 60.96 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3835,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 80.01 142.2399 0)
+			(at 60.96 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3844,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 75.692 140.97 90)
+			(at 56.642 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 140.97 0)
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3862,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 140.97 0)
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3871,7 @@
 			)
 		)
 		(property "Part Number" "RC0402FR-0710KL"
-			(at 77.47 140.97 0)
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3896,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 167.64 87.63 0)
+		(at 160.02 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3201,7 +3904,7 @@
 		(dnp no)
 		(uuid "9b77a801-fefd-482e-869c-5264e7ebf8d0")
 		(property "Reference" "J10"
-			(at 168.91 78.74 0)
+			(at 161.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3912,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 168.91 81.28 0)
+			(at 161.29 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3920,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105310-xx08_2x04_P2.50mm_Vertical"
-			(at 167.64 87.63 0)
+			(at 160.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 87.63 0)
+			(at 160.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3938,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 167.64 87.63 0)
+			(at 160.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3947,7 @@
 			)
 		)
 		(property "Part Number" "1053101108"
-			(at 167.64 87.63 0)
+			(at 160.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,34 +3989,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 214.63 105.41 180)
+		(lib_id "Device:LED")
+		(at 246.38 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b97b9079-e787-4343-8adc-6abeaa2b4cc2")
-		(property "Reference" "C8"
-			(at 205.74 104.14 0)
+		(uuid "9ba7cc3b-3794-4305-8915-0b679463f254")
+		(property "Reference" "D6"
+			(at 241.046 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100nF 16v"
-			(at 198.12 106.68 0)
+		(property "Value" "Red LED"
+			(at 243.586 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 213.6648 101.6 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 246.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +4023,264 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 105.41 0)
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060RS75000"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7ec4ca9-58b7-43cd-a216-bf07ef3ba632")
+		)
+		(pin "2"
+			(uuid "7d69a116-ed82-48e3-9b4f-c8bbd915980a")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 246.38 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3c1a1bd-adc1-4f09-a8d5-8a1610965ec2")
+		(property "Reference" "R46"
+			(at 248.92 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "130R"
+			(at 248.92 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 248.158 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-07130RL"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0d7dc4b-2f3d-4a21-8e64-1701ed1875cf")
+		)
+		(pin "2"
+			(uuid "25e55739-fbb5-42de-9277-aa19bbd210c9")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847BDW1")
+		(at 243.84 90.17 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac2958b6-8122-4202-a32d-6fa1d6c0a172")
+		(property "Reference" "Q4"
+			(at 248.92 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847BDW1"
+			(at 248.92 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 248.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BC847BDW1T1G"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b6cc4e4b-0546-466d-ae12-1a4b7d7a6396")
+		)
+		(pin "3"
+			(uuid "5bf70a37-e8a3-46ca-8449-47d6cf4ec5b9")
+		)
+		(pin "4"
+			(uuid "600a4120-1aac-4363-9a50-5761d2362572")
+		)
+		(pin "1"
+			(uuid "025bb391-b86d-47e5-a09d-0b72567c38b6")
+		)
+		(pin "6"
+			(uuid "998e2fbb-b54b-4a71-a08a-813beb684223")
+		)
+		(pin "2"
+			(uuid "acdd67b8-2dee-4937-8411-9bab6e8c1b21")
+		)
+		(instances
+			(project ""
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
+					(reference "Q4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b97b9079-e787-4343-8adc-6abeaa2b4cc2")
+		(property "Reference" "C8"
+			(at 113.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF 16v"
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 120.9548 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +4289,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 214.63 105.41 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +4298,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 214.63 105.41 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +4323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 127 132.08 180)
+		(at 125.73 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3374,7 +4332,7 @@
 		(fields_autoplaced yes)
 		(uuid "be34233c-3b40-47ce-abd3-3e88a2773a76")
 		(property "Reference" "J11"
-			(at 126.365 139.7 0)
+			(at 125.095 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +4340,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 126.365 137.16 0)
+			(at 125.095 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +4348,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
-			(at 127 132.08 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +4357,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 132.08 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +4366,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 127 132.08 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +4375,7 @@
 			)
 		)
 		(property "Part Number" "B3B-PH-K-S"
-			(at 127 132.08 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +4403,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS3A24159DGS")
-		(at 80.01 78.74 0)
+		(at 60.96 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3454,7 +4412,7 @@
 		(fields_autoplaced yes)
 		(uuid "c15a1b9c-ce0a-4e95-818c-81612e4b73d7")
 		(property "Reference" "U8"
-			(at 80.01 69.85 0)
+			(at 60.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +4420,7 @@
 			)
 		)
 		(property "Value" "TS3A24159DGS"
-			(at 80.01 72.39 0)
+			(at 60.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +4428,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 81.28 90.17 0)
+			(at 62.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +4438,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts3a24159.pdf"
-			(at 81.28 92.075 0)
+			(at 62.23 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +4448,7 @@
 			)
 		)
 		(property "Description" "Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10"
-			(at 80.01 78.74 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +4457,7 @@
 			)
 		)
 		(property "Part Number" "TS3A24159DGSR"
-			(at 80.01 78.74 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +4506,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 151.13 74.93 270)
+		(at 143.51 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3557,7 +4515,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd0ae91a-cf22-4dc2-9b26-f00c77130d15")
 		(property "Reference" "D3"
-			(at 153.67 73.6599 90)
+			(at 146.05 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +4524,7 @@
 			)
 		)
 		(property "Value" "D_TVS_Dual_AAC"
-			(at 153.67 76.1999 90)
+			(at 146.05 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +4533,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 151.13 71.12 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +4542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 71.12 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +4551,7 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 151.13 74.93 0)
+			(at 143.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +4560,7 @@
 			)
 		)
 		(property "Part Number" "D5V0L2B3SO-7"
-			(at 151.13 74.93 90)
+			(at 143.51 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +4588,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 214.63 83.82 180)
+		(at 121.92 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3638,7 +4596,7 @@
 		(dnp no)
 		(uuid "d3c2c205-fe46-4d3f-8c2f-8c2c3cac3e67")
 		(property "Reference" "C7"
-			(at 205.74 82.55 0)
+			(at 113.03 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +4605,7 @@
 			)
 		)
 		(property "Value" "100nF 16v"
-			(at 197.866 85.09 0)
+			(at 105.156 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +4614,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 213.6648 80.01 0)
+			(at 120.9548 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +4623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 83.82 0)
+			(at 121.92 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +4632,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 214.63 83.82 0)
+			(at 121.92 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +4641,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 214.63 83.82 0)
+			(at 121.92 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,33 +4665,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 69.85 137.16 0)
+		(lib_id "Device:R")
+		(at 212.09 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2d2115b-6fcd-44d4-b15a-a81d8adc6819")
-		(property "Reference" "SW2"
-			(at 69.85 129.54 0)
+		(uuid "d4eb4efe-741f-4f12-9eb5-301bfafc9fab")
+		(property "Reference" "R47"
+			(at 214.63 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
-			(at 69.85 132.08 0)
+		(property "Value" "10R"
+			(at 214.63 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Copal_CHS-01A_W5.08mm_P1.27mm_JPin"
-			(at 69.85 137.16 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 213.868 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +4702,169 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 137.16 0)
+			(at 212.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-0710RL"
+			(at 212.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c8bd26-ea12-474b-8fca-b55c33fb49f0")
+		)
+		(pin "2"
+			(uuid "45f5ea45-65d3-478f-b432-56fd96f82d72")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 212.09 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfad5079-4c9f-4831-853a-d013183163e4")
+		(property "Reference" "D7"
+			(at 206.756 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Blue LED"
+			(at 209.296 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060BS75000"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6892c2d2-484c-4ac0-8096-fb7a21481799")
+		)
+		(pin "2"
+			(uuid "12a4475e-d96e-4e10-b3c8-61ce8270f344")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 50.8 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2d2115b-6fcd-44d4-b15a-a81d8adc6819")
+		(property "Reference" "SW2"
+			(at 50.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x01"
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Copal_CHS-01A_W5.08mm_P1.27mm_JPin"
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +4873,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 69.85 137.16 0)
+			(at 50.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +4882,7 @@
 			)
 		)
 		(property "Part Number" "CHS-01A"
-			(at 69.85 137.16 0)
+			(at 50.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,6 +4900,83 @@
 			(project ""
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa49950-d386-4d54-ae78-40a1ebc54155")
+		(property "Reference" "R44"
+			(at 200.66 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 200.66 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 200.66 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-0733KL"
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fadb388e-8289-411d-9acc-c67a0c4b741c")
+		)
+		(pin "2"
+			(uuid "d663ff1f-6e04-4ccd-813b-49a1d618d541")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/42a4c83c-2879-4a77-b31d-2d3ab7f5273b"
+					(reference "R44")
 					(unit 1)
 				)
 			)
