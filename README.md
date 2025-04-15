@@ -7,7 +7,7 @@ The KiCAD sources for the Kevinbot Core control board
 |![OSHW Facts](readme/oshw_facts.svg)|<img src="certification-mark-US002675-stacked.png" width=200></img>
 
 
-![Board](P2%20Kevinbot%20Board.png)
+![Board](docs/images/board.png)
 
 ## Licenses
 All hardware is licensed under the CERN-OHL-S-2.0 license. 
