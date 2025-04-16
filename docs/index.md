@@ -9,10 +9,20 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 
 ## Revision Comparisons
 
-| Rev  | MCU         | Input Voltage | I/O Pins                       | Servo Ports          | Interfaces                        | Programming        | Inbuilt Sensors | Voltmeters                             | Error Buzzer | NeoPixel Output | Status Light Output | Reset Button and Header |
-| :--- | :---------- | :------------ | :----------------------------- | :------------------- | :-------------------------------- | :----------------- | :-------------- | :------------------------------------- | :----------- | :-------------- | :------------------ | :---------------------- |
-| RevA | Parallax P2 | 5V            | 32 (Accessory), 20 (Expansion) | 32 (Up to 6V power)  | UART, I2C, One-Wire               | PropPlug Interface | DS18B20 Thermo  | 2x Up to 33v                           | ✅           | ✅              | ✅                  | ✅                      |
-| RevB | Parallax P2 | 6V ~ 40V      | 32 (Accessory)                 | 16 (Up to 24V power) | RS-422 (_or_ UART), I2C, One-Wire | USB-C              | tbd             | 2x Up to 60v + Input meter (Up to 40v) | ✅           | ✅              | ✅                  | ✅                      |
+| Feature                 | RevA                           | RevB                                   |
+| :---------------------- | :----------------------------- | :------------------------------------- |
+| MCU                     | Parallax P2                    | Parallax P2                            |
+| Input Voltage           | 5V                             | 6V ~ 40V                               |
+| I/O Pins                | 32 (Accessory), 20 (Expansion) | 32 (Accessory)                         |
+| Servo Ports             | 32 (Up to 6V power)            | 16 (Up to 24V power)                   |
+| Interfaces              | UART, I2C, One-Wire            | RS-422 (_or_ UART), I2C, One-Wire      |
+| Programming             | PropPlug Interface             | USB-C _or_ External                    |
+| Inbuilt Sensors         | DS18B20 Thermo                 | DS18B20 Thermo                         |
+| Voltmeters              | 2x Up to 33v                   | 2x Up to 60v + Input meter (Up to 40v) |
+| Error Buzzer            | ✅                             | ✅                                     |
+| NeoPixel Output         | ✅                             | ✅                                     |
+| Status Light Output     | ✅                             | ✅                                     |
+| Reset Button and Header | ✅                             | ✅                                     |
 
 ## Specifications
 
@@ -23,7 +33,7 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 * I2C
 * RS-422
 * Status Light Port
-* Internal Input Voltmeter + Two External Voltmeters (1v ~ 40v)
+* Internal Input Voltmeter + Two External Voltmeters (1v ~ 60v)
 * Level-Shifted WS281X(b) port
 * Four 2x6 Way P2 accessory headers
 * Internal and External Error Buzzer
