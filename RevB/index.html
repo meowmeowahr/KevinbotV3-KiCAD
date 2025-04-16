@@ -760,49 +760,69 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Rev</th>
-<th style="text-align: left;">MCU</th>
-<th style="text-align: left;">Input Voltage</th>
-<th style="text-align: left;">I/O Pins</th>
-<th style="text-align: left;">Servo Ports</th>
-<th style="text-align: left;">Interfaces</th>
-<th style="text-align: left;">Programming</th>
-<th style="text-align: left;">Inbuilt Sensors</th>
-<th style="text-align: left;">Voltmeters</th>
-<th style="text-align: left;">Error Buzzer</th>
-<th style="text-align: left;">NeoPixel Output</th>
-<th style="text-align: left;">Status Light Output</th>
-<th style="text-align: left;">Reset Button and Header</th>
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">RevA</th>
+<th style="text-align: left;">RevB</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">RevA</td>
+<td style="text-align: left;">MCU</td>
 <td style="text-align: left;">Parallax P2</td>
+<td style="text-align: left;">Parallax P2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Input Voltage</td>
 <td style="text-align: left;">5V</td>
+<td style="text-align: left;">6V ~ 40V</td>
+</tr>
+<tr>
+<td style="text-align: left;">I/O Pins</td>
 <td style="text-align: left;">32 (Accessory), 20 (Expansion)</td>
+<td style="text-align: left;">32 (Accessory)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Servo Ports</td>
 <td style="text-align: left;">32 (Up to 6V power)</td>
+<td style="text-align: left;">16 (Up to 24V power)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Interfaces</td>
 <td style="text-align: left;">UART, I2C, One-Wire</td>
+<td style="text-align: left;">RS-422 (<em>or</em> UART), I2C, One-Wire</td>
+</tr>
+<tr>
+<td style="text-align: left;">Programming</td>
 <td style="text-align: left;">PropPlug Interface</td>
+<td style="text-align: left;">USB-C <em>or</em> External</td>
+</tr>
+<tr>
+<td style="text-align: left;">Inbuilt Sensors</td>
 <td style="text-align: left;">DS18B20 Thermo</td>
+<td style="text-align: left;">DS18B20 Thermo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Voltmeters</td>
 <td style="text-align: left;">2x Up to 33v</td>
-<td style="text-align: left;">✅</td>
-<td style="text-align: left;">✅</td>
+<td style="text-align: left;">2x Up to 60v + Input meter (Up to 40v)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Error Buzzer</td>
 <td style="text-align: left;">✅</td>
 <td style="text-align: left;">✅</td>
 </tr>
 <tr>
-<td style="text-align: left;">RevB</td>
-<td style="text-align: left;">Parallax P2</td>
-<td style="text-align: left;">6V ~ 40V</td>
-<td style="text-align: left;">32 (Accessory)</td>
-<td style="text-align: left;">16 (Up to 24V power)</td>
-<td style="text-align: left;">RS-422 (<em>or</em> UART), I2C, One-Wire</td>
-<td style="text-align: left;">USB-C</td>
-<td style="text-align: left;">tbd</td>
-<td style="text-align: left;">2x Up to 60v + Input meter (Up to 40v)</td>
+<td style="text-align: left;">NeoPixel Output</td>
 <td style="text-align: left;">✅</td>
 <td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;">Status Light Output</td>
+<td style="text-align: left;">✅</td>
+<td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;">Reset Button and Header</td>
 <td style="text-align: left;">✅</td>
 <td style="text-align: left;">✅</td>
 </tr>
@@ -817,7 +837,7 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 <li>I2C</li>
 <li>RS-422</li>
 <li>Status Light Port</li>
-<li>Internal Input Voltmeter + Two External Voltmeters (1v ~ 40v)</li>
+<li>Internal Input Voltmeter + Two External Voltmeters (1v ~ 60v)</li>
 <li>Level-Shifted WS281X(b) port</li>
 <li>Four 2x6 Way P2 accessory headers</li>
 <li>Internal and External Error Buzzer</li>
