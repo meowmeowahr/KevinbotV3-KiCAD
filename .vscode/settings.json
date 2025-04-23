@@ -5,6 +5,7 @@
         "mkdocs",
         "OSHW",
         "pcbs",
+        "Pullup",
         "RXLED",
         "TXDEN",
         "TXLED",

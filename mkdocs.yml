@@ -81,6 +81,6 @@ nav:
   - gallery.md
   - develop.md
   - contributing.md
-  - coc.md
+  - "Code of Conduct": coc.md
 
 repo_url: https://github.com/meowmeowahr/KevinbotV3-KiCAD

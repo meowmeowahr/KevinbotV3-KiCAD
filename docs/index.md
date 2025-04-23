@@ -16,6 +16,9 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 | I/O Pins                | 32 (Accessory), 20 (Expansion) | 32 (Accessory)                         |
 | Servo Ports             | 32 (Up to 6V power)            | 16 (Up to 24V power)                   |
 | Interfaces              | UART, I2C, One-Wire            | RS-422 (_or_ UART), I2C, One-Wire      |
+| Serial Interface        | ✅ UART                        | ✅ RS-422 (_or_ UART)                  |
+| I2C Interface           | ✅ 4 Ports                     | ✅ 1 Port with Active Pullup           |
+| One-Wire Interface      | ✅ 4 Ports                     | ✅ 1 Port with Active Pullup           |
 | Programming             | PropPlug Interface             | USB-C _or_ External                    |
 | Inbuilt Sensors         | DS18B20 Thermo                 | DS18B20 Thermo                         |
 | Voltmeters              | 2x Up to 33v                   | 2x Up to 60v + Input meter (Up to 40v) |
@@ -29,13 +32,13 @@ Originally designed only for use in Kevinbot v3, the board can be used for any P
 * Compatible with standard P2 Edge (will not work with the 32 MB option)
 * USB-C FTDI Programming Interface
 * 16 Servo Outputs
-* One-Wire
-* I2C
+* One-Wire with Active Pullup
+* I2C with Active Pullup
 * RS-422
 * Status Light Port
-* Internal Input Voltmeter + Two External Voltmeters (1v ~ 60v)
-* Level-Shifted WS281X(b) port
-* Four 2x6 Way P2 accessory headers
+* Internal Input Voltmeter (1v ~ 40v) + Two External Voltmeters (1v ~ 60v)
+* Level-Shifted Addressable LED port
+* Four 2x6 P2 accessory headers
 * Internal and External Error Buzzer
 * Reset Button and External Reset button port
 * Internal DS18b20 thermometer
