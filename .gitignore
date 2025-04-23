@@ -43,3 +43,6 @@ fabrication-toolkit-options.json
 #mkdocs
 site/
 .venv/
+
+# dev
+-dev-*/*

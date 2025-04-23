@@ -1294,6 +1294,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -2016,12 +2025,6 @@
 		)
 	)
 	(junction
-		(at 82.55 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11dfc61a-ba24-4390-88f7-61fd62702858")
-	)
-	(junction
 		(at 210.82 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2064,16 +2067,6 @@
 	(no_connect
 		(at 210.82 88.9)
 		(uuid "612b0f2e-3193-440d-9007-ea3c7a5c8552")
-	)
-	(wire
-		(pts
-			(xy 82.55 43.18) (xy 82.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186ae5f5-bd51-4230-8a9d-7c145875dac5")
 	)
 	(wire
 		(pts
@@ -2919,72 +2912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 82.55 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f1bae4e-8f1f-4b40-a25d-97df88d8cdc2")
-		(property "Reference" "#FLG03"
-			(at 82.55 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76360dd1-6abf-4ac5-b20c-fac045c6a390")
-		)
-		(instances
-			(project ""
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/083e4746-c54f-4ebf-8db7-bc4666178b1b"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 171.45 116.84 0)
 		(unit 1)
@@ -3200,72 +3127,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/083e4746-c54f-4ebf-8db7-bc4666178b1b"
 					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 82.55 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a3c0615-cf3b-4d84-a035-dc592566ace8")
-		(property "Reference" "#FLG02"
-			(at 82.55 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 82.55 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08a330fe-8dee-4871-90bc-277db533cb74")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/083e4746-c54f-4ebf-8db7-bc4666178b1b"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3569,7 +3430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150080SS75000.pdf"
+		(property "Datasheet" "~"
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -3614,7 +3475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=A 2=K"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 71.12 100.33 0)
 			(effects
 				(font
