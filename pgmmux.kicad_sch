@@ -9,7 +9,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U10"
 				(at -10.668 12.827 0)
 				(effects
 					(font
@@ -51,6 +51,15 @@
 			)
 			(property "Description" "TS3A44159 0.45-Ω Quad SPDT Analog Switch 4-Channel 2:1 Multiplexer – Demultiplexer With Two Controls"
 				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TS3A44159PWR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -271,7 +280,7 @@
 					)
 				)
 				(pin passive line
-					(at -13.716 5.08 0)
+					(at -13.97 5.08 0)
 					(length 2.54)
 					(name "COM1"
 						(effects
@@ -289,7 +298,7 @@
 					)
 				)
 				(pin passive line
-					(at -13.716 -5.08 0)
+					(at -13.97 -5.08 0)
 					(length 2.54)
 					(name "COM2"
 						(effects
@@ -325,7 +334,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.446 7.62 180)
+					(at 12.7 7.62 180)
 					(length 2.54)
 					(name "NC1"
 						(effects
@@ -343,7 +352,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.446 2.54 180)
+					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "NO1"
 						(effects
@@ -361,7 +370,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.446 -2.54 180)
+					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "NC2"
 						(effects
@@ -379,7 +388,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.446 -7.62 180)
+					(at 12.7 -7.62 180)
 					(length 2.54)
 					(name "NO2"
 						(effects
@@ -620,7 +629,7 @@
 					)
 				)
 				(pin input line
-					(at -0.254 -17.78 90)
+					(at 0 -17.78 90)
 					(length 2.54)
 					(name "IN3-4"
 						(effects
@@ -638,7 +647,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.192 7.62 180)
+					(at 12.7 7.62 180)
 					(length 2.54)
 					(name "NC3"
 						(effects
@@ -656,7 +665,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.192 2.54 180)
+					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "NO3"
 						(effects
@@ -674,7 +683,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.192 -2.54 180)
+					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "NC4"
 						(effects
@@ -692,7 +701,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.192 -7.62 180)
+					(at 12.7 -7.62 180)
 					(length 2.54)
 					(name "NO4"
 						(effects
@@ -1917,7 +1926,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U10"
 				(at -10.668 12.827 0)
 				(effects
 					(font
@@ -1959,6 +1968,15 @@
 			)
 			(property "Description" "TS3A44159 0.45-Ω Quad SPDT Analog Switch 4-Channel 2:1 Multiplexer – Demultiplexer With Two Controls"
 				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TS3A44159PWR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2673,7 +2691,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U10"
 				(at -10.668 12.827 0)
 				(effects
 					(font
@@ -2715,6 +2733,15 @@
 			)
 			(property "Description" "TS3A44159 0.45-Ω Quad SPDT Analog Switch 4-Channel 2:1 Multiplexer – Demultiplexer With Two Controls"
 				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TS3A44159PWR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)

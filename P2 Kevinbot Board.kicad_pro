@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -709,6 +709,10 @@
     [
       "f1106b7e-a892-4542-9aa4-e84e85953c9f",
       "Servo Controller"
+    ],
+    [
+      "51854cd4-d173-4e7e-b3ec-d45904214b7f",
+      "PSU"
     ]
   ],
   "text_variables": {}

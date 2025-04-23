@@ -4,4 +4,5 @@
   (lib (name "Interface_Accelerator")(type "KiCad")(uri "${KIPRJMOD}/Interface_Accelerator.kicad_sym")(options "")(descr ""))
   (lib (name "Analog_Switch_Local")(type "KiCad")(uri "${KIPRJMOD}/Analog_Switch_Local.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Servo")(type "KiCad")(uri "${KIPRJMOD}/Connector_Servo.kicad_sym")(options "")(descr ""))
+  (lib (name "Converter_DCDC_Local")(type "KiCad")(uri "${KIPRJMOD}/Converter_DCDC_Local.kicad_sym")(options "")(descr ""))
 )
