@@ -1375,10 +1375,22 @@
 		(uuid "4400a5dc-3265-46d6-af13-bc84f6c38523")
 	)
 	(junction
+		(at 190.5 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "469ced01-4a9c-4880-84ea-da75c047c7ad")
+	)
+	(junction
 		(at 146.05 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49e56b02-a8a3-4364-af86-8c80e5822b0f")
+	)
+	(junction
+		(at 198.12 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57672255-13d7-4458-9e97-bb7f85e0882a")
 	)
 	(junction
 		(at 248.92 83.82)
@@ -1583,6 +1595,16 @@
 			(type default)
 		)
 		(uuid "45682c2e-fc3d-46f1-9251-7a5cc027a0b6")
+	)
+	(wire
+		(pts
+			(xy 198.12 83.82) (xy 198.12 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fd231e-38a1-4304-9d7a-2cb9483b899c")
 	)
 	(wire
 		(pts
@@ -1956,6 +1978,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 83.82) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d871078e-d201-4ef5-82c9-c0c1d0df1cc9")
+	)
+	(wire
+		(pts
 			(xy 140.97 91.44) (xy 142.24 91.44)
 		)
 		(stroke
@@ -2283,7 +2315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "SRP1265A-6R8M"
 			(at 194.31 83.82 90)
 			(effects
 				(font
@@ -2879,6 +2911,82 @@
 			(project ""
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/083e4746-c54f-4ebf-8db7-bc4666178b1b/51854cd4-d173-4e7e-b3ec-d45904214b7f"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Iron")
+		(at 194.31 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3f06609a-8fc5-4770-91e3-3091e6546868")
+		(property "Reference" "L2"
+			(at 194.31 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8uH 11.5A"
+			(at 194.31 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_Local:L_Coilcraft_XAL7070-XXX-NOSILK"
+			(at 194.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with iron core"
+			(at 194.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XAL7070-682MEC"
+			(at 194.31 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73bf592f-a45e-4b30-89bd-d2321d14c95b")
+		)
+		(pin "1"
+			(uuid "b81304aa-e6be-455e-823b-2be1cac7fa40")
+		)
+		(instances
+			(project "P2 Kevinbot Board"
+				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d/083e4746-c54f-4ebf-8db7-bc4666178b1b/51854cd4-d173-4e7e-b3ec-d45904214b7f"
+					(reference "L2")
 					(unit 1)
 				)
 			)

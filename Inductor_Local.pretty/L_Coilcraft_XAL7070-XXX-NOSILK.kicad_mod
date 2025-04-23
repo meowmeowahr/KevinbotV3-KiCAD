@@ -1,0 +1,172 @@
+(footprint "L_Coilcraft_XAL7070-XXX-NOSILK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Coilcraft, XAL7070-XXX, 7.7x8.0x7.0mm, (https://www.coilcraft.com/getmedia/1ba55433-bcc8-4838-9b21-382f497e12e0/xal7070.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "Inductor xal")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "8ac4db7c-697a-4758-8798-c1471e1e4b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Coilcraft_XAL7070-XXX-NOSILK"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "32cdec79-d454-40b7-963e-fc2abf275b94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91a892ca-5b8d-452a-9155-1c4b2638183c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e4d085b-d9ec-42d7-8c0c-76b43f6422fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1 -4.25)
+		(end -4.1 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12da5349-40ea-46c4-870f-bc7b8ddd5263")
+	)
+	(fp_line
+		(start -4.1 4.25)
+		(end 4.1 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2939c529-211f-46cd-a921-0432a9b892d1")
+	)
+	(fp_line
+		(start 4.1 -4.25)
+		(end -4.1 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfdbea9e-5d44-4083-bb1b-8adc5369c9b0")
+	)
+	(fp_line
+		(start 4.1 4.25)
+		(end 4.1 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87473b3a-5c9a-45a9-a63c-4dfa1e7a121c")
+	)
+	(fp_line
+		(start -3.85 -4)
+		(end -3.85 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "046c441b-0808-4fbc-9271-81c1ecdc9173")
+	)
+	(fp_line
+		(start -3.85 4)
+		(end 3.85 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfe6971e-0bce-4044-be9a-4d2d5d0d8159")
+	)
+	(fp_line
+		(start 3.85 -4)
+		(end -3.85 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1436330-918d-4823-82d9-b73d0be4f5dd")
+	)
+	(fp_line
+		(start 3.85 4)
+		(end 3.85 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a9c8701-c578-487e-a8db-3d257e66a808")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f2a84013-599d-4b7a-9528-4f67179e6603")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.096)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.41 0)
+		(size 1.92 6.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.130208)
+		(uuid "b9f115a6-f0ed-4415-b0d8-647e1f1b2568")
+	)
+	(pad "2" smd roundrect
+		(at 2.41 0)
+		(size 1.92 6.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.130208)
+		(uuid "b35a3040-53b2-4da6-8cb6-c7511b0c3b5d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL7070-XXX.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
