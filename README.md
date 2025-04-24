@@ -2,9 +2,9 @@
 # Kevinbot Core
 The KiCAD sources for the Kevinbot Core control board
 
-| | |
-|-|-|
-|![OSHW Facts](readme/oshw_facts.svg)|<img src="certification-mark-US002675-stacked.png" width=200></img>
+|                                      |                                                                     |
+| ------------------------------------ | ------------------------------------------------------------------- |
+| ![OSHW Facts](readme/oshw_facts.svg) | <img src="certification-mark-US002675-stacked.png" width=200></img> |
 
 
 ![Board](docs/images/board.png)
@@ -30,12 +30,13 @@ I would recommend them for any of your PCB needs. They offer fast turnaround and
 
 Notice: All parts below retain their original license
 
-| Part Name                                        | Credit                                                                           | License                                  |
-| ------------------------------------------------ | -------------------------------------------------------------------------------- | ---------------------------------------- |
-| 430450400--3DModel-STEP-56544                    | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| 1053091102--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| 1053091103--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| 1053091106--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| 1053091108--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| 1053132102--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
-| 1053101104--3DModel-STEP-510211                  | SnapMagic Search                                                                 | Attribution-ShareAlike 4.0 International |
+| Part Name                           | Credit           | License                                  |
+| ----------------------------------- | ---------------- | ---------------------------------------- |
+| 430450400--3DModel-STEP-56544       | SnapMagic Search | Attribution-ShareAlike 4.0 International |
+| 1053091102--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
+| 1053091103--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
+| 1053091106--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
+| 1053091108--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
+| 1053132102--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
+| 1053101104--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
+| 3220-26-0100-00--3DModel-STEP-56544 | SnapMagic Search | Attribution-ShareAlike 4.0 International |
