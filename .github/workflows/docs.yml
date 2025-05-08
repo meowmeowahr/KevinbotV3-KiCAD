@@ -23,7 +23,7 @@ jobs:
       - name: Set VERSION based on branch
         id: vars
         run: |
-          if [[ "${{ github.ref_name }}" == "devel" ]]; then
+          if [[ "${{ github.ref_name }}" == "RevB" ]]; then
             echo "VERSION=RevB" >> $GITHUB_OUTPUT
           elif [[ "${{ github.ref_name }}" == "RevA" ]]; then
             echo "VERSION=RevA" >> $GITHUB_OUTPUT
