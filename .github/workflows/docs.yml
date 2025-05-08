@@ -3,7 +3,7 @@ name: Generate and Deploy InteractiveHtmlBom with mike
 on:
   push:
     branches:
-      - devel
+      - RevB
       - RevA
   workflow_dispatch:
 
