@@ -1386,6 +1386,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "1053101104"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74942d91-c743-4955-8d48-370d924ce150")
 		)

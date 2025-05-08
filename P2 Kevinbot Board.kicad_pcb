@@ -23081,6 +23081,19 @@
 				)
 			)
 		)
+		(property "Part Number" "1053101104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2beae87-25f7-4ad2-862c-89f031212548")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5453e275-4798-490a-963f-0bb3e1119943/74dfb7b4-cf49-4e6b-a3fb-74ef949f5f08")
 		(sheetname "/One-Wire/")
