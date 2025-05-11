@@ -43,6 +43,8 @@ fabrication-toolkit-options.json
 #mkdocs
 site/
 .venv/
+venv/
+.python-version
 
 # dev
 -dev-*/*
