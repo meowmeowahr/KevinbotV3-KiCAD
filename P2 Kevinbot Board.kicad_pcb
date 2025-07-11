@@ -256,11 +256,11 @@
 	(net 98 "Net-(Q1-B)")
 	(net 99 "Net-(R6-Pad2)")
 	(net 100 "/P2_RESn")
-	(net 101 "/Buzzer Out/BZ_OUT")
+	(net 101 "/Buzzer and LED Out/BZ_OUT")
 	(net 102 "Net-(BZ1-+)")
 	(net 103 "Net-(Q2-G)")
-	(net 104 "/LED/RSL")
-	(net 105 "/LED/NPX")
+	(net 104 "/Buzzer and LED Out/RSL")
+	(net 105 "/Buzzer and LED Out/NPX")
 	(net 106 "Net-(Q3-G)")
 	(net 107 "unconnected-(U6-NC-Pad8)")
 	(net 108 "unconnected-(U6-NC-Pad1)")
@@ -410,7 +410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -449,7 +449,7 @@
 		)
 		(property ki_fp_filters "SW?DIP?x1*")
 		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/cfdcda85-f721-4ddb-aad2-58f415155bfe")
-		(sheetname "/Buzzer Out/")
+		(sheetname "/Buzzer and LED Out/")
 		(sheetfile "buzzout.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -642,7 +642,7 @@
 			(size 1.6 0.76)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 101 "/Buzzer Out/BZ_OUT")
+			(net 101 "/Buzzer and LED Out/BZ_OUT")
 			(pintype "passive")
 			(uuid "a6b7ff7e-2c14-436b-940a-d427fec874d8")
 		)
@@ -697,7 +697,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1070,7 +1070,7 @@
 			(at 0 -5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "564f6c1c-93dd-4ebd-b0fa-bd9c3844a0e4")
+			(uuid "3ae37898-6418-428d-81f0-c5fa6e7fb23d")
 			(effects
 				(font
 					(size 1 1)
@@ -1081,7 +1081,7 @@
 		(property "Value" "6.8uH 11.5A"
 			(at 0 5 0)
 			(layer "F.Fab")
-			(uuid "cdd4221a-f392-4c79-9969-02fdadfff360")
+			(uuid "d07778cb-71a4-4c67-86d5-29d6a61ee037")
 			(effects
 				(font
 					(size 1 1)
@@ -1089,11 +1089,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66137afd-e612-4e22-9162-0e988c06730b")
+			(uuid "ef61ec1e-3a72-4906-8da8-857a80539efd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1105,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1c1c862-1894-403f-bb86-a2e0ad90ffcd")
+			(uuid "50d9e057-42df-484a-a2ca-188a4c69ba3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,6 +1244,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL7070-XXX.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1284,7 +1285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1894,7 +1895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2546,7 +2547,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2945,7 +2946,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3158,7 +3159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -3371,7 +3372,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3622,9 +3623,9 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/dc80c949-d80f-4718-ab95-fe20978a3da2/56206842-17f9-41d7-81f1-4baea750be84")
-		(sheetname "/LED/")
-		(sheetfile "led.kicad_sch")
+		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/56206842-17f9-41d7-81f1-4baea750be84")
+		(sheetname "/Buzzer and LED Out/")
+		(sheetfile "buzzout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -3775,7 +3776,7 @@
 			(size 1.475 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 104 "/LED/RSL")
+			(net 104 "/Buzzer and LED Out/RSL")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "c92cba80-1379-4802-a580-e39a98d57297")
@@ -3822,7 +3823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4096,7 +4097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5117,7 +5118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -5330,7 +5331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5545,7 +5546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6086,7 +6087,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6338,7 +6339,7 @@
 		)
 		(property ki_fp_filters "*SO*3.9*4.*P1.27mm*")
 		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/ccc2f1e7-d4b0-4285-93f5-1b69ca493106")
-		(sheetname "/Buzzer Out/")
+		(sheetname "/Buzzer and LED Out/")
 		(sheetfile "buzzout.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6587,7 +6588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6693,7 +6694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6906,7 +6907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7119,7 +7120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8116,7 +8117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8329,7 +8330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8846,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -9059,7 +9060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9458,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9854,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10415,7 +10416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10814,7 +10815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11027,7 +11028,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11846,7 +11847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12061,7 +12062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -12274,7 +12275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12871,7 +12872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -13084,7 +13085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13297,7 +13298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13510,7 +13511,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13725,7 +13726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13938,7 +13939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14151,7 +14152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14670,7 +14671,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15569,7 +15570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16391,7 +16392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16604,7 +16605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16817,7 +16818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17030,7 +17031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -18234,7 +18235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -18447,7 +18448,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18663,7 +18664,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18878,7 +18879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18916,9 +18917,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/dc80c949-d80f-4718-ab95-fe20978a3da2/e41e9bc1-d3da-4bac-9da4-48b4a454a951")
-		(sheetname "/LED/")
-		(sheetfile "led.kicad_sch")
+		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/e41e9bc1-d3da-4bac-9da4-48b4a454a951")
+		(sheetname "/Buzzer and LED Out/")
+		(sheetfile "buzzout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -19045,7 +19046,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 104 "/LED/RSL")
+			(net 104 "/Buzzer and LED Out/RSL")
 			(pintype "passive")
 			(uuid "213f4bfc-092a-4885-9d8f-3e0071ffcca2")
 		)
@@ -19091,7 +19092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19129,9 +19130,9 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/dc80c949-d80f-4718-ab95-fe20978a3da2/a835f4a3-e72f-4247-b276-056b1050b3d2")
-		(sheetname "/LED/")
-		(sheetfile "led.kicad_sch")
+		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/a835f4a3-e72f-4247-b276-056b1050b3d2")
+		(sheetname "/Buzzer and LED Out/")
+		(sheetfile "buzzout.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0 -2.13)
@@ -19561,7 +19562,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 105 "/LED/NPX")
+			(net 105 "/Buzzer and LED Out/NPX")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "5cd8c310-c0b4-4128-9208-061eea755a72")
@@ -19619,7 +19620,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -19832,7 +19833,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20199,7 +20200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20414,7 +20415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20993,7 +20994,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -21206,7 +21207,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21539,7 +21540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21616,9 +21617,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/dc80c949-d80f-4718-ab95-fe20978a3da2/ca26e83e-834e-48eb-ab3b-56972a6b9a24")
-		(sheetname "/LED/")
-		(sheetfile "led.kicad_sch")
+		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/ca26e83e-834e-48eb-ab3b-56972a6b9a24")
+		(sheetname "/Buzzer and LED Out/")
+		(sheetfile "buzzout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -21813,7 +21814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22205,7 +22206,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22418,7 +22419,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22631,7 +22632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -22844,7 +22845,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -23057,7 +23058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23596,7 +23597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -23809,7 +23810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24176,7 +24177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24681,7 +24682,7 @@
 			(uuid "d890dc26-ce2c-4def-81cf-1aa4b78cfc98")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645Sx43SMTR92.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24722,7 +24723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24974,7 +24975,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/ec193b66-1364-40d4-9297-79e7465b831d")
-		(sheetname "/Buzzer Out/")
+		(sheetname "/Buzzer and LED Out/")
 		(sheetfile "buzzout.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25126,7 +25127,7 @@
 			(size 1.475 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 101 "/Buzzer Out/BZ_OUT")
+			(net 101 "/Buzzer and LED Out/BZ_OUT")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "907a6ecc-1939-4861-94fa-41b8bfd684fe")
@@ -25173,7 +25174,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25386,7 +25387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25599,7 +25600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25812,7 +25813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -26025,7 +26026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26240,7 +26241,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26453,7 +26454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -26666,7 +26667,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26916,7 +26917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27129,7 +27130,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27379,7 +27380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27592,7 +27593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27805,7 +27806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28053,7 +28054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28266,7 +28267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28481,7 +28482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28694,7 +28695,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28800,7 +28801,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29013,7 +29014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29350,7 +29351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29563,7 +29564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29776,7 +29777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29991,7 +29992,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -30204,7 +30205,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30417,7 +30418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30523,7 +30524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30736,7 +30737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30990,7 +30991,7 @@
 		)
 		(property ki_fp_filters "*Buzzer*")
 		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/ceb51fee-fc7b-4bf4-aed4-0b32e742b93a")
-		(sheetname "/Buzzer Out/")
+		(sheetname "/Buzzer and LED Out/")
 		(sheetfile "buzzout.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -31133,7 +31134,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31348,7 +31349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31561,7 +31562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31774,7 +31775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31987,7 +31988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32513,7 +32514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -32726,7 +32727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32765,7 +32766,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/82c0e83d-683e-401f-b35b-4cc6810157cd")
-		(sheetname "/Buzzer Out/")
+		(sheetname "/Buzzer and LED Out/")
 		(sheetfile "buzzout.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -33196,7 +33197,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 101 "/Buzzer Out/BZ_OUT")
+			(net 101 "/Buzzer and LED Out/BZ_OUT")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "a74ef067-120c-4ecf-ad09-71625d69514d")
@@ -33254,7 +33255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33746,7 +33747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35522,7 +35523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -35735,7 +35736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -36316,7 +36317,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -36529,7 +36530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -36742,7 +36743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36955,7 +36956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36993,9 +36994,9 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/dc80c949-d80f-4718-ab95-fe20978a3da2/a9b1f6ff-579f-422f-8952-1595e1a6f0dc")
-		(sheetname "/LED/")
-		(sheetfile "led.kicad_sch")
+		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/a9b1f6ff-579f-422f-8952-1595e1a6f0dc")
+		(sheetname "/Buzzer and LED Out/")
+		(sheetfile "buzzout.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0 -2.13)
@@ -37425,7 +37426,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 104 "/LED/RSL")
+			(net 104 "/Buzzer and LED Out/RSL")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "6f5271cb-27b6-449f-abe7-546c66f21cd5")
@@ -37909,7 +37910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38779,7 +38780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39178,7 +39179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39393,7 +39394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39671,7 +39672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -39908,7 +39909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -40121,7 +40122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40336,7 +40337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42709,7 +42710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42987,7 +42988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43224,7 +43225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43439,7 +43440,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -43652,7 +43653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -43865,7 +43866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -44078,7 +44079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -44329,9 +44330,9 @@
 			)
 		)
 		(property ki_fp_filters "*SO*3.9*4.*P1.27mm*")
-		(path "/dc80c949-d80f-4718-ab95-fe20978a3da2/d7fe8d72-8407-4b32-9f56-966593429f31")
-		(sheetname "/LED/")
-		(sheetfile "led.kicad_sch")
+		(path "/441e8b1c-2de5-43eb-9608-83e9eae90220/d7fe8d72-8407-4b32-9f56-966593429f31")
+		(sheetname "/Buzzer and LED Out/")
+		(sheetfile "buzzout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 2.56)
@@ -44502,7 +44503,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 105 "/LED/NPX")
+			(net 105 "/Buzzer and LED Out/NPX")
 			(pinfunction "OUT_B")
 			(pintype "output")
 			(uuid "f86ef9a4-55e7-46eb-a29d-74f08f1146aa")
@@ -44579,7 +44580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45369,7 +45370,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45477,7 +45478,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45585,7 +45586,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45693,7 +45694,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46376,7 +46377,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46484,7 +46485,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46592,7 +46593,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

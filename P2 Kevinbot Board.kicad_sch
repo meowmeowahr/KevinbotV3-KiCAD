@@ -3841,14 +3841,6 @@
 		(uuid "e9b85d56-ff95-4130-b3cb-d4597345b913")
 	)
 	(no_connect
-		(at 224.79 57.15)
-		(uuid "2640222b-bedf-4dbf-8c44-c1ca9262a80c")
-	)
-	(no_connect
-		(at 224.79 59.69)
-		(uuid "51dc8cf7-bac6-427b-abba-ecab64cf35c5")
-	)
-	(no_connect
 		(at 143.51 181.61)
 		(uuid "76eacc87-fe76-409b-959d-7f9c262965ea")
 	)
@@ -3857,12 +3849,20 @@
 		(uuid "876057cc-8c2f-4b73-9265-65ba787d980d")
 	)
 	(no_connect
+		(at 224.79 62.23)
+		(uuid "92712b8f-a8b8-4c2f-b9e6-211f59de3821")
+	)
+	(no_connect
 		(at 119.38 133.35)
 		(uuid "b084613c-1df3-489f-a1af-f829e7df9fee")
 	)
 	(no_connect
 		(at 45.72 118.11)
 		(uuid "d6cc9111-047e-4897-8bb6-882b1bf093a4")
+	)
+	(no_connect
+		(at 224.79 64.77)
+		(uuid "f0eaf28b-f71b-4dd0-b3dc-604c11c55b46")
 	)
 	(wire
 		(pts
@@ -4526,28 +4526,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P2_P56"
-		(shape input)
-		(at 204.47 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1466a74c-3f04-4e36-ae84-fd465f059d52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.3487 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5476,28 +5454,6 @@
 			)
 		)
 	)
-	(global_label "P2_P34"
-		(shape input)
-		(at 204.47 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b15414b-0b5e-4671-ab89-418863193f54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.3487 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P2_P12"
 		(shape input)
 		(at 153.67 82.55 180)
@@ -6127,6 +6083,28 @@
 		(uuid "94d5da06-1170-4fc1-b260-46aebaf22009")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.9207 149.7806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P56"
+		(shape input)
+		(at 204.47 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95f45b9f-f801-44b9-81f3-d191e866e72f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.3487 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6864,7 @@
 	)
 	(global_label "P2_P40"
 		(shape input)
-		(at 204.47 130.81 180)
+		(at 204.47 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6896,7 +6874,7 @@
 		)
 		(uuid "c679fc2a-fe79-47e2-bff7-7aa3ec9fd2d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.9207 130.7306 0)
+			(at 194.9207 59.6106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,6 +7342,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2_P34"
+		(shape input)
+		(at 204.47 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2985e02-182f-4413-987b-a10ffdb7bd50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.3487 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8031,73 +8031,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 204.47 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "491f5e09-5364-41c7-a4bb-418b91361706")
-		(property "Reference" "#PWR037"
-			(at 208.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 200.66 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 204.47 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c24ee10d-ffb9-4737-89ac-4de4bd6c1d49")
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11213,7 +11146,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 204.47 128.27 90)
+		(at 204.47 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11222,7 +11155,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8fadbc1-95ee-4846-9ce6-3b18c863b52a")
 		(property "Reference" "#PWR028"
-			(at 208.28 128.27 0)
+			(at 208.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11231,7 +11164,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 200.66 128.2699 90)
+			(at 200.66 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11240,7 +11173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 128.27 0)
+			(at 204.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,7 +11182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 128.27 0)
+			(at 204.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +11191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 204.47 128.27 0)
+			(at 204.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11805,8 +11738,8 @@
 		)
 	)
 	(sheet
-		(at 204.47 125.73)
-		(size 20.32 7.62)
+		(at 204.47 54.61)
+		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11820,8 +11753,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "441e8b1c-2de5-43eb-9608-83e9eae90220")
-		(property "Sheetname" "Buzzer Out"
-			(at 204.47 125.0184 0)
+		(property "Sheetname" "Buzzer and LED Out"
+			(at 204.47 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11830,7 +11763,7 @@
 			)
 		)
 		(property "Sheetfile" "buzzout.kicad_sch"
-			(at 204.47 133.9346 0)
+			(at 204.47 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11772,7 @@
 			)
 		)
 		(pin "SIG" input
-			(at 204.47 130.81 180)
+			(at 204.47 59.69 180)
 			(uuid "9de350b6-4cfa-460e-9c2d-26266a9c56de")
 			(effects
 				(font
@@ -11849,8 +11782,48 @@
 			)
 		)
 		(pin "VIN" input
-			(at 204.47 128.27 180)
+			(at 204.47 57.15 180)
 			(uuid "15ec4e5f-e1f4-4566-8080-90df87955d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NPX" output
+			(at 224.79 62.23 0)
+			(uuid "aa37f8bc-f7ea-4845-b00d-880e3bb5c5c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NPX_IN" input
+			(at 204.47 62.23 180)
+			(uuid "971db34f-f82b-46cb-ade5-76d583b266ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RSL" input
+			(at 224.79 64.77 0)
+			(uuid "7731c69a-9b01-4353-bcc5-94b97fc76e54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RSL_IN" input
+			(at 204.47 64.77 180)
+			(uuid "2fe8daa3-553e-4d78-9a80-c7d62da0ea4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,98 +12019,6 @@
 			(project "P2 Kevinbot Board"
 				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 204.47 52.07)
-		(size 20.32 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dc80c949-d80f-4718-ab95-fe20978a3da2")
-		(property "Sheetname" "LED"
-			(at 204.47 51.3584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "led.kicad_sch"
-			(at 204.47 67.8946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NPX" output
-			(at 224.79 57.15 0)
-			(uuid "eccf1bc1-fa4e-4d4f-9953-7ba509fc8604")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NPX_IN" input
-			(at 204.47 57.15 180)
-			(uuid "9862fab7-5eeb-4aa9-8a82-4c42e168d5f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RSL" input
-			(at 224.79 59.69 0)
-			(uuid "bd301788-1ebe-4f01-ada0-bfec25b0a947")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RSL_IN" input
-			(at 204.47 59.69 180)
-			(uuid "38cc2563-c6fe-4f04-a31b-43b612449380")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VIN" input
-			(at 204.47 54.61 180)
-			(uuid "39dee558-272d-4903-bdc3-14e3b78a2c01")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "P2 Kevinbot Board"
-				(path "/362ca48c-0b77-4943-b8b3-fc15ab97f30d"
-					(page "4")
 				)
 			)
 		)
