@@ -4715,7 +4715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number1" "C0603C563J4RACTU"
+		(property "Part Number" "C0603C563J4RACTU"
 			(at 39.37 99.06 0)
 			(effects
 				(font
