@@ -4,7 +4,7 @@ The KiCAD sources for the Kevinbot Core control board
 
 |                                      |                                                                     |
 | ------------------------------------ | ------------------------------------------------------------------- |
-| ![OSHW Facts](readme/oshw_facts.svg) | <img src="certification-mark-US002675-stacked.png" width=200></img> |
+| ![OSHW Facts](readme/oshw_facts.svg) | <img src="certification-mark-stacked.png" width=200></img> |
 
 
 ![Board](docs/images/board.png)
