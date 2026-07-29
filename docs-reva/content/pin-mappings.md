@@ -1,7 +1,8 @@
 ---
 title: "Pin Mappings"
-editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevA/docs/content/pin-mappings.md
+editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs-reva/content/pin-mappings.md
 prev: board-diagram
+weight: 2
 ---
 
 ## Board Maps

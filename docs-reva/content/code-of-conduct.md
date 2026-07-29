@@ -1,6 +1,6 @@
 ---
 title: Code of Conduct
-editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevA/docs/content/code-of-conduct.md
+editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs-reva/content/code-of-conduct.md
 ---
 
 ## Our Pledge

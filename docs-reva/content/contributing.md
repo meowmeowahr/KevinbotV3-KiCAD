@@ -1,6 +1,6 @@
 ---
 title: Contributing
-editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevA/docs/content/contributing.md
+editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs-reva/content/contributing.md
 ---
 
 Thank you for your interest in contributing to Kevinbot P2 Board!

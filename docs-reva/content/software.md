@@ -1,7 +1,8 @@
 ---
 title: Software
-editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevA/docs/content/software.md
+editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs-reva/content/software.md
 prev: pin-mappings
+weight: 3
 ---
 
 ## Board-specific applications

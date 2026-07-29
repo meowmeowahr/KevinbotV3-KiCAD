@@ -1,6 +1,6 @@
 ---
 title: "Kevinbot P2 Board"
-editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevA/docs/content/_index.md
+editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs-reva/content/_index.md
 cascade:
   type: docs
 next: board-diagram

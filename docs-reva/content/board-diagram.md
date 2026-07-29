@@ -1,8 +1,9 @@
 ---
 title: "Board Diagram"
-editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevA/docs/content/board-diagram.md
+editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs-reva/content/board-diagram.md
 prev: /robotics/kevinbot-p2-board
 next: pin-mappings
+weight: 1
 ---
 
 ![PCB diagram with numbered elements](/images/docs/kevinbot-p2-board/pcb_diagram_drawio.drawio.png)
