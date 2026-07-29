@@ -1,0 +1,6 @@
+- src: images/carousel/kevinbot-p2-board/pcb-edges.png
+  alt: Image of blank, manufactured PCBs from PCBWay, blue; stacked
+- src: images/carousel/kevinbot-p2-board/pcbs.png
+  alt: Image of blank, manufactured PCBs from PCBWay, blue; scattered
+- src: images/carousel/kevinbot-p2-board/kicad-3d.png
+  alt: 3D render of the Kevinbot P2 Board in KiCAD

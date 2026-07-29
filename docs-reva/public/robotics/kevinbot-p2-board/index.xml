@@ -1,0 +1,655 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kevinbot P2 Board – Kevinbot P2 Board</title>
+    <link>http://localhost:37853/robotics/kevinbot-p2-board/</link>
+    <description>Recent content on Kevinbot P2 Board</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="http://localhost:37853/robotics/kevinbot-p2-board/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Board Diagram</title>
+      <link>http://localhost:37853/robotics/kevinbot-p2-board/board-diagram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:37853/robotics/kevinbot-p2-board/board-diagram/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;http://localhost:37853/images/docs/kevinbot-p2-board/pcb_diagram_drawio.drawio.png&#34; alt=&#34;PCB diagram with numbered elements&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;1. P2 Edge Socket&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-p2-edge-socket&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-p2-edge-socket&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Parallax Propeller 2 Socket (P2-EC)&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Not compatible with 32MB RAM upgrade (P2-EC32MB)&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;2. 5V DC Input&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-5v-dc-input&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-5v-dc-input&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Maximum Voltage: &lt;strong&gt;5.25v&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Uses &lt;a href=&#34;https://www.phoenixcontact.com/en-us/products/pcb-plug-mstb-25-2-st-508-1757019&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phoenix Contact MSTBA style connector&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;3. Voltmeter for Battery #1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-voltmeter-for-battery-1&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-voltmeter-for-battery-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Do not apply more than &lt;strong&gt;33v&lt;/strong&gt; to the input, or you will damage the P2.&lt;/p&gt;
+&lt;p&gt;Uses &lt;a href=&#34;https://www.phoenixcontact.com/en-us/products/pcb-plug-mstb-25-2-st-508-1757019&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phoenix Contact MSTBA style connector&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;4. Voltmeter for Battery #2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-voltmeter-for-battery-2&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-voltmeter-for-battery-2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Do not apply more than &lt;strong&gt;33v&lt;/strong&gt; to the input, or you will damage the P2.&lt;/p&gt;
+&lt;p&gt;Uses &lt;a href=&#34;https://www.phoenixcontact.com/en-us/products/pcb-plug-mstb-25-2-st-508-1757019&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phoenix Contact MSTBA style connector&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;5. Servo Power Input&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-servo-power-input&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-servo-power-input&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Power input for the 32 servo ports&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Do not exceed 6v on the servo input&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Uses &lt;a href=&#34;https://www.phoenixcontact.com/en-us/products/pcb-plug-mstb-25-2-st-508-1757019&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phoenix Contact MSTBA style connector&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;6. Main fuse&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-main-fuse&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-main-fuse&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Fuse for 5v rail. Replace it with &lt;strong&gt;3A&lt;/strong&gt; ATM mini fuse&lt;/p&gt;
+&lt;h2&gt;7. Servo fuse&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;7-servo-fuse&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-servo-fuse&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Fuse for servo rail. Replace it with &lt;strong&gt;15A&lt;/strong&gt; ATM mini fuse&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;&lt;b&gt;Current Warning&lt;/b&gt;
+&lt;br&gt;
+Exceeding these rating may cause overheating of the board traces and/or connectors&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Servo channel current ratings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;10A&lt;/strong&gt; Max total current&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;6.5A&lt;/strong&gt; Max for each bank of 16&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3A&lt;/strong&gt; Max per channel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;8. LED Power connector&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;8-led-power-connector&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8-led-power-connector&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Power input LED Output.&lt;/p&gt;
+&lt;p&gt;The voltage going in will be the WS281X(b) signal level&lt;/p&gt;
+&lt;p&gt;No current will be drawn from this input&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;This is not a fused input. Install a fuse on the input side for safe operation&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;9. P2 Accessory Ports&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;9-p2-accessory-ports&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#9-p2-accessory-ports&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Parallax-compatible P2-EVAL accessory headers.
+Compatible with all accessories.&lt;/p&gt;
+&lt;p&gt;Accessory List:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/universal-motor-driver-p2-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Universal Motor Driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-es-eval-board-hyperram-hyperflash-add-on/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HyperRAM &amp;amp; HyperFlash Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-hd-audio-add-on-set/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HD Audio Add-on set&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-rtc-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RTC Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-av-breakout-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AV Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-serial-host-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Serial Host Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-hub75-adapter-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HUB75 Add-on Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-led-matrix-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LED Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-serial-device-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Serial Device Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-digital-video-out-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Video Out&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-goertzel-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Goertzel Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-mini-prototyping-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mini Proto Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-eval-control-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Control Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-es-eval-protoboard-add-on/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proto Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-microsd-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;microSD Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-to-mikrobus-click-adapter/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;P2 to MikroBUS Click&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallax.com/product/p2-wx-adapter-add-on-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WX Adapter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;10. I2C Ports&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;10-i2c-ports&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#10-i2c-ports&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Four I&lt;sup&gt;2&lt;/sup&gt;C Ports on a common bus&lt;/p&gt;
+&lt;p&gt;Refer to &lt;a href=&#34;../pin-mappings&#34;&gt;Pin Mappings&lt;/a&gt; for the internal connections&lt;/p&gt;
+&lt;p&gt;5v, 3.3v, SDA, SCL, GND starting from the PropPlug side&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Do not mix-and-match any of the 3.3v rails.
+They have the same voltage, but connecting them may result in noisy analog inputs.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;11. One-Wire Ports&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11-one-wire-ports&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#11-one-wire-ports&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;4 One-Wire Ports on a common bus&lt;/p&gt;
+&lt;p&gt;Refer to &lt;a href=&#34;../pin-mappings&#34;&gt;Pin Mappings&lt;/a&gt; for the internal connections&lt;/p&gt;
+&lt;p&gt;5v, 3.3v, DATA, GND starting from the PropPlug side&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Do not mix-and-match any of the 3.3v rails.
+They have the same voltage, but connecting them may result in noisy analog inputs.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;12. LED Output Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12-led-output-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12-led-output-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;LED Port intended for a single data wire addressable LED segment (such as WS2812b, WS2811, etc&amp;hellip;)&lt;/p&gt;
+&lt;p&gt;Logic level is shifted to the &lt;a href=&#34;#8-led-power-connector&#34;&gt;input&lt;/a&gt; voltage&lt;/p&gt;
+&lt;h2&gt;13. RSL Output Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;13-rsl-output-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#13-rsl-output-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The RSL port is intended for a robot status light.
+For example, a light that turns on when motors are enabled&lt;/p&gt;
+&lt;p&gt;Output Voltage: 5v
+&lt;br/&gt;
+Max Output Current: 1.3A&lt;/p&gt;
+&lt;h2&gt;14. UART Communication Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;14-uart-communication-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#14-uart-communication-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This port is intended
+to be used as a serial communication link between the P2 Board and a main processor like a Raspberry Pi,
+or another Kevinbot P2 Board.
+While using this port is entirely optional, it may be required for more complex applications.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Using shielded cable is recommended at higher data rates&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;15. External Reset Button Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;15-external-reset-button-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#15-external-reset-button-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This port is for an external PC-like reset button.
+A connection between the two pins will result in the CPU restarting.&lt;/p&gt;
+&lt;h2&gt;16. External Error Buzzer Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;16-external-error-buzzer-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#16-external-error-buzzer-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This port is for a software-controlled external Piezo Buzzer.&lt;/p&gt;
+&lt;p&gt;Output Voltage: 5v
+&lt;br/&gt;
+Max Output Current: 1.3A&lt;/p&gt;
+&lt;h2&gt;17. Reset Button&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;17-reset-button&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#17-reset-button&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pressing the button will result in the CPU and code execution restarting.&lt;/p&gt;
+&lt;h2&gt;18. LED Indicators&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;18-led-indicators&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#18-led-indicators&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Indicates power rail statuses and UART port activity.&lt;/p&gt;
+&lt;p&gt;Light meanings:
+&lt;br/&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-Ini&#34; data-lang=&#34;Ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;TX&lt;/span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;UART transmitting&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;RX&lt;/span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;UART receiving&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;SVO&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;Servo power rail&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;3V3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;P2 V24 rail&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;5V&lt;/span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;5V Input rail&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;19. PropPlug programming interface&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;19-propplug-programming-interface&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#19-propplug-programming-interface&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Header for programming the P2. Designed for use with a &lt;a href=&#34;https://www.parallax.com/product/prop-plug/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Parallax Prop Plug&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;20. Internal DS18B20 thermometer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;20-internal-ds18b20-thermometer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#20-internal-ds18b20-thermometer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Every Kevinbot P2 Board will have a different serial number identifier for the thermometer.
+It is required to know the serial number if you have any devices connected to the &lt;a href=&#34;#11-one-wire-ports&#34;&gt;One-Wire ports&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;21. Second Servo Bank&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-second-servo-bank&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#21-second-servo-bank&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is the second bank of servo ports (S16 ~ S31)
+They are connected to a PCA9685 at I&lt;sup&gt;2&lt;/sup&gt;C address &lt;code&gt;0x41&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Each port has a maximum rating of 3A
+&lt;br/&gt;
+The whole bank has a rating of 6.5A&lt;/p&gt;
+&lt;h2&gt;22. First Servo Bank&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-first-servo-bank&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#22-first-servo-bank&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is the first bank of servo ports (S0 ~ S15)
+They are connected to a PCA9685 at I&lt;sup&gt;2&lt;/sup&gt;C address &lt;code&gt;0x40&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Each port has a maximum rating of 3A
+&lt;br/&gt;
+The whole bank has a rating of 6.5A&lt;/p&gt;
+&lt;h2&gt;23. Ground test points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-ground-test-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#23-ground-test-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;These ground points can be invaluable when debugging hardware. Clip your oscilloscope ground to them and debug away!&lt;/p&gt;
+&lt;h2&gt;24. Battery Input Polyfuses&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;24-battery-input-polyfuses&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#24-battery-input-polyfuses&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;These fuses are for the battery voltmeters.
+They auto-reset after tripped.
+They should never trip unless the board or P2 is damaged in some way.&lt;/p&gt;
+&lt;h2&gt;25. Error Buzzer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;25-error-buzzer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#25-error-buzzer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is a piezo buzzer intended for error tones.
+In the standard &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-HW-Core&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kevinbot code&lt;/a&gt;,
+it will play a startup chime, and continuously beep if an error has occurred.&lt;/p&gt;
+&lt;h2&gt;26. Error Buzzer Enabler&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;26-error-buzzer-enabler&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#26-error-buzzer-enabler&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src=&#34;http://localhost:37853/images/docs/kevinbot-p2-board/jumper.png&#34; class=&#34;light-only&#34; alt=&#34;Jumper icon&#34;&gt;
+&lt;img src=&#34;http://localhost:37853/images/docs/kevinbot-p2-board/jumper_dark.png&#34; class=&#34;dark-only&#34; alt=&#34;Jumper icon&#34;&gt;
+&lt;p&gt;This jumper should be installed to enable the internal error buzzer.
+If the jumper is not installed, the external buzzer port will still be active.&lt;/p&gt;
+&lt;h2&gt;27. Expansion connector&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;27-expansion-connector&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#27-expansion-connector&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This connector is reserved for future use.
+A pinout is provided &lt;a href=&#34;../pin-mappings&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;style&gt;
+.light-only {
+  display: block;
+}
+
+.dark-only {
+  display: none;
+}
+
+.dark .light-only,
+html.dark .light-only {
+  display: none;
+}
+
+.dark .dark-only,
+html.dark .dark-only {
+  display: block;
+}
+&lt;/style&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>http://localhost:37853/robotics/kevinbot-p2-board/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:37853/robotics/kevinbot-p2-board/code-of-conduct/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Our Pledge&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;our-pledge&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#our-pledge&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender
+identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity
+and orientation.&lt;/p&gt;
+&lt;p&gt;We pledge to act and interact in ways that contribute to an open, welcoming,
+diverse, inclusive, and healthy community.&lt;/p&gt;
+&lt;h2&gt;Our Standards&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;our-standards&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#our-standards&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Examples of behavior that contributes to a positive environment for our
+community include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demonstrating empathy and kindness toward other people&lt;/li&gt;
+&lt;li&gt;Being respectful of differing opinions, viewpoints, and experiences&lt;/li&gt;
+&lt;li&gt;Giving and gracefully accepting constructive feedback&lt;/li&gt;
+&lt;li&gt;Accepting responsibility and apologizing to those affected by our mistakes,
+and learning from the experience&lt;/li&gt;
+&lt;li&gt;Focusing on what is best not just for us as individuals, but for the
+overall community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Examples of unacceptable behavior include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The use of sexualized language or imagery, and sexual attention or
+advances of any kind&lt;/li&gt;
+&lt;li&gt;Trolling, insulting or derogatory comments, and personal or political attacks&lt;/li&gt;
+&lt;li&gt;Public or private harassment&lt;/li&gt;
+&lt;li&gt;Publishing others&amp;rsquo; private information, such as a physical or email
+address, without their explicit permission&lt;/li&gt;
+&lt;li&gt;Other conduct which could reasonably be considered inappropriate in a
+professional setting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Enforcement Responsibilities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;enforcement-responsibilities&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#enforcement-responsibilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Community leaders are responsible for clarifying and enforcing our standards of
+acceptable behavior and will take appropriate and fair corrective action in
+response to any behavior that they deem inappropriate, threatening, offensive,
+or harmful.&lt;/p&gt;
+&lt;p&gt;Community leaders have the right and responsibility to remove, edit, or reject
+comments, commits, code, wiki edits, issues, and other contributions that are
+not aligned to this Code of Conduct, and will communicate reasons for moderation
+decisions when appropriate.&lt;/p&gt;
+&lt;h2&gt;Scope&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;scope&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#scope&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This Code of Conduct applies within all community spaces, and also applies when
+an individual is officially representing the community in public spaces.
+Examples of representing our community include using an official e-mail address,
+posting via an official social media account, or acting as an appointed
+representative at an online or offline event.&lt;/p&gt;
+&lt;h2&gt;Enforcement&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;enforcement&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#enforcement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported to the community leaders responsible for enforcement at
+&lt;code&gt;meowmeowahr@gmail.com&lt;/code&gt;.
+All complaints will be reviewed and investigated promptly and fairly.&lt;/p&gt;
+&lt;p&gt;All community leaders are obligated to respect the privacy and security of the
+reporter of any incident.&lt;/p&gt;
+&lt;h2&gt;Enforcement Guidelines&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;enforcement-guidelines&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#enforcement-guidelines&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Community leaders will follow these Community Impact Guidelines in determining
+the consequences for any action they deem in violation of this Code of Conduct:&lt;/p&gt;
+&lt;h3&gt;1. Correction&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-correction&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-correction&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Use of inappropriate language or other behavior deemed
+unprofessional or unwelcome in the community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;/strong&gt;: A private, written warning from community leaders, providing
+clarity around the nature of the violation and an explanation of why the
+behavior was inappropriate. A public apology may be requested.&lt;/p&gt;
+&lt;h3&gt;2. Warning&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-warning&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-warning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: A violation through a single incident or series
+of actions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;/strong&gt;: A warning with consequences for continued behavior. No
+interaction with the people involved, including unsolicited interaction with
+those enforcing the Code of Conduct, for a specified period of time. This
+includes avoiding interactions in community spaces as well as external channels
+like social media. Violating these terms may lead to a temporary or
+permanent ban.&lt;/p&gt;
+&lt;h3&gt;3. Temporary Ban&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-temporary-ban&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-temporary-ban&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: A serious violation of community standards, including
+sustained inappropriate behavior.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;/strong&gt;: A temporary ban from any sort of interaction or public
+communication with the community for a specified period of time. No public or
+private interaction with the people involved, including unsolicited interaction
+with those enforcing the Code of Conduct, is allowed during this period.
+Violating these terms may lead to a permanent ban.&lt;/p&gt;
+&lt;h3&gt;4. Permanent Ban&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-permanent-ban&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-permanent-ban&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Demonstrating a pattern of violation of community
+standards, including sustained inappropriate behavior, harassment of an
+individual, or aggression toward or disparagement of classes of individuals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;/strong&gt;: A permanent ban from any sort of public interaction within
+the community.&lt;/p&gt;
+&lt;h2&gt;Attribution&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;attribution&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#attribution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This Code of Conduct is adapted from the &lt;a href=&#34;https://www.contributor-covenant.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Covenant&lt;/a&gt;,
+version 2.0, available at
+&lt;a href=&#34;https://www.contributor-covenant.org/version/2/0/code_of_conduct.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.contributor-covenant.org/version/2/0/code_of_conduct.html&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Community Impact Guidelines were inspired by &lt;a href=&#34;https://github.com/mozilla/diversity&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mozilla&amp;rsquo;s code of conduct
+enforcement ladder&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For answers to common questions about this code of conduct, see the FAQ at
+&lt;a href=&#34;https://www.contributor-covenant.org/faq&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.contributor-covenant.org/faq&lt;/a&gt;. Translations are available at
+&lt;a href=&#34;https://www.contributor-covenant.org/translations&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.contributor-covenant.org/translations&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Contributing</title>
+      <link>http://localhost:37853/robotics/kevinbot-p2-board/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:37853/robotics/kevinbot-p2-board/contributing/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Thank you for your interest in contributing to Kevinbot P2 Board!
+Your contributions, whether in hardware design, documentation, or ideas, help the project grow. Please take a moment to review this guide to make the process easier for everyone.&lt;/p&gt;
+&lt;h2&gt;Ways to Support the Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ways-to-support-the-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ways-to-support-the-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Even if you don&amp;rsquo;t have time to contribute directly, you can support us by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Starring the repository&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sharing it on social media&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mentioning it in your project&amp;rsquo;s README&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;I Have a Question&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;i-have-a-question&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i-have-a-question&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Before asking:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Check the &lt;a href=&#34;https://kevinbot.net/robotics/kevinbot-p2-board/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Search the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Issues&lt;/a&gt; and &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/discussions&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discussions&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Still need help?&lt;br&gt;
+Open a new topic in &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/discussions/new?category=q-a&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q&amp;amp;A&lt;/a&gt;, providing as much context as possible.&lt;/p&gt;
+&lt;h2&gt;I Want to Contribute&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;i-want-to-contribute&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i-want-to-contribute&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Reporting Bugs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;reporting-bugs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reporting-bugs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Before Submitting a Bug Report&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;before-submitting-a-bug-report&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#before-submitting-a-bug-report&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Make sure you&amp;rsquo;re using the latest KiCAD version (if applicable).&lt;/li&gt;
+&lt;li&gt;Verify the issue isn&amp;rsquo;t due to configuration or environment issues.&lt;/li&gt;
+&lt;li&gt;Search the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues?q=label%3Abug&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bug tracker&lt;/a&gt; to see if the issue has already been reported.&lt;/li&gt;
+&lt;li&gt;Gather the following details:
+&lt;ul&gt;
+&lt;li&gt;Software versions (e.g., KiCAD, P2 Compiler)&lt;/li&gt;
+&lt;li&gt;Reproduction steps or related input/output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Submitting a Bug Report&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;submitting-a-bug-report&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#submitting-a-bug-report&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Sensitive issues (e.g., security bugs) should be reported via email at &lt;a href=&#34;mailto:meowmeowahr@gmail.com&#34;&gt;meowmeowahr@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For all other issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open a &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues/new&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub issue&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Describe the expected and actual behavior, along with clear reproduction steps.&lt;/li&gt;
+&lt;li&gt;Include the details you gathered earlier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Suggesting Enhancements&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;suggesting-enhancements&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#suggesting-enhancements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Before Submitting an Enhancement&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;before-submitting-an-enhancement&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#before-submitting-an-enhancement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Make sure you&amp;rsquo;re using the latest version.&lt;/li&gt;
+&lt;li&gt;Check the documentation to ensure the feature isn&amp;rsquo;t already covered.&lt;/li&gt;
+&lt;li&gt;Search the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue tracker&lt;/a&gt; for similar suggestions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Submitting an Enhancement Suggestion&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;submitting-an-enhancement-suggestion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#submitting-an-enhancement-suggestion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Discuss your idea in the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/discussions&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discussions section&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Once your idea is clear, open a &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues/new&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;new issue&lt;/a&gt; with:
+&lt;ul&gt;
+&lt;li&gt;A descriptive title&lt;/li&gt;
+&lt;li&gt;A detailed explanation of the suggestion and expected outcome&lt;/li&gt;
+&lt;li&gt;Why the feature would benefit users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pin Mappings</title>
+      <link>http://localhost:37853/robotics/kevinbot-p2-board/pin-mappings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:37853/robotics/kevinbot-p2-board/pin-mappings/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Board Maps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;board-maps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#board-maps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Pin Function&lt;/th&gt;
+					&lt;th&gt;Board Pin&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Exposed Accessory I/O&lt;/td&gt;
+					&lt;td&gt;P0~P31&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Test Point on Back&lt;/td&gt;
+					&lt;td&gt;P32&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Test Point on Back&lt;/td&gt;
+					&lt;td&gt;P33&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;WS281X(b) LED Output&lt;/td&gt;
+					&lt;td&gt;P34&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;UART TX Output&lt;/td&gt;
+					&lt;td&gt;P35&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;UART RX Input&lt;/td&gt;
+					&lt;td&gt;P36&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Voltmeter #1 Input&lt;/td&gt;
+					&lt;td&gt;P37&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Voltmeter #2 Output&lt;/td&gt;
+					&lt;td&gt;P38&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;One-Wire Data Line&lt;/td&gt;
+					&lt;td&gt;P39&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Error Buzzer&lt;/td&gt;
+					&lt;td&gt;P40&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;I2C SDA&lt;/td&gt;
+					&lt;td&gt;P41&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;I2C SCL&lt;/td&gt;
+					&lt;td&gt;P42&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Expansion FFC I/O&lt;/td&gt;
+					&lt;td&gt;P43~P63&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Robot Status Light&lt;/td&gt;
+					&lt;td&gt;P56/LED1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Programming TXD&lt;/td&gt;
+					&lt;td&gt;P62&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Programming RXD&lt;/td&gt;
+					&lt;td&gt;P63&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Expansion header maps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;expansion-header-maps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#expansion-header-maps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:37853/images/docs/kevinbot-p2-board/ffc.png&#34; alt=&#34;PCB view of Flat Flex Connector&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;http://localhost:37853/images/docs/kevinbot-p2-board/ffc2.png&#34; alt=&#34;3D view of Flat Flex Connector&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;From right (servo output) side:&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Pin&lt;/th&gt;
+					&lt;th&gt;Signal&lt;/th&gt;
+					&lt;th&gt;Pin&lt;/th&gt;
+					&lt;th&gt;Signal&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;GND&lt;/td&gt;
+					&lt;td&gt;15&lt;/td&gt;
+					&lt;td&gt;P2_P55&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;GND&lt;/td&gt;
+					&lt;td&gt;16&lt;/td&gt;
+					&lt;td&gt;P2_P56&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;P2_P43&lt;/td&gt;
+					&lt;td&gt;17&lt;/td&gt;
+					&lt;td&gt;P2_P57&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;P2_P44&lt;/td&gt;
+					&lt;td&gt;18&lt;/td&gt;
+					&lt;td&gt;P2_P58&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;5&lt;/td&gt;
+					&lt;td&gt;P2_P45&lt;/td&gt;
+					&lt;td&gt;19&lt;/td&gt;
+					&lt;td&gt;P2_P59&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;6&lt;/td&gt;
+					&lt;td&gt;P2_P46&lt;/td&gt;
+					&lt;td&gt;20&lt;/td&gt;
+					&lt;td&gt;P2_P60&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;7&lt;/td&gt;
+					&lt;td&gt;P2_P47&lt;/td&gt;
+					&lt;td&gt;21&lt;/td&gt;
+					&lt;td&gt;P2_P61&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;8&lt;/td&gt;
+					&lt;td&gt;P2_P48&lt;/td&gt;
+					&lt;td&gt;22&lt;/td&gt;
+					&lt;td&gt;P2_P62 (TXD/Prog)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;9&lt;/td&gt;
+					&lt;td&gt;P2_P49&lt;/td&gt;
+					&lt;td&gt;23&lt;/td&gt;
+					&lt;td&gt;P2_P63 (RXD/Prog)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;10&lt;/td&gt;
+					&lt;td&gt;P2_P50&lt;/td&gt;
+					&lt;td&gt;24&lt;/td&gt;
+					&lt;td&gt;P2_RESn (Reset)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;11&lt;/td&gt;
+					&lt;td&gt;P2_P51&lt;/td&gt;
+					&lt;td&gt;25&lt;/td&gt;
+					&lt;td&gt;P2_V48&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;12&lt;/td&gt;
+					&lt;td&gt;P2_P52&lt;/td&gt;
+					&lt;td&gt;26&lt;/td&gt;
+					&lt;td&gt;P2_V56&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;13&lt;/td&gt;
+					&lt;td&gt;P2_P53&lt;/td&gt;
+					&lt;td&gt;27&lt;/td&gt;
+					&lt;td&gt;5V&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14&lt;/td&gt;
+					&lt;td&gt;P2_P54&lt;/td&gt;
+					&lt;td&gt;28&lt;/td&gt;
+					&lt;td&gt;5V&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;P2 Accessory header maps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;p2-accessory-header-maps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#p2-accessory-header-maps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:37853/images/docs/kevinbot-p2-board/p2acc.png&#34; alt=&#34;PCB view of P2 Accessory Connectors&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;http://localhost:37853/images/docs/kevinbot-p2-board/p2acc2.png&#34; alt=&#34;3D view of P2 Accessory Connectors&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;These ports are compatible with all the Parallax P2-EVAL accessories.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>http://localhost:37853/robotics/kevinbot-p2-board/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:37853/robotics/kevinbot-p2-board/software/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Board-specific applications&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;board-specific-applications&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#board-specific-applications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-HW-Core&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Kevinbot v3 Core&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;General P2 Objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;general-p2-objects&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#general-p2-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;jm_ds18b20.spin2&lt;/strong&gt;
+&lt;br/&gt;
+A driver can be found &lt;a href=&#34;https://www.parallax.com/1-wire-driver-with-ds18b20-temperature-sensor-demo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This will work for interfacing with the single sensor on the board, or external sensors via the &lt;a href=&#34;../board-diagram#11-one-wire-ports&#34;&gt;One-Wire ports&lt;/a&gt;.
+You can use the One-Wire scanner tool on the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-HW-Core/blob/v3-redesign/KevinbotV3_DS_SerialTool.spin2&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kevinbot v3 GitHub Repo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ka_pca9685.spin2&lt;/strong&gt;
+&lt;br/&gt;
+The driver can be found &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-HW-Core/blob/v3-redesign/ka_pca9685.spin2&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is the driver for controlling the &lt;a href=&#34;../board-diagram#22-first-servo-bank&#34;&gt;servo banks&lt;/a&gt;.
+You will need to initialize two instances of the driver to use both banks.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

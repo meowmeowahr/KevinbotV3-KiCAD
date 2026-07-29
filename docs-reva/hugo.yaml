@@ -1,0 +1,36 @@
+# Configuration for the Kevinbot P2 Board docs.
+#
+# This site works two ways:
+#   1. Standalone   — run `hugo server` in this directory to preview/contribute
+#                     the docs on their own (served under /robotics/kevinbot-p2-board/).
+#   2. As a module  — imported by kevinbot.net, which mounts this content into
+#                     its own tree. The mounts below keep every absolute path
+#                     identical in both builds, so nothing has to change when integrated.
+baseURL: https://kevinbot-p2-board.docs.local/
+title: Kevinbot P2 Board
+enableRobotsTXT: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+  mounts:
+    - source: content.root
+      target: content
+    - source: content
+      target: content/robotics/kevinbot-p2-board
+    - source: static
+      target: static
+    - source: data
+      target: data
+    - source: layouts
+      target: layouts
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  page:
+    contextMenu:
+      enable: true

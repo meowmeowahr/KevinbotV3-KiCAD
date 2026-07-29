@@ -48,3 +48,8 @@ venv/
 
 # dev
 -dev-*/*
+
+# Hugo
+docs/public/
+docs/resources/
+.hugo_build.lock

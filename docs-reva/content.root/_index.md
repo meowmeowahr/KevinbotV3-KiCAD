@@ -1,0 +1,1 @@
+[Go to Docs](/robotics/kevinbot-p2-board/)

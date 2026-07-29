@@ -1,0 +1,54 @@
+{{- $id := printf "carousel-%d" .Ordinal -}}
+{{- $gallery := .Get "gallery" -}}
+{{- $images := index hugo.Data.galleries $gallery -}}
+
+{{ if not $images }}
+  {{ errorf "Carousel gallery '%s' not found" }}
+{{ end }}
+{{ $splide := resources.Get "js/splide.min.js" }}
+{{ $splidecss := resources.Get "css/splide.min.css" }}
+<link
+  rel="stylesheet"
+  href="{{ $splidecss.RelPermalink }}">
+
+<script
+  src="{{ $splide.RelPermalink }}"
+  defer>
+</script>
+
+<section id="{{ $id }}" class="splide" aria-label="Project showcase">
+  <div class="splide__track">
+    <ul class="splide__list">
+      {{ range $images }}
+      <li class="splide__slide">
+        <img
+          src="/{{ .src }}"
+          alt="{{ .alt }}"
+          class="w-full rounded-xl object-contain"
+          loading="lazy">
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide("#{{ $id }}", {
+    type: "loop",
+    perPage: 1,
+    gap: "1rem",
+    arrows: false,
+    pagination: true,
+    autoplay: true,
+    keyboard: "global",
+  }).mount();
+});
+</script>
+
+<style>
+.splide__slide {
+    padding-bottom: 1rem;
+}
+</style>
+

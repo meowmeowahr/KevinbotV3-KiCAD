@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:37853/</loc>
+  </url><url>
+    <loc>http://localhost:37853/robotics/kevinbot-p2-board/board-diagram/</loc>
+  </url><url>
+    <loc>http://localhost:37853/categories/</loc>
+  </url><url>
+    <loc>http://localhost:37853/robotics/kevinbot-p2-board/code-of-conduct/</loc>
+  </url><url>
+    <loc>http://localhost:37853/robotics/kevinbot-p2-board/contributing/</loc>
+  </url><url>
+    <loc>http://localhost:37853/robotics/kevinbot-p2-board/</loc>
+  </url><url>
+    <loc>http://localhost:37853/robotics/kevinbot-p2-board/pin-mappings/</loc>
+  </url><url>
+    <loc>http://localhost:37853/robotics/</loc>
+  </url><url>
+    <loc>http://localhost:37853/robotics/kevinbot-p2-board/software/</loc>
+  </url><url>
+    <loc>http://localhost:37853/tags/</loc>
+  </url>
+</urlset>
