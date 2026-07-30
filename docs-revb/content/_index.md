@@ -1,6 +1,6 @@
 ---
 title: "Kevinbot Core"
-editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs/index.md
+editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs-revb/content/_index.md
 cascade:
   type: docs
 next: diagram

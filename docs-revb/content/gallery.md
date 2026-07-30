@@ -1,6 +1,6 @@
 ---
 title: "Image Gallery"
-editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs/gallery.md
+editURL: https://github.com/meowmeowahr/KevinbotV3-KiCAD/edit/RevB/docs-revb/content/gallery.md
 cascade:
   type: docs
 weight: 7
