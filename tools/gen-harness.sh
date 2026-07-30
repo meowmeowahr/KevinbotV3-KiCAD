@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WIREVIZ_DIR="wireviz"
-OUTPUT_DIR="docs/images/wireviz"
+OUTPUT_DIR="docs-revb/static/images/wireviz"
 
 
 mkdir -p "$OUTPUT_DIR"

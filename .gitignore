@@ -48,6 +48,7 @@ venv/
 
 # dev
 -dev-*/*
+p2.xml
 
 # Hugo
 docs/public/

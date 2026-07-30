@@ -1,0 +1,683 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kevinbot Core – Kevinbot Core</title>
+    <link>http://localhost:36339/robotics/kevinbot-core/</link>
+    <description>Recent content on Kevinbot Core</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="http://localhost:36339/robotics/kevinbot-core/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Board Diagram</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/diagram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/diagram/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;http://localhost:36339/images/diagram.svg&#34; alt=&#34;Numbered board diagram&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;#1 - P2 Edge Socket&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1---p2-edge-socket&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1---p2-edge-socket&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Compatible with Parallax P2 Edge (&lt;a href=&#34;https://www.parallax.com/product/p2-edge-module/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.parallax.com/product/p2-edge-module/&lt;/a&gt;)&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Kevinbot Core is &lt;strong&gt;NOT&lt;/strong&gt; compatible with the &lt;em&gt;P2-EC32MB&lt;/em&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;#2 - Power Input&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2---power-input&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2---power-input&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Kevinbot Core can take anywhere from 6v to 40v. Input is protected by a 7.5A fuse.
+&lt;br&gt;
+Operating outside these limits may cause damage to the board.&lt;/p&gt;
+&lt;h2&gt;#3 - USB-C Programming Header&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3---usb-c-programming-header&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3---usb-c-programming-header&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;FTDI Prop-Plug compatible programming interface.
+&lt;br&gt;
+Both &lt;a href=&#34;#21---programmer-selector-switches&#34;&gt;#21 DIP Switches&lt;/a&gt; must be set to &lt;strong&gt;USB&lt;/strong&gt; to enable the USB programmer.&lt;/p&gt;
+&lt;h2&gt;#4 - Reset Button&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4---reset-button&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4---reset-button&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Press the button to manually reset the P2&lt;/p&gt;
+&lt;h2&gt;#5 - Reset Header&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5---reset-header&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5---reset-header&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Connect both pins to reset the P2.
+&lt;br&gt;
+Compatible with &lt;a href=&#34;https://www.molex.com/en-us/products/part-detail/1053071202&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Molex 1x2 Nano-Fit connector housings&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;#6 - P2 EVAL Accessory Headers&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6---p2-eval-accessory-headers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6---p2-eval-accessory-headers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Compatible with P2-EVAL accessories. Each header exposes 8 I/O pins, 3.3v, GND, and 5v.&lt;/p&gt;
+&lt;h2&gt;#7 - Accessory Header 5V Enable&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;7---accessory-header-5v-enable&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7---accessory-header-5v-enable&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Jumper selector to enable 5V on &lt;a href=&#34;#6---p2-eval-accessory-headers&#34;&gt;#6 accessory headers&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;#8 - Expansion Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;8---expansion-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8---expansion-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Reserved for future use.&lt;/p&gt;
+&lt;h2&gt;#9 - Buzzer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;9---buzzer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#9---buzzer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;User-controllable buzzer for errors, status, etc&amp;hellip;&lt;/p&gt;
+&lt;h2&gt;#10 - Status Led Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;10---status-led-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#10---status-led-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;5v signal level LED header.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;It is not recommended to use this for addressable LEDs due to potential slow switching times.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;#11 - Addressable LED Output&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11---addressable-led-output&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#11---addressable-led-output&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;5v signal level addressable LED output.&lt;/p&gt;
+&lt;h2&gt;#12 - RS-422 Input/Output&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12---rs-422-inputoutput&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12---rs-422-inputoutput&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Serial over 2 twisted pairs.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;The UART Enable Switch must be set to the lower position to enable the RS-422 port.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;#13 - UART Input/Output&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;13---uart-inputoutput&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#13---uart-inputoutput&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;3.3v UART RX/TX lines.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;The UART Enable Switch must be set to the upper position to enable the UART port.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;#14 - I2C Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;14---i2c-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#14---i2c-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;3.3v I2C SDA/SCL lines.&lt;/p&gt;
+&lt;h2&gt;#15 - One-Wire Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;15---one-wire-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#15---one-wire-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;3.3v One-Wire data.&lt;/p&gt;
+&lt;h2&gt;#16 - Servo Power Input&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;16---servo-power-input&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#16---servo-power-input&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Up to 24v servo power input. Protected by a 15A fuse.
+&lt;br&gt;
+Operating outside these limits may cause damage to the board.&lt;/p&gt;
+&lt;h2&gt;#17 - Servo (PWM) Headers&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;17---servo-pwm-headers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#17---servo-pwm-headers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;16 PWM headers. Uses a PCA9685 to drive the outputs.&lt;/p&gt;
+&lt;h2&gt;#18 - Thermometer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;18---thermometer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#18---thermometer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DS18B20 One-Wire thermometer.
+&lt;br&gt;
+Internally connected to the same One-Wire bus as the &lt;a href=&#34;#15---one-wire-port&#34;&gt;One-Wire Port&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;#19 - Programmer Indicator LEDs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;19---programmer-indicator-leds&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#19---programmer-indicator-leds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;FTDI activity LEDs.&lt;/p&gt;
+&lt;h2&gt;#20 - External Programmer Headers&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;20---external-programmer-headers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#20---external-programmer-headers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Connection to external programming device. Exposes the P2&amp;rsquo;s Rx/Tx, and flash chip SPI lines.
+&lt;br&gt;
+Both &lt;a href=&#34;#21---programmer-selector-switches&#34;&gt;#21 DIP Switches&lt;/a&gt; must be set to &lt;strong&gt;EXT&lt;/strong&gt; to enable the USB programmer.&lt;/p&gt;
+&lt;h2&gt;#21 - Programmer Selector Switches&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21---programmer-selector-switches&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#21---programmer-selector-switches&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Switch between the USB-C and external programming headers.&lt;/p&gt;
+&lt;h2&gt;#22 - External Error Buzzer Port&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22---external-error-buzzer-port&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#22---external-error-buzzer-port&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;External buzzer port with 5v signal level.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pin Mappings</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/map/</guid>
+      <description>
+        
+        
+        &lt;p&gt;tbd&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Specifications</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/specs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/specs/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Electrical Characteristics&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;electrical-characteristics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#electrical-characteristics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Parameter&lt;/th&gt;
+					&lt;th&gt;&lt;div style=&#34;width:200px&#34;&gt;Name&lt;/div&gt;&lt;/th&gt;
+					&lt;th&gt;&lt;div style=&#34;width:100px&#34;&gt;Conditions&lt;/div&gt;&lt;/th&gt;
+					&lt;th&gt;Min&lt;/th&gt;
+					&lt;th&gt;Typical&lt;/th&gt;
+					&lt;th&gt;Max&lt;/th&gt;
+					&lt;th&gt;Unit&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;V&lt;sub&gt;IN&lt;/sub&gt;&lt;/td&gt;
+					&lt;td&gt;Input Voltage&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;6&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;40&lt;/td&gt;
+					&lt;td&gt;V&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;I&lt;sub&gt;DD&lt;/sub&gt;&lt;/td&gt;
+					&lt;td&gt;Input Current Draw&lt;/td&gt;
+					&lt;td&gt;V&lt;sub&gt;IN&lt;/sub&gt; = 6V&lt;br&gt;V&lt;sub&gt;IN&lt;/sub&gt; = 23V&lt;br&gt;V&lt;sub&gt;IN&lt;/sub&gt; = 40V&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;5.30&lt;br&gt;1.40&lt;br&gt;0.82&lt;/td&gt;
+					&lt;td&gt;A&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;V&lt;sub&gt;IN(VM)&lt;/sub&gt;&lt;/td&gt;
+					&lt;td&gt;Voltmeter Input Voltage&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;60&lt;/td&gt;
+					&lt;td&gt;V&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;I&lt;sub&gt;DD(VM)&lt;/sub&gt;&lt;/td&gt;
+					&lt;td&gt;Voltmeter Current Draw&lt;/td&gt;
+					&lt;td&gt;V&lt;sub&gt;IN(VM)&lt;/sub&gt; = 60V&lt;br&gt;V&lt;sub&gt;IN(VM)&lt;/sub&gt; = 12V&lt;br&gt;V&lt;sub&gt;IN(VM)&lt;/sub&gt; = 6V&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;315.8&lt;br&gt;63.2&lt;br&gt;31.6&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;µA&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;V&lt;sub&gt;IN(SV)&lt;/sub&gt;&lt;/td&gt;
+					&lt;td&gt;Servo Input Voltage&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;24&lt;/td&gt;
+					&lt;td&gt;V&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;I&lt;sub&gt;OUT(SV)&lt;/sub&gt;&lt;/td&gt;
+					&lt;td&gt;Servo Max Total Output Current&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;12&lt;/td&gt;
+					&lt;td&gt;A&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;I&lt;sub&gt;OUT(SVCH)&lt;/sub&gt;&lt;/td&gt;
+					&lt;td&gt;Servo Max Per Channel Output Current&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;-&lt;/td&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;A&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/software/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Board-specific applications&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;board-specific-applications&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#board-specific-applications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-HW-Core&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Kevinbot v3 Core&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;General P2 Objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;general-p2-objects&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#general-p2-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;jm_ds18b20.spin2&lt;/strong&gt;
+&lt;br/&gt;
+A driver can be found &lt;a href=&#34;https://www.parallax.com/1-wire-driver-with-ds18b20-temperature-sensor-demo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This will work for interfacing with the single sensor on the board, or external sensors via the One-Wire Ports.
+You can use the One-Wire scanner tool on the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-HW-Core/blob/v3-redesign/KevinbotV3_DS_SerialTool.spin2&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kevinbot v3 GitHub Repo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ka_pca9685.spin2&lt;/strong&gt;
+&lt;br/&gt;
+The driver can be found &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-HW-Core/blob/v3-redesign/ka_pca9685.spin2&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This will work for the built in 16x servo controller, and any additional servo expansions&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>FTDI Configuration</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/ftdi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/ftdi/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The onboard FT231XS UART-to-USB converter requires configuration before it is able to program the P2.
+Configuration is done through &lt;a href=&#34;https://ftdichip.com/utilities/#ft_prog&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FT_PROG&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Incorrect usage of FT_PROG may brick the FT231XS chip. Be careful when changing settings.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Settings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;settings&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Option&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Value&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;CBUS0&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;TXLED&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;CBUS1&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;SLEEP#&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;CBUS2&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;TXDEN&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;CBUS2&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;RXLED&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;USB - MaxPower&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;90mA&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;Pull down IO in suspend&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;True&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Wiring Harnesses</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/harness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/harness/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Main RS-422 Communication&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;main-rs-422-communication&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#main-rs-422-communication&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:36339/images/wireviz/rs422-system-bus-cable.svg&#34; title=&#34;Core represents the Kevinbot Core, System represents the main control system&#34; alt=&#34;RS-422 Core&amp;lt;-&amp;gt;System Cable&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Core represents the Kevinbot Core, System represents the main control system&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h3&gt;Cable Options&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cable-options&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cable-options&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Tensility International Corp 30-02485&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tensility-international-corp-30-02485&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tensility-international-corp-30-02485&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:36339/images/MFG_30-02485.jpg&#34; alt=&#34;Tensility International Corp 30-02485&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.digikey.com/en/products/detail/tensility-international-corp/30-02485/16629555&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digi-Key&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Blue/White Pair corresponds to GN/BU
+&lt;br&gt;
+The Green/White Pair corresponds to YE/OG
+&lt;br&gt;
+The Black and Red Wires are &lt;strong&gt;BOTH&lt;/strong&gt; connected to GND at both ends
+&lt;br&gt;
+The Shield is connected at pin 8 of the System end&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Image Gallery</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/gallery/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;http://localhost:36339/images/board.png&#34; alt=&#34;tbd&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;3D Renders&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3d-renders&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3d-renders&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Black&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;black&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#black&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+    
+    
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 1&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 2&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/1/black.png&#34; alt=&#34;Angle 1&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/2/black.png&#34; alt=&#34;Angle 2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;White&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;white&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#white&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+    
+    
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 1&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 2&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-01-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-01-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/1/white.png&#34; alt=&#34;Angle 1&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-01-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-01-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/2/white.png&#34; alt=&#34;Angle 2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;Blue&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;blue&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#blue&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+    
+    
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-02-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-02-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 1&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-02-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-02-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 2&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-02-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-02-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/1/blue.png&#34; alt=&#34;Angle 1&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-02-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-02-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/2/blue.png&#34; alt=&#34;Angle 2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;Green&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;green&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#green&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+    
+    
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-03-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-03-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 1&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-03-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-03-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 2&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-03-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-03-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/1/green.png&#34; alt=&#34;Angle 1&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-03-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-03-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/2/green.png&#34; alt=&#34;Angle 2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;Red&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;red&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#red&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+    
+    
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-04-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-04-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 1&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-04-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-04-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 2&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-04-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-04-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/1/red.png&#34; alt=&#34;Angle 1&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-04-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-04-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/2/red.png&#34; alt=&#34;Angle 2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;Purple&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;purple&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#purple&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+    
+    
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-05-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-05-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 1&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-05-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-05-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 2&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-05-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-05-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/1/purple.png&#34; alt=&#34;Angle 1&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-05-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-05-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/2/purple.png&#34; alt=&#34;Angle 2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;Yellow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;yellow&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#yellow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+    
+    
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-06-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-06-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 1&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-06-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-06-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Angle 2&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-06-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-06-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/1/yellow.png&#34; alt=&#34;Angle 1&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-06-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-06-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;img src=&#34;http://localhost:36339/images/pcb/render/2/yellow.png&#34; alt=&#34;Angle 2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/develop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/develop/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Technical&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;technical&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#technical&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Board and Schematics&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;board-and-schematics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#board-and-schematics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The project utilizes KiCAD 9.0.1 or later.
+Download it &lt;a href=&#34;https://www.kicad.org/download/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The project file is located at &lt;code&gt;P2 Kevinbot Board.kicad_pro&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Fonts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;fonts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#fonts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The Kevinbot Core PCB design utilizes some non-standard fonts. They must be installed in the system to function correctly within KiCAD.&lt;/p&gt;
+&lt;p&gt;Restart KiCAD after installing fonts.&lt;/p&gt;
+&lt;p&gt;All utilized fonts are licensed under the &lt;a href=&#34;https://openfontlicense.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OFL (SIL Open Font License)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fonts.google.com/specimen/Chakra&amp;#43;Petch&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chakra Petch :fontawesome-solid-arrow-up-right-from-square:&lt;/a&gt;{ .md-button }&lt;/p&gt;
+&lt;h2&gt;Documentation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;documentation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#documentation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Kevinbot Core documentation is built with &lt;a href=&#34;https://gohugo.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;WireViz&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;wireviz&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#wireviz&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Kevinbot Core documentation utilizes WireViz for cable harness visualizations.&lt;/p&gt;
+&lt;h3&gt;Install&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#install&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Install Python dependencies using &lt;code&gt;pip&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install wireviz&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Develop&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;develop&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#develop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;All WireViz YAML sources are located in the &lt;code&gt;wireviz/&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;Generated images are located in the &lt;code&gt;docs/images/wireviz/&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;Images can be generated with the &lt;code&gt;gen-harness&lt;/code&gt; bash script.
+Run it with the following.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bash tools/gen-harness.sh&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Interactive BOM</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/ibompage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/ibompage/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;http://localhost:36339/ibom/ibom.html&#34;&gt;Visit iBOM&lt;/a&gt;&lt;/p&gt;
+&lt;div style=&#34;max-height: 450px; margin-bottom: 1.25em;&#34;&gt;
+&lt;iframe src=&#34;http://localhost:36339/ibom/ibom.html&#34; style=&#34;border: none; width: 2000px; height: 600px; transform: scale(0.75); transform-origin: 0 0; max-width: 125%; overflow: clip;&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Contributing</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/contributing/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Thank you for your interest in contributing to Kevinbot Core! ❤️&lt;br&gt;
+Your contributions, whether in code, documentation, or ideas, help the project grow. Please take a moment to review this guide to make the process easier for everyone.&lt;/p&gt;
+&lt;h2&gt;Ways to Support the Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ways-to-support-the-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ways-to-support-the-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Even if you don’t have time to contribute directly, you can support us by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Starring the repository&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sharing it on social media&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mentioning it in your project’s README&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Table of Contents&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;table-of-contents&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#table-of-contents&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#i-have-a-question&#34;&gt;I Have a Question&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#i-want-to-contribute&#34;&gt;I Want to Contribute&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#reporting-bugs&#34;&gt;Reporting Bugs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#suggesting-enhancements&#34;&gt;Suggesting Enhancements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;I Have a Question&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;i-have-a-question&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i-have-a-question&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Before asking:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Check the &lt;a href=&#34;https://meowmeowahr.github.io/KevinbotV3-KiCAD/home.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Search the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Issues&lt;/a&gt; and &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/discussions&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discussions&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Still need help?&lt;br&gt;
+Open a new topic in &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/discussions/new?category=q-a&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Q&amp;amp;A&lt;/a&gt;, providing as much context as possible.&lt;/p&gt;
+&lt;h2&gt;I Want to Contribute&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;i-want-to-contribute&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i-want-to-contribute&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Reporting Bugs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;reporting-bugs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reporting-bugs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Before Submitting a Bug Report&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;before-submitting-a-bug-report&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#before-submitting-a-bug-report&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Make sure you&amp;rsquo;re using the latest KiCAD version (if applicable).&lt;/li&gt;
+&lt;li&gt;Verify the issue isn&amp;rsquo;t due to configuration or environment issues.&lt;/li&gt;
+&lt;li&gt;Search the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues?q=label%3Abug&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bug tracker&lt;/a&gt; to see if the issue has already been reported.&lt;/li&gt;
+&lt;li&gt;Gather the following details:
+&lt;ul&gt;
+&lt;li&gt;Software versions (e.g., KiCAD, P2 Compiler)&lt;/li&gt;
+&lt;li&gt;Reproduction steps or related input/output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Submitting a Bug Report&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;submitting-a-bug-report&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#submitting-a-bug-report&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Sensitive issues (e.g., security bugs) should be reported via email at &lt;a href=&#34;mailto:meowmeowahr@gmail.com&#34;&gt;meowmeowahr@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For all other issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open a &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues/new&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub issue&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Describe the expected and actual behavior, along with clear reproduction steps.&lt;/li&gt;
+&lt;li&gt;Include the details you gathered earlier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Suggesting Enhancements&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;suggesting-enhancements&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#suggesting-enhancements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Before Submitting an Enhancement&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;before-submitting-an-enhancement&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#before-submitting-an-enhancement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Make sure you&amp;rsquo;re using the latest version.&lt;/li&gt;
+&lt;li&gt;Check the documentation to ensure the feature isn’t already covered.&lt;/li&gt;
+&lt;li&gt;Search the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue tracker&lt;/a&gt; for similar suggestions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Submitting an Enhancement Suggestion&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;submitting-an-enhancement-suggestion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#submitting-an-enhancement-suggestion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Discuss your idea in the &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/discussions&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discussions section&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Once your idea is clear, open a &lt;a href=&#34;https://github.com/meowmeowahr/KevinbotV3-KiCAD/issues/new&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;new issue&lt;/a&gt; with:
+&lt;ul&gt;
+&lt;li&gt;A descriptive title&lt;/li&gt;
+&lt;li&gt;A detailed explanation of the suggestion and expected outcome&lt;/li&gt;
+&lt;li&gt;Why the feature would benefit users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Contributor Covenant Code of Conduct</title>
+      <link>http://localhost:36339/robotics/kevinbot-core/coc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:36339/robotics/kevinbot-core/coc/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Our Pledge&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;our-pledge&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#our-pledge&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender
+identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity
+and orientation.&lt;/p&gt;
+&lt;p&gt;We pledge to act and interact in ways that contribute to an open, welcoming,
+diverse, inclusive, and healthy community.&lt;/p&gt;
+&lt;h2&gt;Our Standards&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;our-standards&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#our-standards&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Examples of behavior that contributes to a positive environment for our
+community include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demonstrating empathy and kindness toward other people&lt;/li&gt;
+&lt;li&gt;Being respectful of differing opinions, viewpoints, and experiences&lt;/li&gt;
+&lt;li&gt;Giving and gracefully accepting constructive feedback&lt;/li&gt;
+&lt;li&gt;Accepting responsibility and apologizing to those affected by our mistakes,
+and learning from the experience&lt;/li&gt;
+&lt;li&gt;Focusing on what is best not just for us as individuals, but for the
+overall community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Examples of unacceptable behavior include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The use of sexualized language or imagery, and sexual attention or
+advances of any kind&lt;/li&gt;
+&lt;li&gt;Trolling, insulting or derogatory comments, and personal or political attacks&lt;/li&gt;
+&lt;li&gt;Public or private harassment&lt;/li&gt;
+&lt;li&gt;Publishing others&amp;rsquo; private information, such as a physical or email
+address, without their explicit permission&lt;/li&gt;
+&lt;li&gt;Other conduct which could reasonably be considered inappropriate in a
+professional setting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Enforcement Responsibilities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;enforcement-responsibilities&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#enforcement-responsibilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Community leaders are responsible for clarifying and enforcing our standards of
+acceptable behavior and will take appropriate and fair corrective action in
+response to any behavior that they deem inappropriate, threatening, offensive,
+or harmful.&lt;/p&gt;
+&lt;p&gt;Community leaders have the right and responsibility to remove, edit, or reject
+comments, commits, code, wiki edits, issues, and other contributions that are
+not aligned to this Code of Conduct, and will communicate reasons for moderation
+decisions when appropriate.&lt;/p&gt;
+&lt;h2&gt;Scope&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;scope&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#scope&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This Code of Conduct applies within all community spaces, and also applies when
+an individual is officially representing the community in public spaces.
+Examples of representing our community include using an official e-mail address,
+posting via an official social media account, or acting as an appointed
+representative at an online or offline event.&lt;/p&gt;
+&lt;h2&gt;Enforcement&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;enforcement&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#enforcement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported to the community leaders responsible for enforcement at
+&lt;code&gt;meowmeowahr@gmail.com&lt;/code&gt;.
+All complaints will be reviewed and investigated promptly and fairly.&lt;/p&gt;
+&lt;p&gt;All community leaders are obligated to respect the privacy and security of the
+reporter of any incident.&lt;/p&gt;
+&lt;h2&gt;Enforcement Guidelines&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;enforcement-guidelines&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#enforcement-guidelines&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Community leaders will follow these Community Impact Guidelines in determining
+the consequences for any action they deem in violation of this Code of Conduct:&lt;/p&gt;
+&lt;h3&gt;1. Correction&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-correction&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-correction&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Use of inappropriate language or other behavior deemed
+unprofessional or unwelcome in the community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;/strong&gt;: A private, written warning from community leaders, providing
+clarity around the nature of the violation and an explanation of why the
+behavior was inappropriate. A public apology may be requested.&lt;/p&gt;
+&lt;h3&gt;2. Warning&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-warning&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-warning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: A violation through a single incident or series
+of actions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;/strong&gt;: A warning with consequences for continued behavior. No
+interaction with the people involved, including unsolicited interaction with
+those enforcing the Code of Conduct, for a specified period of time. This
+includes avoiding interactions in community spaces as well as external channels
+like social media. Violating these terms may lead to a temporary or
+permanent ban.&lt;/p&gt;
+&lt;h3&gt;3. Temporary Ban&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-temporary-ban&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-temporary-ban&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: A serious violation of community standards, including
+sustained inappropriate behavior.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;/strong&gt;: A temporary ban from any sort of interaction or public
+communication with the community for a specified period of time. No public or
+private interaction with the people involved, including unsolicited interaction
+with those enforcing the Code of Conduct, is allowed during this period.
+Violating these terms may lead to a permanent ban.&lt;/p&gt;
+&lt;h3&gt;4. Permanent Ban&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-permanent-ban&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-permanent-ban&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Demonstrating a pattern of violation of community
+standards, including sustained inappropriate behavior, harassment of an
+individual, or aggression toward or disparagement of classes of individuals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;/strong&gt;: A permanent ban from any sort of public interaction within
+the community.&lt;/p&gt;
+&lt;h2&gt;Attribution&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;attribution&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#attribution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This Code of Conduct is adapted from the &lt;a href=&#34;https://www.contributor-covenant.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contributor Covenant&lt;/a&gt;,
+version 2.0, available at
+&lt;a href=&#34;https://www.contributor-covenant.org/version/2/0/code_of_conduct.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.contributor-covenant.org/version/2/0/code_of_conduct.html&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Community Impact Guidelines were inspired by &lt;a href=&#34;https://github.com/mozilla/diversity&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mozilla&amp;rsquo;s code of conduct
+enforcement ladder&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For answers to common questions about this code of conduct, see the FAQ at
+&lt;a href=&#34;https://www.contributor-covenant.org/faq&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.contributor-covenant.org/faq&lt;/a&gt;. Translations are available at
+&lt;a href=&#34;https://www.contributor-covenant.org/translations&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.contributor-covenant.org/translations&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

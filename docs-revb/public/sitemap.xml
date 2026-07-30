@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/diagram/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/map/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/specs/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/software/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/ftdi/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/harness/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/gallery/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/develop/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/ibompage/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/contributing/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/coc/</loc>
+  </url><url>
+    <loc>http://localhost:36339/</loc>
+  </url><url>
+    <loc>http://localhost:36339/categories/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/kevinbot-core/</loc>
+  </url><url>
+    <loc>http://localhost:36339/robotics/</loc>
+  </url><url>
+    <loc>http://localhost:36339/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,10 @@
+- src: images/pcb/render/1/purple.png
+  alt: 3D render of the Kevinbot Core in Blender, purple PCB
+- src: images/pcb/render/2/purple.png
+  alt: 3D render of the Kevinbot Core in Blender, purple PCB, close up shot of logo silkscreen
+- src: images/pcb/render/1/black.png
+  alt: 3D render of the Kevinbot Core in Blender, black PCB
+- src: images/pcb/render/2/black.png
+  alt: 3D render of the Kevinbot Core in Blender, black PCB, close up shot of logo silkscreen
+- src: images/board.png
+  alt: 3D render of the Kevinbot Core in KiCAD; perspective, tilted
