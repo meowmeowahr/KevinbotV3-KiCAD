@@ -1,17 +1,14 @@
-![alt text](docs/images/banner.png)
-# Kevinbot Core
-The KiCAD sources for the Kevinbot Core control board
+# This repository has moved
 
-|                                      |                                                                     |
-| ------------------------------------ | ------------------------------------------------------------------- |
-| ![OSHW Facts](readme/oshw_facts.svg) | <img src="certification-mark-stacked.png" width=200></img> |
+Kevinbot Core and the Kevinbot P2 Board have split into separate repositories, and are now located in the [Kevinbot Robotics](https://github.com/Kevinbot-Robotics) organization.
 
+## Kevinbot Core (aka RevB)
 
-![Board](docs/images/board.png)
+https://github.com/Kevinbot-Robotics/kevinbot_core
 
-## Licenses
-All hardware is licensed under the CERN-OHL-S-2.0 license. 
-Documentation and media (images) are licensed under a CC-BY-SA-4.0 license.
+## Kevinbot P2 Board (aka RevA)
+
+https://github.com/Kevinbot-Robotics/kevinbot_p2_board
 
 ## PCBWay
 
@@ -25,18 +22,3 @@ I would recommend them for any of your PCB needs. They offer fast turnaround and
 
 <img src="readme/pcb-edges.png" width=500></img>
 <img src="readme/pcbs.png" width=500></img>
-
-## Credits
-
-Notice: All parts below retain their original license
-
-| Part Name                           | Credit           | License                                  |
-| ----------------------------------- | ---------------- | ---------------------------------------- |
-| 430450400--3DModel-STEP-56544       | SnapMagic Search | Attribution-ShareAlike 4.0 International |
-| 1053091102--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
-| 1053091103--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
-| 1053091106--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
-| 1053091108--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
-| 1053132102--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
-| 1053101104--3DModel-STEP-510211     | SnapMagic Search | Attribution-ShareAlike 4.0 International |
-| 3220-26-0100-00--3DModel-STEP-56544 | SnapMagic Search | Attribution-ShareAlike 4.0 International |
